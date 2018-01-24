@@ -18,12 +18,11 @@
   * [Preferences](sublime-text/preferences.md)
   * [Packages](sublime-text/packages.md)
   * [SublimeLInter](sublime-text/sublimelinter.md)
+* [Others](node.md)
 * [Apps](apps.md)
   * [Essentials](essentials.md)
   * [Productivity](productivity.md)
   * [Developer](developer.md)
   * [Designer](designer.md)
-* Sketch
-  * Craft
-  * Plugins
+* [Node](node.md)
 
