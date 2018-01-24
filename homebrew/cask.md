@@ -21,29 +21,20 @@ Here are some useful apps that are available on Cask.
 ```
 $ brew cask install \
     alfred \
-    android-file-transfer \
-    asepsis \
     appcleaner \
     caffeine \
     cheatsheet \
     docker \
-    doubletwist \
     dropbox \
     google-chrome \
     google-drive \
     google-hangouts \
     flux \
-    latexian \
     1password \
-    pdftk \
-    spectacle \
     sublime-text \
-    superduper \
-    totalfinder \
     transmission \
-    valentina-studio \
     vlc
 ```
 
-You can see more app suggestions on the last chapter.
+You can see more app suggestions on the last chapter \(and you can use brew cask to install them\).
 
