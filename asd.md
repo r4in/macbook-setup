@@ -23,6 +23,7 @@ If this is a new computer, there are a couple tweaks you could make to the Syste
   * Uncheck three finger drag
 
 * Scroll & Zoom
+
   * Uncheck all apart from Zoom in and out
 
 #### Dock
@@ -46,7 +47,9 @@ $ killall Dock
   * New finder window shows Home directory
 
 * Tags
+
   * Uncheck everything
+
 * Toolbar
   * Update to add path, new folder and delete
 * Sidebar
@@ -55,9 +58,8 @@ $ killall Dock
 
 #### Keyboard
 
-##### Shortcuts &gt; Spotlight
-
-* Disable spotlight search by unchecking everything. \(We'll be using Alfred\)
+* Shortcuts &gt; Spotlight
+  * Disable spotlight search by unchecking everything. \(We'll be using Alfred\)
 
 #### iCloud
 

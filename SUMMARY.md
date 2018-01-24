@@ -1,6 +1,6 @@
 # Summary
 
-## First Part
+## Setup
 
 * [Introduction](README.md)
 * [System Preferences](asd.md)
@@ -19,4 +19,11 @@
   * [Packages](sublime-text/packages.md)
   * [SublimeLInter](sublime-text/sublimelinter.md)
 * [Apps](apps.md)
+  * [Essentials](essentials.md)
+  * [Productivity](productivity.md)
+  * [Developer](developer.md)
+  * [Designer](designer.md)
+* Sketch
+  * Craft
+  * Plugins
 

@@ -4,7 +4,7 @@
 
 #### Installation
 
-As of December 2015, Cask comes installed with Homebrew, if you have not installed Homebrew see the 
+As of December 2015, Cask comes installed with Homebrew, if you have not installed Homebrew see the
 
 #### Search
 
@@ -45,5 +45,5 @@ $ brew cask install \
     vlc
 ```
 
-
+You can see more app suggestions on the last chapter.
 

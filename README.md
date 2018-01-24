@@ -1,3 +1,4 @@
-# My Awesome Book
+# For product designers, by product designers
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is a guide I wrote for the modern product designer in Symph, who has decided to reinstall OSX because it ran slower and slower with each OS update. A clean slate, a fresh start.
+
