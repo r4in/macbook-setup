@@ -1,6 +1,6 @@
 ## Zsh
 
-We'll install`zsh`for all the features offered by`oh-my-zsh`. The installation and usage is really intuitive. We will also create the file`env.sh`, it is a config file we maintain so as to not pollute the`~/.zshrc`too much.`env.sh`holds aliases, exports, path changes etc. and you can find it at the bottom of this page.
+We'll install`zsh`for all the features offered by`oh-my-zsh`.
 
 Install zsh and zsh-completions using Homebrew:
 
@@ -38,7 +38,7 @@ While there are [alot of themes](https://github.com/robbyrussell/oh-my-zsh/wiki/
 
 #### Plugins
 
-You can add plugins to Oh My Zsh by selecting from [this list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) and by editing`~/.zshrc `and adding:
+You can add plugins to Oh My Zsh by selecting from [this plugins list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) and by editing`~/.zshrc`by adding:
 
 ```
 plugins=(
@@ -46,15 +46,25 @@ plugins=(
 )
 ```
 
-[Check this out for more info](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+#### Shortcuts
+
+`ctrl + a` to move at the beginning of the line
+
+`ctrl + e` to move at the end of the line
+
+`ctrl + u` to clear the current line
+
+`ctrl + k` to clear all the characters that precedes the cursor position
+
+`ctrl + l` to clear the screen
 
 #### Frequently Asked Questions
 
-**I'm missing a few fonts!** Probably missing the [powerline fonts](https://github.com/powerline/fonts)
+**There's these weird \[?\] symbols on my terminal.** Probably missing the [powerline fonts](https://github.com/powerline/fonts)
 
-**Where are my zsh settings stored? **`.zshrc`file located in your home directory. It’s a hidden file, so you might not see it in your home directory, but you can view it by running `open ~/.zshrc`from the terminal. Swap out `open`with your favorite editor command, such as `nano`, `subl`or `vim`.
+**Where are my zsh settings stored? **`.zshrc`file located in your home directory. It’s a hidden file, so you might not see it in your home directory, but you can view it by running `open ~/.zshrc`from the terminal. Swap out `open`with your favorite editor command, such as `nano`, `subl`or `vim`. \(these are text editors, `nano` for [GNU Nano](https://www.nano-editor.org/), `subl` for [Sublime Text](https://www.sublimetext.com/), and `vim` for [Vim](http://www.vim.org/)\)
 
-**It's not working! **Try restarting your terminal for it to take effect.
+**It's not working! **Did you carefully follow the instructions? Don't copy the $ symbol on the commands. Also try restarting your terminal for it to take effect.
 
 **I have no idea how to use the terminal / So hard to follow the instructions! **I suggest taking [this great course](https://commandlinepoweruser.com) by Wesbos.
 

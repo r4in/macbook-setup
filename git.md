@@ -29,8 +29,6 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 $ git config --global credential.helper osxkeychain
 ```
 
----
-
 ### SSH Config for GitHub {#ssh-config-for-github}
 
 This might be difficult to configure in case you have two factor authentication enabled. Please use the SSH config in that case.
@@ -59,32 +57,6 @@ $ ssh-keygen -t rsa -C "your_email@example.com"
 Please use a strong passphrase for your keys.
 
 Third, Add your keys to GitHub by going into account settings.
-
----
-
-### DS\_Store {#dsstore}
-
-On a Mac, it is important to remember to add`.DS_Store`\(a hidden macOS system file that's put in folders\) to your`.gitignore`files.
-
-If you want to never include`.DS_Store`files in your Git repositories, you can configure your Git to globally exclude those files:
-
-```
-# specify a global exclusion list
-$ git config --global core.excludesfile ~/.gitignore
-# adding .DS_Store to that list
-$ echo .DS_Store >> ~/.gitignore
-```
-
----
-
-### Setting up Sublime Text as the Git Mergetool {#setting-up-sublime-text-as-the-git-mergetool}
-
-```
-$ git config --global mergetool.sublime.cmd "subl -w \$MERGED"
-$ git config --global mergetool.sublime.trustExitCode false
-$ git config --global merge.tool sublime
-$ git mergetool -y
-```
 
 
 
