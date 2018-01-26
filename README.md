@@ -8,10 +8,3 @@ This is a guide I wrote for the modern product designer in Symph, who has decide
 * you bought a brand new mac! congratulations!
 
 Use this guide, share it or modify it. No need to strictly follow it if you know what you're doing. This guide is tailor-fitted to our current workflow and tech stack in the company, so please do feel free to augment it to your needs.
-
-
-
-References:
-
-[http://sourabhbajaj.com/mac-setup/](http://sourabhbajaj.com/mac-setup/)
-
