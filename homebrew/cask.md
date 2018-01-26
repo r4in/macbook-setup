@@ -1,18 +1,22 @@
 ## Homebrew Cask
 
-[Homebrew-Cask](https://caskroom.github.io/) extends Homebrew and allows you to install large binary files via a command-line tool. Examples of these files is Google Chrome, Dropbox, VLC and Slack.
+[Homebrew Cask](https://caskroom.github.io/) is centered around installing GUI applications through the CLI. With Homebrew Cask, you can install the latest versions of applications by typing in a single command. Examples of these files is Google Chrome, Dropbox, VLC and Slack.
 
 #### Installation
 
 As of December 2015, Cask comes installed with Homebrew, if you have not installed Homebrew see the
 
-#### Search
+#### Usage
 
 To see if an app is available on Cask you can search on the [official Cask website](https://caskroom.github.io/search). You can also search using the following command:
 
 ```
 $ brew cask search <package>
 ```
+
+To update brew and upgrade all install apps
+
+    $ brew update && brew upgrade `brew outdated`
 
 #### App Suggestions
 
