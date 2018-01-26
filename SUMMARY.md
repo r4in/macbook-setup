@@ -3,8 +3,8 @@
 ## Setup
 
 * [Introduction](README.md)
-* [System Preferences](asd.md)
-* [Xcode](second-chapter.md)
+* [System Preferences](system-preferences.md)
+* [Xcode](xcode.md)
 * [Homebrew](chapter1.md)
   * [Usage](homebrew/using-homebrew.md)
   * [Cask](homebrew/cask.md)
