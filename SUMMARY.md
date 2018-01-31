@@ -10,7 +10,7 @@
   * [Cask](homebrew/cask.md)
 * [iTerm2](iterm2/README.md)
   * [Zsh](iterm2/zsh.md)
-  * [Z](iterm2/zsh.md)
+  * [Z](iterm2/z.md)
   * [Trash](iterm2/trash.md)
 * [Git](git/README.md)
   * [Git Ignore](git/git-ignore.md)
