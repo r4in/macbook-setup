@@ -1,32 +1,32 @@
 #### Developer Apps
+Note that these development tools only deals with frontend stuff (html, css & js) and some wordpress too!
 
-**iTerm                    
-**your terminal on steroids
+**iTerm**
+Your terminal on steroids
 
-**Limechat                    
-**good for chatiing over the IRC
+**Limechat**
+**good for chatiing over the IRC**
 
-**MAMP                    
-**apache + mysql + php stack
+**MAMP**
+Apache + mysql + php stack (wordpress)
 
-**Quiver                    
-**programmers notebook
+**Quiver, SnippetsLab**
+Programmers Notebook
 
-S**equel Pro                  
-**datatbase app
+**Sequel Pro**
+Database Tool
 
-**Spectacle                
-**window manager
+**Spectacle**
+Window manager
 
-**Transmit                    
-**FTP client
+**Transmit**
+Best FTP client
 
-**Gitter        
-**chat tool
+**Gitter**
+Chat tool
 
-**Docker    
-**for setting virtual environments
+**Docker**
+For setting virtual environments
 
-**SublimeText / VS Code / Atom    
-**select your weapons of choice
-
+**SublimeText / VS Code / Atom**
+Select your weapon of choice

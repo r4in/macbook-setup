@@ -1,56 +1,58 @@
 #### Productivity Apps
 
-**1Password**  
+**1Password**
 A password manager
 
-**Alfred**  
+**Alfred**
 It’s like Spotlight on steroids
 
-**Airmail3**  
-Best Email App out there
+**Airmail3**
+A better email app
 
-**App Cleaner              
-**Fully uninstall apps
+**App Cleaner**
+Fully uninstall apps
 
-**Bartender**  
+**Bartender**
 Customize your menu bar
 
-**Caffeine, flux              
-**Changes your screen color during nighttime
+**Caffeine**
+Prevents screen from turning off
 
-**Daisydisk              
-**To inspect your HD
+**f.lux**
+Changes your screen color during nighttime
 
-**Dropbox, GoogleDrive              
-**The cloud for backing up
+**Daisydisk**
+To inspect your HD
 
-**Fantastical 2            
-**Best calendar ever
+**Dropbox, GoogleDrive**
+The cloud for backing up
 
-**Evernote            
-**Good for notetaking projects
+**Fantastical 2**
+Best calendar ever
 
-**Folx GO            
-**Download manager
+**Evernote**
+Good for notetaking projects
 
-**Handbrake             
-**good video converter
+**Folx GO**
+Download manager
 
-**Hazel              
-**Housekeeping on your mac
+**Handbrake**
+Good video converter
 
-**iStat Menus              
-**Cool stats for on your menu bar
+**Hazel**
+Housekeeping on your mac
 
-**Mindnode              
-**for mindmapping
+**iStat Menus**
+Cool stats for on your menu bar
 
-**Paste              
-**awesome clipboard
+**Mindnode**
+For mindmapping
 
-**raindrop.io              
-**great bookmarking app
+**Paste**
+Awesome clipboard
 
-**Bear, Milanote, Boost  
-**note taking apps
+**raindrop.io**
+Great bookmarking app
 
+**Bear, Milanote, Boost**
+Note taking apps

@@ -24,3 +24,4 @@
   * [Designer](apps/designer.md)
   * [Essentials](apps/essentials.md)
   * [Developer](apps/developer.md)
+* [Credits](credits/README.md)

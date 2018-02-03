@@ -44,5 +44,10 @@ To see what you have installed \(with their version numbers\):
 $ brew list --versions
 ```
 
+brew 'tree'
+brew 'speedtest_cli'
+brew 'trash'
+brew 'z'
+
 
 

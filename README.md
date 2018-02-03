@@ -8,4 +8,3 @@ This is a quick guide I wrote for the modern product designer in Symph and for t
 * You bought a brand new macbook, congratulations!
 
 Feel free to use this guide, share it or modify it. No need to strictly follow it if you know what you're doing. This guide is designed to our current workflow and tech stack in the company, so please do feel free to augment it to your needs.
-

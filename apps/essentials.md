@@ -1,29 +1,32 @@
 #### Essential Apps
 
-**Transmission              
-**best torrent client out there
+**Transmission**
+Best torrent client out there
 
-**Tuxera              
-**allows you to write on NTFS
+**Tuxera**
+Allows you to write on NTFS like your external HDs or thumbdrives
 
-**The Unarchiver              
-**extracting zips
+**The Unarchiver**
+For extracting alot of zips
 
-**VLC PLayer              
-**best media player ever
+**VLC PLayer**
+Best media player ever
 
-**Spotify              
-**music while working
+**Spotify**
+Music while working
 
-**Slack              
-**team communication
+**Slack**
+Team communication
 
-**Skype              
-**client communication
+**Skype**
+Client communication
 
-**Keynote    
-**creating presentations
+**Zoom**
+Great for group video calls
 
-**MS Office / Writer / Numbers    
-**basic office apps
+**OSX Office**
+Writer, Numbers, Keynote
+
+**MS Office**
+Word, Excel, Powerpoint
 
