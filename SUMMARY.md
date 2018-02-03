@@ -19,8 +19,9 @@
   * [Packages](sublime-text/packages.md)
 * [Tech Stack](techstack/README.md)
   * [Google Cloud](techstack/gcloud.md)
-* [App](apps/README.md)
+* [Apps](apps/README.md)
   * [Productivity](apps/productivity.md)
   * [Designer](apps/designer.md)
   * [Essentials](apps/essentials.md)
   * [Developer](apps/developer.md)
+
