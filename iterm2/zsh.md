@@ -1,6 +1,6 @@
 ## Zsh
 
-We'll install`zsh`for all the features offered by`oh-my-zsh`.
+We'll install `zsh`for all the features offered by`oh-my-zsh`.
 
 Install zsh and zsh-completions using Homebrew:
 
@@ -24,13 +24,13 @@ If you're still in the default shell \(probably bash\), change default shell to 
 $ chsh -s /usr/local/bin/zsh
 ```
 
-You can confirm what shell you are actively using by typing in:
+Restart your terminal, and confirm what shell you are actively using by typing in:
 
 ```
 $ echo $SHELL
 ```
 
-If it's not working, try restarting your terminal.
+If it's not working, try restarting again.
 
 #### Themes & Customizations
 
@@ -45,6 +45,24 @@ plugins=(
   git osx
 )
 ```
+
+#### Homebrew Stuff To Do
+
+One thing we need to do is tell the system to use programs installed by Homebrew \(in `/usr/local/bin`\) rather than the OS default if it exists. We do this by adding`/usr/local/bin`to your`$PATH`environment variable. Initially we we're using bash, but since we've switch to zsh we'll be editing the `.zshrc` instead of the `.bash_profile`
+
+Now that we've already installed Oh My Zhs!
+
+```
+echo export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
+```
+
+Alternatively, we can also insert`/usr/local/bin` to the first line of `/private/etc/paths` and reboot the Mac to change global paths loading order. Admin password may be required if you modify the file.
+
+#### Customizing the terminal
+
+Well, everybody wants a cool looking terminal like this:
+
+#### iTerm Color Schemes
 
 #### Shortcuts
 

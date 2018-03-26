@@ -1,28 +1,32 @@
 #### Designer Apps
 
-**Zeplin**
+**Zeplin**  
 Design to developer handoff
 
-**Sketch**
+**Sketch**  
 Digital design tool
 
-**Craft**
+**Craft**  
 Sketch overdrive
 
-**Iconjar, Nucleo**
+**Iconjar, Nucleo**  
 Icon Manager
 
-**Fontplop**
+**Fontplop**  
 Converting fonts to @fontface
 
-**Optimage, ImageOptim**
+**Optimage, ImageOptim**  
 Image compression tools
 
-**Adobe CC**
+**Adobe CC**  
 The usual Photoshop + Illustrator and whatever you need
 
-**Abstract**
+**Abstract**  
 Version control for sketch files
 
-**Principle, Flinto, Framer**
+**Principle, Flinto, Framer**  
 Animating prototypes
+
+**RightFont**  
+A nice font manager
+

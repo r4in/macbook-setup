@@ -55,6 +55,7 @@ $ killall Dock
   * Update to add path, new folder and delete
 
 * Sidebar
+
   * Add home and code directory
   * Remove shared and tags
 

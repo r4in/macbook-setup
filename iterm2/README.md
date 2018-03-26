@@ -1,8 +1,6 @@
 # iTerm2 {#iterm2}
 
-[iTerm2](http://www.iterm2.com/) is a replacement for Terminal and the successor to iTerm \(And a super successor to the default Terminal in OSX\). It's highly customizable and comes with a lot of useful features.
-
-![](/assets/Screen Shot 2018-01-25 at 3.58.41 AM.png)
+[iTerm2](http://www.iterm2.com/) is a replacement for Terminal and the successor to iTerm \(And a super successor to the default Terminal in OSX\). It's highly customizable and comes with a lot of useful features.![](/assets/Screen Shot 2018-01-25 at 3.58.41 AM.png)
 
 #### Installation
 
@@ -14,7 +12,7 @@ $ brew cask install iterm2
 
 #### iTerm Color Schemes
 
-You can actually get alot of different iTerm color schemes [here](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/schemes) or customize you're own. My personal favourite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Cobalt2-iterm/blob/master/cobalt2.itermcolors). \(It's actually the one on the screenshot above\)
+You can actually get alot of different iTerm color schemes [here](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/schemes) or customize you're own. My personal favourite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Cobalt2-iterm/blob/master/cobalt2.itermcolors). \(We'll come back to this after installing Oh My Zsh!\)
 
 #### Terminologies
 

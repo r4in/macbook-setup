@@ -25,10 +25,9 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
-
 ```
 
-Or simply download[macOS specific .gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore)maintained by GitHub itself and put contents of it to`~/.gitignore`.
+Or simply downloadn[macOS specific .gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore) maintained by GitHub itself and put contents of it to`~/.gitignore`.
 
 > **Note**: You can also download it using curl
 >
