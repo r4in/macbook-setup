@@ -1,6 +1,6 @@
 # Git and GitHub {#git-and-github}
 
-What's a developer without[Git](http://git-scm.com/)? To install, simply run:
+What's a developer without [Git](http://git-scm.com/)? To install, simply run:
 
 ```
 $ brew install git

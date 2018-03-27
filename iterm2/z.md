@@ -10,6 +10,12 @@ And remember to add to your .zshrc \(if you're using zsh\) or .bashprofile \(if 
 
 `$ brew info z`
 
-`# include Z`  
-`. /usr/local/etc/profile.d/z.sh`
+Also, don't forget to add this to your .zshrc file
+
+```
+# include Z
+. /usr/local/etc/profile.d/z.sh
+```
+
+
 
