@@ -27,8 +27,11 @@ Best FTP client
 Chat tool
 
 **Docker**  
-For setting virtual environments
+Why not
 
 **SublimeText / VS Code / Atom**  
 Select your weapon of choice
+
+**Firefox, Chrome, Opera**  
+Select more weapons of choice
 

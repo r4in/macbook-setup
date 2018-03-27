@@ -1,6 +1,12 @@
 # Git Ignore \(global\) {#git-ignore-global}
 
-Create the file`~/.gitignore`as shown below to not track files that are almost always ignored in all Git repositories.
+Create the file `~/.gitignore`as shown below to not track files that are almost always ignored in all Git repositories.
+
+```
+$ touch ~/.gitignore
+```
+
+Open the `.gitignore` file using your favourite text editor and add these below:
 
 ```
 # Folder view configuration files
@@ -15,6 +21,13 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
 # Compiled Python files
 *.pyc
 
@@ -24,16 +37,23 @@ Thumbs.db
 # Application specific files
 venv
 node_modules
+.vscode
 .sass-cache
 ```
 
-Or simply downloadn[macOS specific .gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore) maintained by GitHub itself and put contents of it to`~/.gitignore`.
+Or simply download [macOS specific .gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore) maintained by GitHub itself and put contents of it to`~/.gitignore`.
 
 > **Note**: You can also download it using curl
 >
 > ```
 > curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
 > ```
+
+If your gitignore file isn't working, you probably need to set up your global `core.excludesfile` configuration file to point to this global ignore file.
+
+```
+$ git config --global core.excludesfile '~/.gitignore'
+```
 
 
 

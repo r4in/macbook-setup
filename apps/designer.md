@@ -1,13 +1,16 @@
 #### Designer Apps
 
+**Abstract**  
+Version control
+
 **Zeplin**  
 Design to developer handoff
 
 **Sketch**  
-Digital design tool
+Our primary digital design tool
 
 **Craft**  
-Sketch overdrive
+Excellent plugin for Sketch from Invision
 
 **Iconjar, Nucleo**  
 Icon Manager
@@ -29,4 +32,7 @@ Animating prototypes
 
 **RightFont**  
 A nice font manager
+
+**Adobe Creative Cloud  
+**Photoshop, Illustrator + whatever you need
 
