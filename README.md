@@ -1,3 +1,5 @@
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 # Introduction
 
 Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/). This is a quick guide I wrote for onboarding product designers in Symph and for those who has decided to reinstall OSX for the following reasons:
