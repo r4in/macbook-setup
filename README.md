@@ -1,6 +1,6 @@
 # Introduction
 
-Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/). This quick guide was originally written for onboarding designers in Symph and is now applicable to anymore who wants to design digital products. \(Open source ftw!\)
+Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this quick guide was written with the intent of onboarding every designers' mac at Symph. Now, we're sharing it to the world who is curious about it, and for everyone who wants to design digital products. \(Oh yeah, open-source ftw!\)
 
 If you feel that:
 
