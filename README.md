@@ -1,12 +1,15 @@
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
 # Introduction
 
-Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/). This is a quick guide I wrote for onboarding product designers in Symph and for those who has decided to reinstall OSX for the following reasons:
+Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/). This quick guide was originally written for onboarding designers in Symph and is now applicable to anymore who wants to design digital products.
 
-* Mac ran slower and slower \(and slower\) with each OS update
+If you feel that:
+
+* Your mac ran slower with each OS update & decided to do a clean installation
 * Decided to live a minimalist life and does a futile attempt of decluttering his/her mac
-* You bought a brand new macbook, congratulations!
+* You need to be aligned with the tools you use in the team
+* Or You bought a brand new macbook, congratulations!
 
-Feel free to use this guide, share it or modify it. No need to strictly follow it if you know what you're doing. This guide is designed to our current workflow and tech stack in the company, so please do feel free to augment it to your needs.
+Then this guide might be for you.
+
+Feel free to use this guide, share it or modify it. No need to strictly follow it if you know what you're doing. This guide is designed to our current workflow and tech stack in the company, so please do feel free to augment it according to your needs.
 
