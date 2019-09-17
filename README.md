@@ -4,9 +4,9 @@ Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this
 
 If you feel that:
 
-* Your mac ran slower with each OS update & decided to do a clean install
-* Decided to live a minimalist life and does a futile attempt of decluttering his/her mac
-* Orrr.. you bought a brand new macbook! \(Congratulations!\)
+* You want to have a consistent dev environment for your design team ⚡
+* You're a designer who needs easy instructions in setting up dev stuff in your machine 💻
+* You're a designer who wants to flex how cool your terminal looks like 💪
 
 Then this guide might be for you. 
 
