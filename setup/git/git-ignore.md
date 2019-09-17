@@ -3,7 +3,7 @@
 Create the file `~/.gitignore`as shown below to not track files that are almost always ignored in all Git repositories.
 
 ```text
-$ touch ~/.gitignore
+touch ~/.gitignore
 ```
 
 Open the `.gitignore` file using your favourite text editor and add these below:
@@ -52,6 +52,6 @@ Or simply download [macOS specific .gitignore](https://github.com/github/gitigno
 If your gitignore file isn't working, you probably need to set up your global `core.excludesfile` configuration file to point to this global ignore file.
 
 ```text
-$ git config --global core.excludesfile '~/.gitignore'
+git config --global core.excludesfile '~/.gitignore'
 ```
 

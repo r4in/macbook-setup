@@ -9,7 +9,7 @@
 You can download the app from [here](http://www.iterm2.com/). Once downloaded, drag and drop the **iTerm** application file into your **Applications** folder. Or using Homebrew:
 
 ```text
-$ brew cask install iterm2
+brew cask install iterm2
 ```
 
 ## iTerm Color Schemes

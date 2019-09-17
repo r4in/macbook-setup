@@ -9,7 +9,7 @@ I've recently switched over to VSCode, so I'll be sharing my setup.
 [Download](https://code.visualstudio.com/) the **.dmg** file and drag-and-drop it to the **Applications** folder or simply
 
 ```text
-$ brew cask install visual-studio-code
+brew cask install visual-studio-code
 ```
 
 

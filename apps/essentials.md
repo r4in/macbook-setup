@@ -1,10 +1,10 @@
-# Essentials
+# Others
 
 **Transmission**   
 Best torrent client out there
 
 ```text
-$ brew cask install transmission
+brew cask install transmission
 ```
 
 **Tuxera**   
@@ -14,42 +14,42 @@ Allows you to write on NTFS like your external HDs or thumbdrives
 For extracting alot of zips
 
 ```text
-$ brew cask install the-unarchiver
+brew cask install the-unarchiver
 ```
 
 **VLC PLayer**   
 Best media player ever
 
 ```text
-$ brew cask install vlc
+brew cask install vlc
 ```
 
 **Spotify**   
 Music while working
 
 ```text
-$ brew cask install spotify
+brew cask install spotify
 ```
 
 **Slack**   
 Team communication
 
 ```text
-$ brew cask install slack
+brew cask install slack
 ```
 
 **Skype**   
 Client communication
 
 ```text
-$ brew cask install skype
+brew cask install skype
 ```
 
 **Zoom**   
 Great for group video calls
 
 ```text
-$ brew cask install zooomus
+brew cask install zooomus
 ```
 
 **OSX Office**   

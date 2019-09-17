@@ -1,4 +1,4 @@
-# Apps
+# Installation
 
 As much as possible, I do try to install everything using Homebrew because I find updating and managing these apps faster on the terminal.
 

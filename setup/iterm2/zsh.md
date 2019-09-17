@@ -5,7 +5,7 @@ We'll install `zsh`for all the features offered by `oh-my-zsh`.
 Install zsh and zsh-completions using Homebrew:
 
 ```text
-$ brew install zsh zsh-completions
+brew install zsh zsh-completions
 ```
 
 Now let's use a framework built on top of this shell called `Oh My Zsh!`
@@ -15,13 +15,13 @@ Now let's use a framework built on top of this shell called `Oh My Zsh!`
 Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and super-charge your termnial!
 
 ```text
-$ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
 
 If you're still in the default shell \(probably bash\), change default shell to zsh manually:
 
 ```text
-$ chsh -s /usr/local/bin/zsh
+chsh -s /bin/zsh
 ```
 
 Restart your terminal, and confirm what shell you are actively using by typing in:
@@ -34,7 +34,21 @@ If it's not working, try restarting again.
 
 ## Plugins
 
-You can further extend zsh's power and functionalities by adding plugins to Oh My Zsh. There are useful plugins like completion plugins ****that will let `zsh` know which arguments the package has so it can autocomplete. You can manually select from [this plugins list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) and edit `~/.zshrc` then adding this line:
+You can further extend zsh's power and functionalities by adding plugins to Oh My Zsh. There are useful plugins like completion plugins ****that will let `zsh` know which arguments the package has so it can autocomplete. We can do so by adding this to our .zshrc file
+
+**What is a .zshrc file?** Basically it's its a Z-shell resource which contains all your configurations.
+
+### How do I edit / access the .zshrc file?
+
+Your .zshrc file is usually located at the root. To open it up using your default text editor:
+
+```text
+open ~/.zshrc
+```
+
+### **How to add plugins?**
+
+To add plugin we need to add these strings of text to our .**zshrc file**
 
 ```text
 plugins=(
@@ -42,7 +56,9 @@ plugins=(
 )
 ```
 
-There are also plugins that goes beyond autocompleting - [check this list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview) out. One of my picks are **extract** - for extracting zips in the terminal. This really depends on what you use/need so feel free to customize.
+You can also manually select things you want to add from [this plugins list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins).
+
+Aside from that, there are also plugins that goes beyond autocompleting - [check this list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview) out. One of my picks are **extract** - for extracting zips in the terminal. This really depends on what you use/need so feel free to customize.
 
 ## Homebrew Stuff To Do
 
@@ -53,8 +69,6 @@ Now that we've already installed Oh My Zhs!
 ```text
 echo export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
 ```
-
-Alternatively, we can also insert`/usr/local/bin` to the first line of `/private/etc/paths` and reboot the Mac to change global paths loading order. Admin password may be required if you modify the file.
 
 ## iTerm Color Schemes
 

@@ -8,7 +8,27 @@ If this is a new computer, there are a couple tweaks you could make to the Syste
 
 ## General
 
-* Check “Use dark menu bar and dock”
+* Appearance &gt; Select **Dark**
+* Check **Allow Handoff between this Mac and your iCloud devices**
+
+## Dock
+
+* Visual settings
+  * Change position to left and make the size of Icons small
+* Other settings
+  * Uncheck **Magnification**
+  * Position on screen &gt; **Left**
+  * Remove workspace auto-switching by running the following command:
+
+```text
+defaults write com.apple.dock workspaces-auto-swoosh -bool NO
+```
+
+and then
+
+```text
+killall Dock
+```
 
 ## Users & Groups
 
@@ -22,18 +42,6 @@ If this is a new computer, there are a couple tweaks you could make to the Syste
 * Scroll & Zoom
   * Uncheck all apart from Zoom in and out
 
-## Dock
-
-* Visual settings
-  * Change position to left and make the size of Icons small
-* Other settings
-  * Remove workspace auto-switching by running the following command:
-
-```text
-$ defaults write com.apple.dock workspaces-auto-swoosh -bool NO
-$ killall Dock
-```
-
 ## Finder
 
 * General
@@ -41,8 +49,6 @@ $ killall Dock
   * New finder window shows Home directory
 * Tags
   * Uncheck everything
-* Toolbar
-  * Update to add path, new folder and delete
 * Sidebar
   * Add home and code directory
   * Remove shared and tags

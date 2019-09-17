@@ -15,7 +15,7 @@ npm makes it easy for JavaScript developers to share and reuse code, and makes i
 npm is distributed with [Node.js](https://nodejs.org/)- which means that when you download Node.js, you automatically get npm installed on your computer.
 
 ```text
-$ brew cask install node
+brew cask install node
 ```
 
 ## Gulp
@@ -23,7 +23,7 @@ $ brew cask install node
 gulp is my favourite taskrunner, [learn more](https://gulpjs.org/getting-started) about it!
 
 ```text
-$ npm install --global gulp-cli
+npm install --global gulp-cli
 ```
 
 ## Sass
@@ -31,8 +31,16 @@ $ npm install --global gulp-cli
 while there are alot of apps out there that get you up and running with sass, either with an application \(codekit, prepros\), or the command line. Sass has a ruby dependecy on OSX, you can immediately type in:
 
 ```text
-$ sudo gem install sass
+sudo gem install sass
 ```
 
 but i usually use the gulp-sass npm package and rarely use the system-wide one.
+
+Most of our web apps run on Google Cloud Platform which lets you build and host applications and websites, store data, and analyze data on Google's scalable infrastructure.
+
+## Google Cloud
+
+Most of our web apps run on Google Cloud Platform which lets you build and host applications and websites, store data, and analyze data on Google's scalable infrastructure.
+
+Visit this site and follow the instructions: [https://cloud.google.com/sdk/docs/quickstart-macos](https://cloud.google.com/sdk/docs/quickstart-macos)
 
