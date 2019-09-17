@@ -10,5 +10,7 @@ If you feel that:
 
 Then this guide might be for you. 
 
+![Just a typical day at the office](.gitbook/assets/frame.png)
+
 Feel free to use this guide – share it or fork it. No need to strictly follow it. This guide is designed to our current workflow and tech stack in the company, so please do feel free to augment it according to your needs. 🦄✨
 
