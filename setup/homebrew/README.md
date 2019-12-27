@@ -2,6 +2,8 @@
 
 [Homebrew](https://brew.sh/) a.k.a. **The missing package manager for macOS**
 
+![Updating GUI apps and packages has never been this easy](../../.gitbook/assets/image.png)
+
 Why do you need this?
 
 > A package manager or package management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.

@@ -1,12 +1,12 @@
 ---
 description: >-
   Basically setting up a product designer's development environment for UI
-  development
+  development. *Updated for MacOS Catalina*
 ---
 
 # Introduction
 
-Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this quick guide was initially re-written with the intent of setting up a UI development environment for product designers at [Abstract](https://abstract.ph/). Now, we're sharing it to the world to help super-charge other design teams, and for everyone who loves to ship digital products! 🚀
+Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this quick guide was initially re-written with the intent of setting up a UI development environment for product designers at [Abstract Digital](https://abstract.ph/). Now, we're sharing it to the world to help super-charge other design teams, and for everyone who loves to ship digital products! 🚀
 
 If you feel that:
 

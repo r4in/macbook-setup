@@ -8,5 +8,9 @@ To install, simple type
 brew tap buo/cask-upgrade
 ```
 
+To use it
 
+```text
+brew cu --all
+```
 

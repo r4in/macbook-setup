@@ -4,7 +4,7 @@
 
 Download and install it from the App Store or from [Apple's website](https://developer.apple.com/xcode/).
 
-For installing Xcode command line tools run the following command in your terminal \(without the `$`\):
+For installing Xcode command line tools run the following command in your terminal:
 
 ```text
 xcode-select --install

@@ -30,9 +30,8 @@
 
 ## Apps
 
-* [Installation](apps/apps.md)
-* [Design](apps/designer.md)
-* [Developer](apps/developer.md)
-* [Productivity](apps/productivity.md)
-* [Others](apps/essentials.md)
+* [Intro](apps/apps.md)
+* [Design Tools](apps/designer.md)
+* [Developer Tools](apps/developer.md)
+* [Productivity Tools](apps/productivity.md)
 
