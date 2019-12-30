@@ -8,7 +8,8 @@
 
 ## Setup
 
-* [System Preferences](setup/preferences.md)
+* [System Preferences](setup/preferences/README.md)
+  * [Finder](setup/preferences/finder.md)
 * [Xcode](setup/xcode.md)
 * [Homebrew](setup/homebrew/README.md)
   * [Cask](setup/homebrew/cask.md)

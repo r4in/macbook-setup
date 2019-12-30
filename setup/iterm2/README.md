@@ -6,7 +6,7 @@
 
 ## Installation
 
-You can download the app from [here](http://www.iterm2.com/). Once downloaded, drag and drop the **iTerm** application file into your **Applications** folder. Or using Homebrew:
+You can download the app from [here](http://www.iterm2.com/). Once downloaded, drag and drop the **iTerm** application file into your **Applications** folder. Or feel like a pro on the command-line using Homebrew:
 
 ```text
 brew cask install iterm2
@@ -26,5 +26,9 @@ You can actually get alot of different iTerm color schemes [here](https://github
 
 **Terminal:** This is the actual interface to the console. The program we use to interact with the console is actually a “terminal emulator”, providing us the experience of typing into an old school terminal from the convenience of our modern graphical operating system.
 
-**Text CLI shells:** Basically is a user interface for accessing OS services. Examples are Bourne-Again Shell \(Bash\), z Shell \(zsh\) Korn shell \(kshell\)
+**Text CLI shells:** Basically is a user interface for accessing OS services. Examples are Bourne-Again Shell \(Bash\), z Shell \(zsh\) Korn shell \(kshell\). macOS ships with [a couple of shells](https://en.wikipedia.org/wiki/Comparison_of_command_shells) actually, you can check them out by running 
+
+```text
+cat /etc/shells
+```
 

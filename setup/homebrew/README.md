@@ -31,7 +31,21 @@ brew doctor
 To install a package \(or **Formula** in Homebrew vocabulary\) simply type:
 
 ```text
-brew install <formula>
+brew install <formula_name_here>
+```
+
+#### Example
+
+Install the [**Tree**](https://formulae.brew.sh/formula/tree) package which displays directories as trees in the terminal
+
+```text
+brew install tree
+```
+
+After installing, give it a try!
+
+```text
+tree /Applications
 ```
 
 To update Homebrew's directory of formulae, run:
@@ -71,6 +85,4 @@ To see what you have installed \(with their version numbers\):
 ```text
 brew list --versions
 ```
-
-brew 'tree' brew 'speedtest\_cli' brew 'trash' brew 'z'
 

@@ -1,5 +1,9 @@
 # Zsh
 
+{% hint style="info" %}
+Announced in June and released in October 2019, [macOS Catalina](https://en.wikipedia.org/wiki/MacOS_Catalina) has adopted Zsh as the default shell, replacing [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). Although the copy of zsh available on macOS by default is that one that shipped with the system, it will eventually get out of date. So the first thing to do is to install the latest version, with Homebrew.
+{% endhint %}
+
 We'll install `zsh`for all the features offered by `oh-my-zsh`.
 
 Install zsh and zsh-completions using Homebrew:
@@ -8,29 +12,41 @@ Install zsh and zsh-completions using Homebrew:
 brew install zsh zsh-completions
 ```
 
-Now let's use a framework built on top of this shell called `Oh My Zsh!`
+Upon completing installation, you'll probably come across this message:
+
+![](../../.gitbook/assets/screen-shot-2019-12-30-at-9.29.06-pm.png)
+
+What we'll need to do is to add `fpath=(path/to/zsh-completions/src $fpath)` to our **.zshrc** file. However, it will still get overwritten when we install Oh-My-Zsh \(Which I'll explain later, so let's go back to this in the next step\) 
+
+Now let's use a framework built on top of this shell called **Oh My Zsh!**
 
 ## Install Oh My Zsh!
 
-Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and super-charge your termnial!
+Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and super-charge your terminal!
 
 ```text
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-If you're still in the default shell \(probably bash\), change default shell to zsh manually:
+#### Resolving the issue from the previous step
+
+Let's open **.zshrc** file using Sublime Text
 
 ```text
-chsh -s /bin/zsh
+subl ~/.zshrc
 ```
 
-Restart your terminal, and confirm what shell you are actively using by typing in:
+Then copy paste this text, and save the file:
 
 ```text
-$ echo $SHELL
+fpath=(path/to/zsh-completions/src $fpath)
 ```
 
-If it's not working, try restarting again.
+And go back to the terminal and run this:
+
+```text
+rm -f ~/.zcompdump; compinit
+```
 
 ## Plugins
 
@@ -48,7 +64,7 @@ open ~/.zshrc
 
 ### **How to add plugins?**
 
-To add plugin we need to add these strings of text to our .**zshrc file**
+To add plugin we need to add these strings of text to our current plugins list in the .**zshrc file**
 
 ```text
 plugins=(
@@ -62,9 +78,9 @@ Aside from that, there are also plugins that goes beyond autocompleting - [check
 
 ## Homebrew Stuff To Do
 
-One thing we need to do is tell the system to use programs installed by Homebrew \(in `/usr/local/bin`\) rather than the OS default if it exists. We do this by adding`/usr/local/bin`to your`$PATH`environment variable. Initially we we're using bash, but since we've switch to zsh, so we'll be editing the `.zshrc` instead of the `.bash_profile`
+One thing we need to do is tell the system to use programs installed by Homebrew \(in `/usr/local/bin`\) rather than the OS default if it exists. We do this by adding`/usr/local/bin`to your`$PATH`environment variable.
 
-Now that we've already installed Oh My Zhs!
+Now that we've already installed Oh My Zsh! This command will append the text `PATH="/usr/local/bin:$PATH"` on the .zshrc file
 
 ```text
 echo export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
@@ -72,7 +88,17 @@ echo export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
 
 ## iTerm Color Schemes
 
-Go to Preferences &gt; Profiles and Create your own color scheme! My personal favourite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Cobalt2-iterm/blob/master/cobalt2.itermcolors), so download it. Got to Preferences &gt; Profiles &gt; Colors and import the `cobalt2.itermcolors` via Load Presets dropdown
+Open iTerm, go to **Preferences &gt; Profiles** and create your own color scheme! 
+
+My personal favorite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Cobalt2-iterm/blob/master/cobalt2.itermcolors). To use it:
+
+* [ ] Download [cobalt2.itermcolors](https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.itermcolors)
+* [ ] Go to **Preferences &gt; Profiles** and click on the "**+**" button to add a new profile.
+* [ ] Give it a name, and click on the **Colors** tab
+* [ ] Import **cobalt2.itermcolors** by clicking on the **Color Presets..** &gt; **Import..**
+* [ ] After importing, select **Color Presets..** &gt; **cobalt2**
+
+![](../../.gitbook/assets/screen-shot-2019-12-30-at-10.22.32-pm.png)
 
 ## Oh My Zsh Themes
 
