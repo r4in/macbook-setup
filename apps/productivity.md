@@ -86,8 +86,11 @@ Best torrent client out there
 brew cask install transmission
 ```
 
-**Tuxera**   
-Allows you to write on NTFS like your external HDs or thumbdrives
+**Paragon NTFS**
+
+```text
+brew cask install paragon-ntfs
+```
 
 **The Unarchiver**   
 For extracting alot of zips
@@ -161,7 +164,7 @@ brew cask install 1password
 A better email app then the default one
 
 ```text
-brew cask install airmail-beta
+https://airmailapp.com/features
 ```
 
 \*\*\*\*

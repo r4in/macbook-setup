@@ -12,7 +12,7 @@ description: >-
 My ex-digital design tool
 
 ```text
-brew cask install alfred
+brew cask install sketch
 ```
 
 {% hint style="info" %}
@@ -23,7 +23,7 @@ Sketch is an amazing tool I used from 2016 to 2018. Then I switched to Figma due
 The upcoming design, prototyping and animation tool.
 
 ```text
-brew cask install figma
+brew cask install invision
 ```
 
 {% hint style="info" %}
