@@ -4,8 +4,6 @@
 Announced in June and released in October 2019, [macOS Catalina](https://en.wikipedia.org/wiki/MacOS_Catalina) has adopted Zsh as the default shell, replacing [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). Although the copy of zsh available on macOS by default is that one that shipped with the system, it will eventually get out of date. So the first thing to do is to install the latest version, with Homebrew.
 {% endhint %}
 
-We'll install `zsh`for all the features offered by `oh-my-zsh`.
-
 Install zsh and zsh-completions using Homebrew:
 
 ```text
@@ -64,7 +62,7 @@ open ~/.zshrc
 
 ### **How to add plugins?**
 
-To add plugin we need to add these strings of text to our current plugins list in the .**zshrc file**
+To add plugin we need to search and add these strings of text to our current plugins list in the .**zshrc file**
 
 ```text
 plugins=(
@@ -92,11 +90,11 @@ Open iTerm, go to **Preferences &gt; Profiles** and create your own color scheme
 
 My personal favorite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Cobalt2-iterm/blob/master/cobalt2.itermcolors). To use it:
 
-* [ ] Download [cobalt2.itermcolors](https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.itermcolors)
-* [ ] Go to **Preferences &gt; Profiles** and click on the "**+**" button to add a new profile.
-* [ ] Give it a name, and click on the **Colors** tab
-* [ ] Import **cobalt2.itermcolors** by clicking on the **Color Presets..** &gt; **Import..**
-* [ ] After importing, select **Color Presets..** &gt; **cobalt2**
+1. Download [cobalt2.itermcolors](https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.itermcolors)
+2. Go to **Preferences &gt; Profiles** and click on the "**+**" button to add a new profile.
+3. Give it a name, and click on the **Colors** tab
+4. Import **cobalt2.itermcolors** by clicking on the **Color Presets..** &gt; **Import..**
+5. After importing, select **Color Presets..** &gt; **cobalt2**
 
 ![](../../.gitbook/assets/screen-shot-2019-12-30-at-10.22.32-pm.png)
 
@@ -104,30 +102,38 @@ My personal favorite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Coba
 
 While there are [alot of themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) you can use with Oh My Zsh, my favourite is the [Cobalt2 theme](https://github.com/wesbos/Cobalt2-iterm). You can click on the theme link and follow the instructions there or follow thru here:
 
-1. Open & edit your .zshrc file with `$ open .zshrc` then add & edit the following line `$ ZSH_THEME="cobalt2"`
+1. Open & edit your .zshrc file with `$ open .zshrc` then search & modify the following line `$ ZSH_THEME="cobalt2"`
 2. Copy & paste the [cobalt2.zsh-theme](https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme) file to `~/.oh-my-zsh/themes/`  directory
 
-But wait, what are powerline fonts? These fonts are responsible for the icons you have on your terminal. There's actually [a directory of Powerline fonts](https://github.com/powerline/fonts) to choose from.
+## Powerline
 
-1. Install powerline `pip install --user powerline-status`
-2. Clone the powerline fonts and run `install.sh` to install all powerline fonts
+What are ****[**Powerline**](https://github.com/powerline/powerline)? It's a statusline plugin for vim, and provides statuslines and prompts. And along with it are [**Powerline Fonts**](https://github.com/powerline/fonts) that is responsible for the icons you have on your terminal. To enable powerline fonts on the theme we're using:
+
+Powerline uses Pip \(Which is a package manager for Python\) Unfortunately, 
+
+* Install **Powerline**
+
+```text
+pip3 install --user powerline-status
+```
+
+* Clone the [Powerline fonts](https://github.com/powerline/fonts) and run `install.sh` to install all powerline fonts
 
 ```text
 git clone https://github.com/powerline/fonts
-```
-
-```text
 cd fonts
 ./install.sh
 ```
 
-Now head back to iTerm and go to Preferences &gt; Profiles &gt; Text and change the font style to 12pt Inconsolate for Powerline. You can play around with the size, change the powerline font - up to you guys :\)
+Now head back to iTerm and go to **Preferences** &gt; **Profiles** &gt; **Text** and change the font family to **Inconsolata for Powerline**, font weight to **Medium** and set the font size to **12px**. Then you should be seeing icons in your command prompt like this:
 
-Then refresh zsh by typing:
+![](../../.gitbook/assets/screen-shot-2019-12-31-at-12.31.00-am.png)
 
-`source ~/.zshrc`
+{% hint style="info" %}
+You can play around with the size, change the powerline font - up to you guys 😄
+{% endhint %}
 
-Or by restarting your terminal :\)
+Then refresh zsh by typing `source ~/.zshrc` or by restarting your terminal
 
 ## Shortcuts
 
@@ -147,7 +153,7 @@ Or by restarting your terminal :\)
 
 **Where are my zsh settings stored?** `.zshrc`file located in your home directory. It’s a hidden file, so you might not see it in your home directory, but you can view it by running `open ~/.zshrc`from the terminal. Swap out `open`with your favorite editor command, such as `nano`, `subl`or `vim`. \(these are text editors, `nano` for [GNU Nano](https://www.nano-editor.org/), `subl` for [Sublime Text](https://www.sublimetext.com/), and `vim` for [Vim](http://www.vim.org/)\)
 
-**It's not working!** Did you carefully follow the instructions? Don't copy the $ symbol on the commands. Also try restarting your terminal for it to take effect.
+**It's not working!** Did you carefully follow the instructions? Also try restarting your terminal for it to take effect.
 
 **I have no idea how to use the terminal / So hard to follow the instructions!** I suggest taking [this great course](https://commandlinepoweruser.com) by Wesbos.
 

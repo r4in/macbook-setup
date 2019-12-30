@@ -10,13 +10,3 @@
 brew install sublime-text
 ```
 
-## Use CLI to open file <a id="use-cli-to-open-file"></a>
-
-Let's create a shortcut so we can launch Sublime Text from the command-line
-
-```text
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-```
-
-Now you can open a file with`subl myfile.py`or start a new project in the current directory with`subl .`
-

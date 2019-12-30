@@ -6,10 +6,6 @@ To install:
 
 `$ brew install z`
 
-And remember to add to your .zshrc \(if you're using zsh\) or .bashprofile \(if you're using bash\)
-
-`$ brew info z`
-
 Also, don't forget to add this to your .zshrc file
 
 ```text

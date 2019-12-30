@@ -12,7 +12,7 @@ When done, to test that it installed fine you can run:
 git --version
 ```
 
-And`$ which git`should output`/usr/local/bin/git`.
+And `which git`should output`/usr/local/bin/git`. If not, try restarting the terminal.
 
 Next, we'll define your Git user \(should be the same name and email you use for [GitHub](https://github.com/)\):
 

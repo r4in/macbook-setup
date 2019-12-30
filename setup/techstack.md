@@ -36,8 +36,6 @@ sudo gem install sass
 
 but i usually use the gulp-sass npm package and rarely use the system-wide one.
 
-Most of our web apps run on Google Cloud Platform which lets you build and host applications and websites, store data, and analyze data on Google's scalable infrastructure.
-
 ## Google Cloud
 
 Most of our web apps run on Google Cloud Platform which lets you build and host applications and websites, store data, and analyze data on Google's scalable infrastructure.

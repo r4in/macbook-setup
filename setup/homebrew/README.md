@@ -2,7 +2,7 @@
 
 [Homebrew](https://brew.sh/) a.k.a. **The missing package manager for macOS**
 
-![Updating GUI apps and packages has never been this easy](../../.gitbook/assets/image.png)
+![Updating GUI apps and packages has never been this easy](../../.gitbook/assets/image%20%281%29.png)
 
 Why do you need this?
 

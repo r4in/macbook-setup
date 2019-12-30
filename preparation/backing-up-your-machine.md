@@ -30,7 +30,7 @@ Now it's time to take a deep breath, shutdown your machine, and hope there won't
 
 Insert the bootable USB and upon pressing the power key, **hold the option key** until it loads up a screen which prompts you to choose which device you want to boot from. So select the thumb drive with the macOS installer.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 Select **Disk Utility** and click **Continue**. 
 
