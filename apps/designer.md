@@ -44,6 +44,10 @@ What I usually need are just:
 * Adobe Photoshop CC 2020
 * Adobe Illustrator CC 2020
 
+```text
+brew cask install adobe-creative-cloud
+```
+
 Download the [Adobe Creative Cloud](https://www.adobe.com/sea/creativecloud.html) first, and after installing it - that's where you find these apps.
 
 

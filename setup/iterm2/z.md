@@ -4,7 +4,9 @@ Z is actually not part of Zsh, but its a really cool way to jump to frecent fold
 
 To install:
 
-`$ brew install z`
+```text
+brew install z
+```
 
 Also, don't forget to add this to your .zshrc file
 
