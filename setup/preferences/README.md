@@ -24,7 +24,9 @@ These settings below are all optional, consider them suggestions.
 * [ ] Size &gt; **Small**
 * [ ] Magnification &gt; **Unchecked**
 * [ ] Position on screen &gt; **Left**
-* [ ] Remove workspace auto-switching by running the following command:
+* [ ] Show recent applications in Dock &gt; **Unchecked**
+
+Remove workspace auto-switching by running the following command:
 
 ```text
 defaults write com.apple.dock workspaces-auto-swoosh -bool NO
