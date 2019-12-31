@@ -21,7 +21,7 @@ Since our move to VS Code from Sublime, alot of people are using the built-in te
 It's the IRC for geeks
 
 ```text
-brew cask install limechat
+http://limechat.net/mac/
 ```
 
 {% hint style="info" %}

@@ -160,7 +160,7 @@ brew cask install principle
 **Flinto**
 
 ```text
-brew cask install flinto
+https://www.flinto.com
 ```
 
 **Framer**
