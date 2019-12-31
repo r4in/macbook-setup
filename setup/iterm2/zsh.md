@@ -155,13 +155,5 @@ Then refresh zsh by typing `source ~/.zshrc` or by restarting your terminal
 
 **It's not working!** Did you carefully follow the instructions? Also try restarting your terminal for it to take effect.
 
-**I have no idea how to use the terminal / So hard to follow the instructions!** I suggest taking [this great course](https://commandlinepoweruser.com) by Wesbos.  
-  
-**When I open my terminal this message shows up:**`compdef: unknown command or service: rails`  
-  
-Just run this and it should be working fine:
-
-```text
-rm -f ~/.zcompdump*; compinit 
-```
+**I have no idea how to use the terminal / So hard to follow the instructions!** I suggest taking [this great course](https://commandlinepoweruser.com) by Wesbos.
 

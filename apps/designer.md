@@ -23,7 +23,7 @@ Sketch is an amazing tool I used from 2016 to 2018. Then I switched to Figma due
 The upcoming design, prototyping and animation tool.
 
 ```text
-brew cask install invision
+https://www.invisionapp.com/studio
 ```
 
 {% hint style="info" %}
