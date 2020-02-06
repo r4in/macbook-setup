@@ -6,7 +6,7 @@ Also upgrade your OS in case you want to work on the latest OS. macOS upgrades a
 
 If this is a new computer, there are a couple tweaks you could make to the System Preferences.
 
-* Sign in your Apple ID to sync in your iCloud account
+* [ ] Sign in your Apple ID to sync in your iCloud account
 
 ![macOS Catalina System Preferences](../../.gitbook/assets/screenshot-2019-12-30-at-4.47.28-pm.png)
 
@@ -16,15 +16,15 @@ These settings below are all optional, consider them suggestions.
 
 ## General
 
-* Appearance &gt; Select **Dark**
-* Make sure **Allow Handoff between this Mac and your iCloud devices** is checked
+* [ ] Appearance &gt; Select **Dark**
+* [ ] Make sure **Allow Handoff between this Mac and your iCloud devices** is checked
 
 ## Dock
 
-* Size &gt; **Small**
-* Magnification &gt; **Unchecked**
-* Position on screen &gt; **Left**
-* Show recent applications in Dock &gt; **Unchecked**
+* [ ] Size &gt; **Small**
+* [ ] Magnification &gt; **Unchecked**
+* [ ] Position on screen &gt; **Left**
+* [ ] Show recent applications in Dock &gt; **Unchecked**
 
 Remove workspace auto-switching by running the following command:
 
@@ -38,31 +38,17 @@ and then
 killall Dock
 ```
 
-{% hint style="info" %}
-I'm not really a fan of Dark Mode UI in macOS, except for the menubar and dock. To proceed, run this command in the terminal 
-
-```text
-defaults write -g NSRequiresAquaSystemAppearance -bool Yes
-```
-
-And re-login
-{% endhint %}
-
-## Siri
-
-* Uncheck **Show Siri in the menu bar**
-
 ## Internet Accounts
 
-* Add your Google, Yahoo or iCloud accounts to sync in with the Mail, Calendar, Messages and other macOS apps.
+* [ ] Add your Google, Yahoo or iCloud accounts to sync in with the Mail, Calendar, Messages and other macOS apps.
 
 ## Users & Groups
 
-* Set up your Password, Apple ID, Avatar, etc.
+* [ ] Set up your Password, Apple ID, Avatar, etc.
 
 ## Keyboard
 
-* **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
+* [ ] **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
 
 {% hint style="info" %}
 Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS_X_Yosemite) and resembles alot to **Alfred.** I still prefer using Alfred over Spotlight for various reasons \(Just do your research\). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Alfred anyways.
@@ -71,7 +57,7 @@ Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https
 ## Trackpad
 
 * Point & Click
-  * Check **Tap to click with one finger** 
+  * [ ] Check **Tap to click with one finger** 
 * Scroll & Zoom
-  * Uncheck all except for **Zoom in and out**
+  * [ ] Uncheck all except for **Zoom in and out**
 
