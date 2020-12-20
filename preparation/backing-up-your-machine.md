@@ -8,6 +8,8 @@ First, download the latest macOS via App Store:
 
 ![macOS Catalina should be sitting at your Applications folder after downloading](../.gitbook/assets/screen-shot-2020-12-20-at-3.53.47-pm.png)
 
+## Creating A Bootable Installer
+
 There are numerous apps and ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports Big Sur. But you can still easily do this on your Terminal. Here's how you create a bootable thumbdrive:
 
 * Prepare a 16GB usb thumbdrive that's ready to be wiped out clean
