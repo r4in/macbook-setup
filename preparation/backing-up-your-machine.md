@@ -6,23 +6,36 @@ I usually prefer wiping out my whole hard drive and just doing a fresh install. 
 
 First, download the latest macOS via App Store:
 
-![macOS Catalina should be sitting at your Applications folder after downloading](../.gitbook/assets/screen-shot-2019-12-26-at-4.28.03-pm.png)
+![macOS Catalina should be sitting at your Applications folder after downloading](../.gitbook/assets/screen-shot-2020-12-20-at-3.53.47-pm.png)
 
-There are numerous apps and ways to create a bootable macOS install, but the fastest and easiest way I've tried is thru [Disk Maker X](https://diskmakerx.com/). Also, Don't forget to prepare an 8GB thumb drive that's ready to be wiped out clean. Instructions are fairly straight forward on creating a bootable installer.
+There are numerous apps and ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports Big Sur. But you can still easily do this on your Terminal. Here's how you create a bootable thumbdrive:
+
+* Prepare a 16GB usb thumbdrive that's ready to be wiped out clean
+* Make sure you already have downloaded macOS Big Sur. After downloading, It should be sitting on your Applications folder like this:
+
+![](../.gitbook/assets/screen-shot-2020-12-20-at-4.02.00-pm.png)
+
+* Insert your thumbdrive and simply run this command below on your terminal. Make sure you replace "**Untitled"** with the name of your usb thumb drive.
+
+```text
+sudo '/Applications/Install macOS Big Sur.app/Contents/Resources/createinstallmedia' --volume '/Volumes/Untitled'
+```
+
+![](../.gitbook/assets/screen-shot-2020-12-20-at-4.19.44-pm.png)
+
+### A nice list of things to remember when backing up
+
+* [ ] Important documents \(This is why I recommend using Google Docs/Sheets\)
+* [ ] Family photos \(Everything is on Google Photos\)
+* [ ] Code files \(Lol, no worries - these should be in your code repositories like Github or Bitbucket\)
+* [ ] Quick code snippets / links / random texts \(Instead of saving them on icloud notes or on sublime text/note taking apps - use [Paste](https://pasteapp.me/)! \)
+* [ ] Browser bookmarks, ect \(Create a Google account to login to chrome\)
+* [ ] Passwords, Server logins, sensitive-stuff. \(Use password generators like [1Password](https://1password.com/) - I recommend [LastPass](https://www.lastpass.com/)\)
+* [ ] Don't forget to backup your public ssh keys too
 
 {% hint style="warning" %}
 **Warning** There's no going back after this point, so be sure to backup your files to the cloud like [Google One](https://one.google.com/about) or [Dropbox](https://www.dropbox.com/). And if you don't feel comfortable with it, just do a manual backup using your external hard drive.
 {% endhint %}
-
-#### A nice list of things to remember when backing up
-
-* [ ] Important documents \(This is why I recommend using Google Docs/Sheets\)
-* [ ] Family photos \(Everything is on Google Photos\)
-* [ ] Code files \(Lol, no worries - these should be in the repositories like Github or Bitbucket\)
-* [ ] Quick code snippets / links / random texts \(Instead of saving them on icloud notes or on sublime text/note taking apps - use [Paste](https://pasteapp.me/)! \)
-* [ ] Browser bookmarks, ect \(Create a Google account to login to chrome\)
-* [ ] Passwords, Server logins, sensitive-stuff. \(Use password generators like 1Password\)
-* [ ] Don't forget to backup your public keys too
 
 ## Let The Purge Begin
 

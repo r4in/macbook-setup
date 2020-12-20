@@ -1,12 +1,28 @@
 ---
 description: >-
-  We all know that tools do not make the craft, it's the craftsman who makes it
-  himself. However, tools are designed
+  At the end of the day, tools are just tools. Feel free to explore what works
+  for your workflow.
 ---
 
 # Design Tools
 
+### **UX Design Tools**
+
+**Miro** ⭐  
+Top tool for brainstorming / design sprint activities
+
+```text
+brew cask install miro
+```
+
 ### **UI Design Tools**
+
+**Figma** ⭐  
+My current favourite collaborative UI design tool.
+
+```text
+brew cask install figma
+```
 
 **Sketch**  
 My ex-digital design tool
@@ -29,13 +45,6 @@ https://www.invisionapp.com/studio
 {% hint style="info" %}
 This tool has super promising features but a year later - it still hasn't really took off. I used it once for a project, however one thing I liked about it is the ease of using when prototyping with simple transitions & animations.
 {% endhint %}
-
-**Figma** [🏆](https://emojipedia.org/trophy/)  
-My current favourite collaborative UI design tool \(for now\).
-
-```text
-brew cask install figma
-```
 
 **Adobe Creative Cloud**  
 
@@ -184,5 +193,19 @@ A nice font manager
 
 ```text
 brew cask install rightfont
+```
+
+**FontBase**  
+A nice font manager
+
+```text
+brew cask install fontbase
+```
+
+**SIP**  
+A better Color Picker for your Mac.
+
+```text
+brew cask install sip
 ```
 

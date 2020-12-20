@@ -11,9 +11,20 @@ Your terminal on steroids
 brew cask install iterm2
 ```
 
+**Hyper**  
+A terminal built on web technologies.
+
+```text
+https://hyper.is/
+```
+
+
+
 {% hint style="info" %}
 Since our move to VS Code from Sublime, alot of people are using the built-in terminal window in it. Depending on your setup - it's up to you if you feel like running lots of different processes on different terminal windows.
 {% endhint %}
+
+### \*\*\*\*
 
 ### **IRC,** Instant Messaging and Chat
 
@@ -144,6 +155,17 @@ Select more weapons of choice
 ```text
 brew cask install goggle-chrome
 ```
+
+**Brave**  
+Select more weapons of choice
+
+```text
+brew cask install brave-browser
+```
+
+\*\*\*\*
+
+\*\*\*\*
 
 **Opera**  
 Select more weapons of choice

@@ -1,12 +1,35 @@
 # Productivity Tools
 
-### Others
+### Keystroke Launchers
+
+**Ueli** 🏆  
+Keystroke launcher for Windows and macOS
+
+```text
+brew cask install ueli
+```
 
 **Alfred**  
 The original Spotlight Search! \(Before Apple sort of copied it. hehe\)
 
 ```text
 brew cask install alfred
+```
+
+### **Screen Recorders**
+
+**Kap** 🏆  
+A minimalist way to record videos/gifs on your screen 
+
+```text
+brew cask install kap
+```
+
+**Loom**  
+Record audio/video of you and yourself and instantly share it from the cloud
+
+```text
+brew cask install loom
 ```
 
 **Handbrake**  
@@ -35,6 +58,13 @@ The best clipboard to have in macOS
 
 ```text
 brew cask install paste
+```
+
+**Rocket**  
+Gives you that slack-like experience of entering emojis
+
+```text
+brew cask install rocket
 ```
 
 **raindrop.io**  
@@ -84,6 +114,13 @@ Best torrent client out there
 
 ```text
 brew cask install transmission
+```
+
+**Numi** 🏆  
+A beautiful calculator app for Mac.
+
+```text
+brew cask install ueli
 ```
 
 **Paragon NTFS**
@@ -145,7 +182,40 @@ Great for group video calls
 brew cask install zooomus
 ```
 
-### 
+**Discord**  
+Great for group video calls
+
+```text
+brew cask install discord
+```
+
+**Gitter**  
+Checkout the community
+
+```text
+brew cask install gitter
+```
+
+**Facebook Messenger**  
+Checkout the community
+
+```text
+brew cask install messenger
+```
+
+**Telegram**  
+Used once for a project's main communication tool
+
+```text
+brew cask install telegram
+```
+
+**Whatsapp**  
+Used as a main communication tool in some projects as well
+
+```text
+brew cask install whatsapp
+```
 
 ### Password Managers
 
@@ -171,6 +241,13 @@ https://airmailapp.com/features
 
 ### Menu Bar Organizer
 
+**Vanilla** [🏆](https://emojipedia.org/trophy/)  
+A simple, fast and freemium menu bar organizer.
+
+```text
+brew cask install vanilla
+```
+
 **Bartender**  
 Customize your menu bar & hide unwanted icons
 
@@ -178,11 +255,11 @@ Customize your menu bar & hide unwanted icons
 brew cask install bartender
 ```
 
-**Vanilla** [🏆](https://emojipedia.org/trophy/)  
-A simple, fast and free menu bar organizer.
+**Dozer**  
+A free menu bar manager
 
 ```text
-brew cask install vanilla
+brew cask install dozer
 ```
 
 {% hint style="info" %}
@@ -213,18 +290,18 @@ brew cask install dropbox
 
 ### Notebooks
 
-**Evernote**  
-My first favorite app for note-taking projects
-
-```text
-brew cask install evernote
-```
-
 **Notion** [🏆](https://emojipedia.org/trophy/)  
 The most amazing notebook I've ever had. It's more affordable than Evernote, 
 
 ```text
 brew cask install notion
+```
+
+**Evernote**  
+My first favorite app for note-taking projects
+
+```text
+brew cask install evernote
 ```
 
 {% hint style="info" %}
@@ -235,28 +312,54 @@ Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and
 
 ### Window Management Apps
 
-**Spectacle**  
+**Rectangle**  
 Window manager
 
 ```text
-brew cask spectacle
+brew cask install rectangle
 ```
 
 **Magnet**  
 Window manager
 
 ```text
-brew cask spectacle
+brew cask install spectacle
 ```
 
 **Moom**  
 Window manager
 
 ```text
-brew cask spectacle
+brew cask install spectacle
 ```
 
-\*\*\*\*
+**Amethyst**   
+a tiling windows manager. ... Also, it supports global shortcuts for moving, focusing and changing size of the windows, as well as cycling through the layouts
 
-\*\*\*\*
+```text
+brew cask install amethyst
+```
+
+### **Gaming**
+
+**OpenEmu**  
+Emulator for playing retro games on macOS
+
+```text
+brew cask install openemu
+```
+
+**Steam**  
+For playing Dota
+
+```text
+brew cask install steam
+```
+
+**Battle.net**  
+Launcher for Diablo III and Starcraft II
+
+```text
+brew cask install battle-net
+```
 
