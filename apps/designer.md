@@ -6,7 +6,7 @@ description: >-
 
 # Design Tools
 
-### **UX Design Tools**
+### **UX Tools**
 
 **Miro** ⭐  
 Top tool for brainstorming / design sprint activities
@@ -15,7 +15,7 @@ Top tool for brainstorming / design sprint activities
 brew cask install miro
 ```
 
-### **UI Design Tools**
+### **UI Tools**
 
 **Figma** ⭐  
 My current favourite collaborative UI design tool.

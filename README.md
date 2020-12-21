@@ -1,7 +1,7 @@
 ---
 description: >-
-  Basically setting up a product designer's development environment for UI
-  Development. *Updated for MacOS Catalina*
+  Basically setting up a product designer's dev environment for UI Development.
+  *Updated for MacOS Big Sur*
 ---
 
 # Introduction

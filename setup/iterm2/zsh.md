@@ -4,6 +4,8 @@
 Announced in June and released in October 2019, [macOS Catalina](https://en.wikipedia.org/wiki/MacOS_Catalina) has adopted Zsh as the default shell, replacing [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). Although the copy of zsh available on macOS by default is that one that shipped with the system, it will eventually get out of date. So the first thing to do is to install the latest version, with Homebrew.
 {% endhint %}
 
+So that means - no need to manually install Zsh anymore! 🥳
+
 Install zsh and zsh-completions using Homebrew:
 
 ```text
