@@ -1,8 +1,8 @@
-# VS Code
+# Visual Studio Code
 
 _Visual Studio Code_ combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.
 
-I've recently switched over to VSCode, so I'll be sharing my setup.
+I'm using VS Code as my daily driver, so here's how I set it up!
 
 ## To install:
 

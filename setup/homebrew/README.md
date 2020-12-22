@@ -12,7 +12,7 @@ This is where we'll be installing software packages such as Git, Node.js or Pyth
 
 ## Installation
 
-An important dependency before Homebrew can run is the **Command Line Tools** for **Xcode**. So make sure you completed the previous step. These include compilers that will allow you to build things from source, if you are missing this it's available through the App Store &gt; Updates.
+An important dependency before Homebrew can run is the **Command Line Tools** for **Xcode**. So make sure you completed the previous step. These include compilers that will allow you to build things from source, if you are missing this it's available through the **App Store &gt; Updates.**
 
 To install Homebrew paste the following command in your **Terminal and** hit **Enter**, and follow the steps on the screen:
 

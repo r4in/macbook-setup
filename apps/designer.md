@@ -1,23 +1,25 @@
 ---
 description: >-
   At the end of the day, tools are just tools. Feel free to explore what works
-  for your workflow.
+  for your workflow. Checkout https://uxtools.co/survey-2020/
 ---
 
 # Design Tools
 
 ### **UX Tools**
 
-**Miro** ⭐  
+**Miro** 🏆  
 Top tool for brainstorming / design sprint activities
 
 ```text
 brew cask install miro
 ```
 
+
+
 ### **UI Tools**
 
-**Figma** ⭐  
+**Figma** 🏆  
 My current favourite collaborative UI design tool.
 
 ```text
@@ -46,6 +48,8 @@ https://www.invisionapp.com/studio
 This tool has super promising features but a year later - it still hasn't really took off. I used it once for a project, however one thing I liked about it is the ease of using when prototyping with simple transitions & animations.
 {% endhint %}
 
+### Others
+
 **Adobe Creative Cloud**  
 
 What I usually need are just:
@@ -58,6 +62,12 @@ brew cask install adobe-creative-cloud
 ```
 
 Download the [Adobe Creative Cloud](https://www.adobe.com/sea/creativecloud.html) first, and after installing it - that's where you find these apps.
+
+  
+**Spline**  
+A design tool for 3d
+
+{% embed url="https://spline.design/" %}
 
 
 
@@ -120,7 +130,7 @@ I used to be a fan of using icon fonts for design & development because of the e
 
 ### **Webfont Generator**
 
-**Fontplop**  
+**Fontplop**🏆  
 A ****Fast, Simple, & Free Open Source Webfont Converter
 
 ```text
@@ -193,6 +203,13 @@ A nice font manager
 
 ```text
 brew cask install rightfont
+```
+
+**Typeface App**  
+A nice font manager
+
+```text
+brew cask install tyepfaceapp
 ```
 
 **FontBase**  

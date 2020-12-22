@@ -1,6 +1,6 @@
 # Cask
 
-[Homebrew Cask](https://caskroom.github.io/) is centered around installing GUI applications through the CLI. With Homebrew Cask, you can install the latest versions of applications by typing in a single command. Examples of these files is Google Chrome, Dropbox, VLC and Slack.
+[Homebrew Cask](https://caskroom.github.io/) is centered around installing GUI applications through the CLI. With this, you can install the latest versions of applications by typing in a single command. \(like Google Chrome, Dropbox, VS Code and Slack\)
 
 ## Usage
 
@@ -26,5 +26,5 @@ brew cask install google-chrome
 brew cask install sublime-text
 ```
 
-You can see more app suggestions on the last chapter **Apps &gt; Intro** \(and you can use brew cask to install them\).
+You can skip to our [recommended apps](https://www.macsetup.xyz/apps/apps) list to checkout things to install
 

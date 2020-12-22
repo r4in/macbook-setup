@@ -18,14 +18,6 @@ npm is distributed with [Node.js](https://nodejs.org/)- which means that when yo
 brew cask install node
 ```
 
-## Gulp
-
-gulp is my favourite taskrunner, [learn more](https://gulpjs.org/getting-started) about it!
-
-```text
-npm install --global gulp-cli
-```
-
 ## Sass
 
 while there are alot of apps out there that get you up and running with sass, either with an application \(codekit, prepros\), or the command line. Sass has a ruby dependecy on OSX, you can immediately type in:

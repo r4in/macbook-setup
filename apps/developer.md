@@ -163,10 +163,6 @@ Select more weapons of choice
 brew cask install brave-browser
 ```
 
-\*\*\*\*
-
-\*\*\*\*
-
 **Opera**  
 Select more weapons of choice
 

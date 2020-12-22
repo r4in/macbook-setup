@@ -32,7 +32,7 @@ Record audio/video of you and yourself and instantly share it from the cloud
 brew cask install loom
 ```
 
-**Handbrake**  
+**Handbrake** 🏆  
 Good video converter
 
 ```text
@@ -53,42 +53,49 @@ Cool stats for on your menu bar
 brew cask install istat-menus
 ```
 
-**Paste**  
+**Paste** 🏆  
 The best clipboard to have in macOS
 
 ```text
 brew cask install paste
 ```
 
-**Rocket**  
+**Rocket** 🏆  
 Gives you that slack-like experience of entering emojis
 
 ```text
 brew cask install rocket
 ```
 
-**raindrop.io**  
+**raindrop.io** 🏆  
 Great bookmarking app
 
 ```text
 brew cask install raindropio
 ```
 
-**App Cleaner**  
+**App Cleaner** 🏆  
 Fully uninstall apps including its preferences
 
 ```text
 brew cask install appcleaner
 ```
 
-**Caffeine**  
+**Caffeine** 🏆  
 Prevents screen from falling asleep / turning off
 
 ```text
 brew cask install caffeine
 ```
 
-**f.lux**  
+**Effortless** 🏆  
+****_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list 
+
+```text
+brew cask install effortless
+```
+
+**f.lux** 🏆  
 Changes your screen color during nighttime \(before Apple implemented their very own NightShift\)
 
 ```text
@@ -102,14 +109,16 @@ Great for inspecting your HD on to know which files are taking up too much space
 brew cask install daisydisk
 ```
 
-**Fantastical 2**  
+### **Calendars**
+
+**Fantastical 2** 🏆  
 Best calendar ever, syncs to everything including Google calendars and FB events!
 
 ```text
 brew cask install fantastical
 ```
 
-**Transmission**   
+**Transmission** 🏆  
 Best torrent client out there
 
 ```text
@@ -123,13 +132,7 @@ A beautiful calculator app for Mac.
 brew cask install ueli
 ```
 
-**Paragon NTFS**
-
-```text
-brew cask install paragon-ntfs
-```
-
-**The Unarchiver**   
+**The Unarchiver** 🏆  
 For extracting alot of zips
 
 ```text
@@ -143,7 +146,7 @@ Best media player ever
 brew cask install vlc
 ```
 
-**Spotify**   
+**Spotify** 🏆  
 Music while working
 
 ```text
@@ -155,9 +158,51 @@ I have migrated every document I have to Google Docs. But just incase some boome
 
 * Microsoft Word
 * Microsoft Excel
-* Microsoft Powerpoint
+* Microsoft Powerpoint 
+
+**ToothFairy**   
+Connect AirPods \(or other Bluetooth headphones\) to your Mac with a single click or keypress.
+
+```text
+brew cask install toothfairy
+```
+
+**Reflector 3**   
+Airplay directly from your iphone to your mac
+
+```text
+brew cask install reflector
+```
+
+**Karabiner Elements**  
+A powerful and stable keyboard customizer for macOS
+
+```text
+brew cask install karabiner
+```
+
+**Proton VPN**  
+A good VPN to use s    
+
+```text
+brew cask install proton
+```
 
 ### 
+
+### NTFS Tools
+
+**Paragon NTFS**
+
+```text
+brew cask install paragon-ntfs
+```
+
+**Tuxera Disk Manager**
+
+```text
+brew cask install tuxera
+```
 
 ### Communication / Messaging
 
@@ -217,7 +262,16 @@ Used as a main communication tool in some projects as well
 brew cask install whatsapp
 ```
 
+### 
+
 ### Password Managers
+
+**LastPass** 🏆  
+****My password manager of choice
+
+```text
+brew cask install lastpass
+```
 
 **1Password**  
 A good password manager
@@ -226,18 +280,28 @@ A good password manager
 brew cask install 1password
 ```
 
-\*\*\*\*
-
 ### Email Apps
 
-**Airmail3**  
+**Edison**  
+A better email app then the default one
+
+```text
+brew cask install edison
+```
+
+**Airmail 3** 🏆  
 A better email app then the default one
 
 ```text
 https://airmailapp.com/features
 ```
 
-\*\*\*\*
+**Spark**  
+A better email app then the default one
+
+```text
+https://airmailapp.com/features
+```
 
 ### Menu Bar Organizer
 
@@ -286,8 +350,6 @@ brew cask install dropbox
 
 \*\*\*\*
 
-\*\*\*\*
-
 ### Notebooks
 
 **Notion** [🏆](https://emojipedia.org/trophy/)  
@@ -312,7 +374,7 @@ Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and
 
 ### Window Management Apps
 
-**Rectangle**  
+**Rectangle** 🏆  
 Window manager
 
 ```text
@@ -339,6 +401,8 @@ a tiling windows manager. ... Also, it supports global shortcuts for moving, foc
 ```text
 brew cask install amethyst
 ```
+
+### \*\*\*\*
 
 ### **Gaming**
 

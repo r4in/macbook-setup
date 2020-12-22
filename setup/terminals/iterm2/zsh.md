@@ -14,7 +14,7 @@ brew install zsh zsh-completions
 
 Upon completing installation, you'll probably come across this message:
 
-![](../../.gitbook/assets/screen-shot-2019-12-30-at-9.29.06-pm.png)
+![](../../../.gitbook/assets/screen-shot-2019-12-30-at-9.29.06-pm.png)
 
 What we'll need to do is to add `fpath=(path/to/zsh-completions/src $fpath)` to our **.zshrc** file. However, it will still get overwritten when we install Oh-My-Zsh \(Which I'll explain later, so let's go back to this in the next step\) 
 
@@ -98,7 +98,7 @@ My personal favorite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Coba
 4. Import **cobalt2.itermcolors** by clicking on the **Color Presets..** &gt; **Import..**
 5. After importing, select **Color Presets..** &gt; **cobalt2**
 
-![](../../.gitbook/assets/screen-shot-2019-12-30-at-10.22.32-pm.png)
+![](../../../.gitbook/assets/screen-shot-2019-12-30-at-10.22.32-pm.png)
 
 ## Oh My Zsh Themes
 
@@ -129,7 +129,7 @@ cd fonts
 
 Now head back to iTerm and go to **Preferences** &gt; **Profiles** &gt; **Text** and change the font family to **Inconsolata for Powerline**, font weight to **Medium** and set the font size to **12px**. Then you should be seeing icons in your command prompt like this:
 
-![](../../.gitbook/assets/screen-shot-2019-12-31-at-12.31.00-am.png)
+![](../../../.gitbook/assets/screen-shot-2019-12-31-at-12.31.00-am.png)
 
 {% hint style="info" %}
 You can play around with the size, change the powerline font - up to you guys 😄
