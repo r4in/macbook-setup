@@ -4,23 +4,12 @@
 
 Open **Finder** &gt; **Preferences**
 
-![](../../.gitbook/assets/screenshot-2019-12-30-at-5.38.26-pm.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 * General
-
   * [ ] Show these items on the desktop &gt; **Uncheck everything**
-  * [ ] New Finder windows show &gt; **Desktop**
-  * [ ] Make sure to check **Open folders in tabs instead of new windows**
-
-  \*\*\*\*
-
-* Tags
-
-  * [ ] Show these tags in the sidebar &gt; **Uncheck everything**
-
-  \*\*\*\*
-
-* Sidebar 
+  * [ ] New Finder windows show &gt; **Desktop** 
+* Sidebar
   * Uncheck everything except:
     * [ ] Applications
     * [ ] Desktop

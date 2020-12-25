@@ -1,4 +1,4 @@
-# Terminals
+# Terminal Setups
 
 Recently, I've been using **Hyper** instead of my usual **iTerm** setup. Mainly because of the less customizations I need to do and how clean it looks. Not much of a headache to get started and running too.
 

@@ -15,18 +15,16 @@ npm makes it easy for JavaScript developers to share and reuse code, and makes i
 npm is distributed with [Node.js](https://nodejs.org/)- which means that when you download Node.js, you automatically get npm installed on your computer.
 
 ```text
-brew cask install node
+brew install node
 ```
 
 ## Sass
 
-while there are alot of apps out there that get you up and running with sass, either with an application \(codekit, prepros\), or the command line. Sass has a ruby dependecy on OSX, you can immediately type in:
+while there are alot of apps out there that get you up and running with sass, either with an application \(codekit, prepros\), or the command line. To install via Homebrew:
 
 ```text
-sudo gem install sass
+brew install sass/sass/sass
 ```
-
-but i usually use the gulp-sass npm package and rarely use the system-wide one.
 
 ## Google Cloud
 

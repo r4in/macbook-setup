@@ -6,7 +6,7 @@
 Keystroke launcher for Windows and macOS
 
 ```text
-brew cask install ueli
+brew install ueli
 ```
 
 After installing, add this under Settings &gt; Application Search
@@ -17,7 +17,7 @@ After installing, add this under Settings &gt; Application Search
 The original Spotlight Search! \(Before Apple sort of copied it. hehe\)
 
 ```text
-brew cask install alfred
+brew install alfred
 ```
 
 ### **Screen Recorders**
@@ -26,35 +26,35 @@ brew cask install alfred
 A minimalist way to record videos/gifs on your screen 
 
 ```text
-brew cask install kap
+brew install kap
 ```
 
 **Loom**  
 Record audio/video of you and yourself and instantly share it from the cloud
 
 ```text
-brew cask install loom
+brew install loom
 ```
 
 **Handbrake** 🏆  
 Good video converter
 
 ```text
-brew cask install handbrake
+brew install handbrake
 ```
 
 **Hazel**  
 Automation and housekeeping on your mac
 
 ```text
-brew cask install hazel
+brew install hazel
 ```
 
 **iStat Menus**  
 Cool stats for on your menu bar
 
 ```text
-brew cask install istat-menus
+brew install istat-menus
 ```
 
 **Paste** 🏆  
@@ -69,49 +69,57 @@ mas install 1447797058
 Gives you that slack-like experience of entering emojis
 
 ```text
-brew cask install rocket
+brew install rocket
 ```
 
 **raindrop.io** 🏆  
 Great bookmarking app
 
 ```text
-brew cask install raindropio
+brew install raindropio
 ```
 
 **App Cleaner** 🏆  
 Fully uninstall apps including its preferences
 
 ```text
-brew cask install appcleaner
+brew install appcleaner
+```
+
+**Krisp.ai** 🏆  
+Removes the background noise during your calls
+
+```text
+brew install krisp
 ```
 
 **Caffeine** 🏆  
 Prevents screen from falling asleep / turning off
 
 ```text
-brew cask install caffeine
+brew install caffeine
 ```
 
 **Effortless** 🏆  
 ****_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list 
 
 ```text
-brew cask install effortless
+downlaod fomr App Store
+mas install 1368722917
 ```
 
 **f.lux** 🏆  
 Changes your screen color during nighttime \(before Apple implemented their very own NightShift\)
 
 ```text
-brew cask install flux
+brew install flux
 ```
 
 **Daisydisk**  
 Great for inspecting your HD on to know which files are taking up too much space
 
 ```text
-brew cask install daisydisk
+brew install daisydisk
 ```
 
 ### **Calendars**
@@ -120,42 +128,42 @@ brew cask install daisydisk
 Best calendar ever, syncs to everything including Google calendars and FB events!
 
 ```text
-brew cask install fantastical
+brew install fantastical
 ```
 
 **Transmission** 🏆  
 Best torrent client out there
 
 ```text
-brew cask install transmission
+brew install transmission
 ```
 
 **Numi** 🏆  
 A beautiful calculator app for Mac.
 
 ```text
-brew cask install numi
+brew install numi
 ```
 
 **The Unarchiver** 🏆  
 For extracting alot of zips
 
 ```text
-brew cask install the-unarchiver
+brew install the-unarchiver
 ```
 
 **VLC PLayer**   
 Best media player ever
 
 ```text
-brew cask install vlc
+brew install vlc
 ```
 
 **Spotify** 🏆  
 Music while working
 
 ```text
-brew cask install spotify
+brew install spotify
 ```
 
 **Microsoft Office**   
@@ -169,28 +177,28 @@ I have migrated every document I have to Google Docs. But just incase some boome
 Connect AirPods \(or other Bluetooth headphones\) to your Mac with a single click or keypress.
 
 ```text
-brew cask install toothfairy
+mas install 1191449274
 ```
 
 **Reflector 3**   
 Airplay directly from your iphone to your mac
 
 ```text
-brew cask install reflector
+brew install reflector
 ```
 
 **Karabiner Elements**  
 A powerful and stable keyboard customizer for macOS
 
 ```text
-brew cask install karabiner
+brew install karabiner
 ```
 
 **Proton VPN**  
 A good VPN to use s    
 
 ```text
-brew cask install proton
+brew install protonvpn
 ```
 
 ### 
@@ -200,13 +208,13 @@ brew cask install proton
 **Paragon NTFS**
 
 ```text
-brew cask install paragon-ntfs
+brew install paragon-ntfs
 ```
 
 **Tuxera Disk Manager**
 
 ```text
-brew cask install tuxera
+brew install tuxera
 ```
 
 ### Communication / Messaging
@@ -215,56 +223,56 @@ brew cask install tuxera
 Team communication
 
 ```text
-brew cask install slack
+brew install slack
 ```
 
 **Skype**   
 Client communication
 
 ```text
-brew cask install skype
+brew install skype
 ```
 
 **Zoom**   
 Great for group video calls
 
 ```text
-brew cask install zooomus
+brew install zooomus
 ```
 
 **Discord**  
 Great for group video calls
 
 ```text
-brew cask install discord
+brew install discord
 ```
 
 **Gitter**  
 Checkout the community
 
 ```text
-brew cask install gitter
+brew install gitter
 ```
 
 **Facebook Messenger**  
 Checkout the community
 
 ```text
-brew cask install messenger
+brew install messenger
 ```
 
 **Telegram**  
 Used once for a project's main communication tool
 
 ```text
-brew cask install telegram
+brew install telegram
 ```
 
 **Whatsapp**  
 Used as a main communication tool in some projects as well
 
 ```text
-brew cask install whatsapp
+brew install whatsapp
 ```
 
 ### 
@@ -275,14 +283,14 @@ brew cask install whatsapp
 ****My password manager of choice
 
 ```text
-brew cask install lastpass
+brew install lastpass
 ```
 
 **1Password**  
 A good password manager
 
 ```text
-brew cask install 1password
+brew install 1password
 ```
 
 ### Email Apps
@@ -291,7 +299,7 @@ brew cask install 1password
 A better email app then the default one
 
 ```text
-brew cask install edison
+brew install edison
 ```
 
 **Airmail 3** 🏆  
@@ -305,7 +313,7 @@ https://airmailapp.com/features
 A better email app then the default one
 
 ```text
-https://airmailapp.com/features
+Check website
 ```
 
 ### Menu Bar Organizer
@@ -314,21 +322,21 @@ https://airmailapp.com/features
 A simple, fast and freemium menu bar organizer.
 
 ```text
-brew cask install vanilla
+brew install vanilla
 ```
 
 **Bartender**  
 Customize your menu bar & hide unwanted icons
 
 ```text
-brew cask install bartender
+brew install bartender
 ```
 
 **Dozer**  
 A free menu bar manager
 
 ```text
-brew cask install dozer
+brew install dozer
 ```
 
 {% hint style="info" %}
@@ -343,17 +351,22 @@ I used to be on team Bartender. But the ease-of-use and simplicity of Vanilla is
 Previously called GoogleDrive, I used this to **backup everything**
 
 ```text
-brew cask install google-backup-and-sync
+brew install google-backup-and-sync
 ```
 
 **Dropbox**  
 The cloud for backing up
 
 ```text
-brew cask install dropbox
+brew install dropbox
 ```
 
-\*\*\*\*
+**Filestream**  
+For office files that you don't want to take up space on your machine
+
+```text
+brew install google-drive-file-stream
+```
 
 ### Notebooks
 
@@ -361,14 +374,14 @@ brew cask install dropbox
 The most amazing notebook I've ever had. It's more affordable than Evernote, 
 
 ```text
-brew cask install notion
+brew install notion
 ```
 
 **Evernote**  
 My first favorite app for note-taking projects
 
 ```text
-brew cask install evernote
+brew install evernote
 ```
 
 {% hint style="info" %}
@@ -383,28 +396,28 @@ Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and
 Window manager
 
 ```text
-brew cask install rectangle
+brew install rectangle
 ```
 
 **Magnet**  
 Window manager
 
 ```text
-brew cask install spectacle
+brew install spectacle
 ```
 
 **Moom**  
 Window manager
 
 ```text
-brew cask install spectacle
+brew install spectacle
 ```
 
 **Amethyst**   
 a tiling windows manager. ... Also, it supports global shortcuts for moving, focusing and changing size of the windows, as well as cycling through the layouts
 
 ```text
-brew cask install amethyst
+brew install amethyst
 ```
 
 ### \*\*\*\*
@@ -415,20 +428,20 @@ brew cask install amethyst
 Emulator for playing retro games on macOS
 
 ```text
-brew cask install openemu
+brew install openemu
 ```
 
 **Steam**  
 For playing Dota
 
 ```text
-brew cask install steam
+brew install steam
 ```
 
 **Battle.net**  
 Launcher for Diablo III and Starcraft II
 
 ```text
-brew cask install battle-net
+brew install battle-net
 ```
 

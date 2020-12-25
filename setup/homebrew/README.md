@@ -14,10 +14,10 @@ This is where we'll be installing software packages such as Git, Node.js or Pyth
 
 An important dependency before Homebrew can run is the **Command Line Tools** for **Xcode**. So make sure you completed the previous step. These include compilers that will allow you to build things from source, if you are missing this it's available through the **App Store &gt; Updates.**
 
-To install Homebrew paste the following command in your **Terminal and** hit **Enter**, and follow the steps on the screen:
+To install Homebrew paste the following command in your **Terminal** and hit enter, and follow the steps on the screen:
 
 ```text
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 To be able to use `brew` you need to start a new terminal session. Do this by opening a new terminal tab with **Cmd+T** \(you should also close the old one\), then run the following command to make sure everything is working:
@@ -26,8 +26,10 @@ To be able to use `brew` you need to start a new terminal session. Do this by op
 brew doctor
 ```
 
-## Usage
+After that, let's choose a terminal in the next section!
 
+{% tabs %}
+{% tab title="Usage" %}
 To install a package \(or **Formula** in Homebrew vocabulary\) simply type:
 
 ```text
@@ -85,4 +87,10 @@ To see what you have installed \(with their version numbers\):
 ```text
 brew list --versions
 ```
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
 

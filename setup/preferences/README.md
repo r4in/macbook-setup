@@ -8,7 +8,7 @@ If this is a new computer, there are a couple tweaks you could make to the Syste
 
 * Sign in your Apple ID to sync in your iCloud account
 
-![macOS Catalina System Preferences](../../.gitbook/assets/screenshot-2019-12-30-at-4.47.28-pm.png)
+![Big Sur System Preferences](../../.gitbook/assets/image%20%2812%29.png)
 
 {% hint style="info" %}
 These settings below are all optional, consider them suggestions.
@@ -19,14 +19,15 @@ These settings below are all optional, consider them suggestions.
 * Appearance &gt; Select **Dark**
 * Make sure **Allow Handoff between this Mac and your iCloud devices** is checked
 
-## Dock
+## Dock & Menu Bar
 
 * Size &gt; **Small**
 * Magnification &gt; **Unchecked**
 * Position on screen &gt; **Left**
 * Show recent applications in Dock &gt; **Unchecked**
+* **Spotlight** &gt; Uncheck **Show in Menu Bar**
 
-Remove workspace auto-switching by running the following command:
+Remove workspace auto-switching by running the following command in the terminal:
 
 ```text
 defaults write com.apple.dock workspaces-auto-swoosh -bool NO
@@ -38,19 +39,9 @@ and then
 killall Dock
 ```
 
-{% hint style="info" %}
-I'm not really a fan of Dark Mode UI in macOS, except for the menubar and dock. To proceed, run this command in the terminal 
-
-```text
-defaults write -g NSRequiresAquaSystemAppearance -bool Yes
-```
-
-And re-login
-{% endhint %}
-
 ## Siri
 
-* Uncheck **Show Siri in the menu bar**
+* Uncheck **Enable Ask Siri**
 
 ## Internet Accounts
 
@@ -65,13 +56,11 @@ And re-login
 * **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
 
 {% hint style="info" %}
-Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS_X_Yosemite) and resembles alot to **Alfred.** I still prefer using Alfred over Spotlight for various reasons \(Just do your research\). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Alfred anyways.
+Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS_X_Yosemite) and resembles a lot to **Alfred.** I still prefer using **Ueli** over Spotlight for various reasons \(Just do your research\). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Ueli anyways.
 {% endhint %}
 
 ## Trackpad
 
 * Point & Click
-  * Check **Tap to click with one finger** 
-* Scroll & Zoom
-  * Uncheck all except for **Zoom in and out**
+  * Check **Tap to click**
 

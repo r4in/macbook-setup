@@ -12,7 +12,7 @@ description: >-
 Top tool for brainstorming / design sprint activities
 
 ```text
-brew cask install miro
+brew install miro
 ```
 
 
@@ -23,14 +23,14 @@ brew cask install miro
 My current favourite collaborative UI design tool.
 
 ```text
-brew cask install figma
+brew install figma
 ```
 
 **Sketch**  
 My ex-digital design tool
 
 ```text
-brew cask install sketch
+brew install sketch
 ```
 
 {% hint style="info" %}
@@ -63,9 +63,18 @@ brew cask install adobe-creative-cloud
 
 Download the [Adobe Creative Cloud](https://www.adobe.com/sea/creativecloud.html) first, and after installing it - that's where you find these apps.
 
+### **3d Stuff**
+
+**Blender**  
+A 3d tool
+
+```text
+brew cask install blender 
+```
+
   
 **Spline**  
-A design tool for 3d
+A design tool for animating 3d
 
 {% embed url="https://spline.design/" %}
 
@@ -77,7 +86,7 @@ A design tool for 3d
 Its version control for Sketch
 
 ```text
-brew cask install abstract
+brew install abstract
 ```
 
 {% hint style="info" %}
@@ -88,11 +97,11 @@ I work mostly with Figma - and it has version control baked in already.
 Design to developer handoff
 
 ```text
-brew cask install zeplin
+brew install zeplin
 ```
 
 {% hint style="info" %}
-My favourite developer handoff tool that integrates nicely with Slack. A bit redundant if you use the Invision + Sketch combo. And very redundant if you're using Figma.
+My favorite developer handoff tool that integrates nicely with Slack. A bit redundant if you use the Invision + Sketch combo. And very redundant if you're using Figma.
 {% endhint %}
 
 **Craft**  
@@ -111,14 +120,12 @@ An icon Manager
 
 ```text
 brew cask install iconjar
-brew cask install nucleo
 ```
 
 **Nucleo**  
 An icon Manager
 
 ```text
-brew cask install iconjar
 brew cask install nucleo
 ```
 
@@ -134,7 +141,7 @@ I used to be a fan of using icon fonts for design & development because of the e
 A ****Fast, Simple, & Free Open Source Webfont Converter
 
 ```text
-brew cask install fontplop
+brew install fontplop
 ```
 
 {% hint style="info" %}
@@ -149,7 +156,7 @@ Converting OTF / TTF font files to @font-face used to be a drag and drop thing I
 Image compression tools
 
 ```text
-brew cask install imageoptim
+brew install imageoptim
 ```
 
 **Optimage** [🏆](https://emojipedia.org/trophy/)
@@ -157,7 +164,7 @@ brew cask install imageoptim
 Image compression tools
 
 ```text
-brew cask install optimage
+brew install optimage
 ```
 
 {% hint style="info" %}
@@ -173,7 +180,7 @@ Each of these prototyping tools has their own set of pros and cons. Find and use
 **Principle**
 
 ```text
-brew cask install principle
+brew install principle
 ```
 
 **Flinto**
@@ -185,13 +192,13 @@ https://www.flinto.com
 **Framer**
 
 ```text
-brew cask install framer
+brew install framer
 ```
 
 **Origami Studio**
 
 ```text
-brew cask install origami-studio
+brew install origami-studio
 ```
 
 
@@ -202,27 +209,27 @@ brew cask install origami-studio
 A nice font manager
 
 ```text
-brew cask install rightfont
+brew  install rightfont
 ```
 
 **Typeface App**  
 A nice font manager
 
 ```text
-brew cask install tyepfaceapp
+appstore
 ```
 
 **FontBase**  
 A nice font manager
 
 ```text
-brew cask install fontbase
+brew install fontbase
 ```
 
 **SIP**  
 A better Color Picker for your Mac.
 
 ```text
-brew cask install sip
+brew install sip
 ```
 

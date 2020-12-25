@@ -7,7 +7,7 @@ Hyper is an Electron-based terminal built on HTML/CSS/JS. I like how less config
 To install, simply run the following in your terminal:
 
 ```text
-brew cask install hyper
+brew install hyper
 ```
 
 ## Theme
@@ -30,6 +30,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 **Pure** is a pretty, minimal and fast ZSH prompt [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
 
+But you'll need node installed first:
+
+```text
+brew install node
+```
+
+Then, to install:
+
 ```text
 npm install --global pure-prompt
 ```
@@ -41,6 +49,26 @@ And add this to the end of your ~/.zshrc
 autoload -U promptinit; promptinit
 prompt pure
 ```
+
+##  <a id="d7f5"></a>
+
+### Oh My Zsh
+
+1. Clone this repository into `$ZSH_CUSTOM/plugins` \(by default `~/.oh-my-zsh/custom/plugins`\)
+
+   ```text
+   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   ```
+
+2. Add the plugin to the list of plugins for Oh My Zsh to load \(inside `~/.zshrc`\):
+
+   ```text
+   plugins=(zsh-autosuggestions)
+   ```
+
+3. Start a new terminal session.
+
+##  <a id="7681"></a>
 
 ## Zsh autosuggestions <a id="d7f5"></a>
 

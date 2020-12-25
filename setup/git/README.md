@@ -37,6 +37,8 @@ You can generate ssh keys for your machine by running
 ssh-keygen
 ```
 
+Press enter thrice.
+
 You can checkout your public key by navigating to
 
 ```text

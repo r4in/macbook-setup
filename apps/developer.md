@@ -4,18 +4,18 @@ Most of the development tools found here are geared toward frontend development,
 
 ### **Terminal**
 
-**iTerm** [🏆](https://emojipedia.org/trophy/)  
+**iTerm**  
 Your terminal on steroids
 
 ```text
-brew cask install iterm2
+brew install iterm2
 ```
 
-**Hyper**  
+**Hyper**  [🏆](https://emojipedia.org/trophy/)  
 A terminal built on web technologies.
 
 ```text
-https://hyper.is/
+brew install hyper
 ```
 
 
@@ -32,7 +32,8 @@ Since our move to VS Code from Sublime, alot of people are using the built-in te
 It's the IRC for geeks
 
 ```text
-http://limechat.net/mac/
+Only downloadable from the App Store
+mas install 414030210
 ```
 
 {% hint style="info" %}
@@ -43,7 +44,7 @@ When googling errors on Stackoverflow fails,  I use mostly Limechat for asking  
 Chat tool
 
 ```text
-brew cask install gitter
+brew  install gitter
 ```
 
 ### \*\*\*\*
@@ -54,7 +55,7 @@ brew cask install gitter
 Apache + mySQL + PHP stack \(for Wordpress development\)
 
 ```text
-brew cask install mamp
+brew  install mamp
 ```
 
 {% hint style="info" %}
@@ -83,6 +84,10 @@ The Lean Github Gist Client
 brew cask install lepton
 ```
 
+if you have bought it:
+
+`mas install 866773894`
+
 {% hint style="info" %}
 I'm starting to move to this one because first of all - the gists syncs up on github \(which is great for sharing\) and it's completely FREE.
 {% endhint %}
@@ -95,7 +100,7 @@ I'm starting to move to this one because first of all - the gists syncs up on gi
 A nice database tool
 
 ```text
-brew cask install sequel-pro
+brew install sequel-pro
 ```
 
 {% hint style="info" %}
@@ -110,14 +115,14 @@ There are times when I want to modify the database tables easily in a GUI \(Comm
 Simply the best FTP client, it has a price tag tho
 
 ```text
-brew cask install transmit
+brew install transmit
 ```
 
 **Filezilla**   
 It works, gets the job done and most of all - it's FREE!
 
 ```text
-brew cask install filezilla
+brew install filezilla
 ```
 
 ### \*\*\*\*
@@ -128,14 +133,14 @@ brew cask install filezilla
 Select your weapon of choice
 
 ```text
-brew cask install sublime-text
+brew install sublime-text
 ```
 
 **VS Code** [🏆](https://emojipedia.org/trophy/)  
 Select your weapon of choice
 
 ```text
-brew cask install visual-studio-code
+brew install visual-studio-code
 ```
 
 ### 
@@ -146,31 +151,29 @@ brew cask install visual-studio-code
 Select more weapons of choice
 
 ```text
-brew cask install firefox
+brew install firefox
 ```
 
-**Chrome**  
+**Chrome** 🏆  
 Select more weapons of choice
 
 ```text
-brew cask install goggle-chrome
+brew install goggle-chrome
 ```
 
 **Brave**  
 Select more weapons of choice
 
 ```text
-brew cask install brave-browser
+brew install brave-browser
 ```
 
 **Opera**  
 Select more weapons of choice
 
 ```text
-brew cask install opera
+brew install opera
 ```
-
-
 
 ### **Others**
 
@@ -178,6 +181,6 @@ brew cask install opera
 Why not**?**
 
 ```text
-brew cask install docker
+brew install docker
 ```
 

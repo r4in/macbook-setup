@@ -12,6 +12,10 @@ Open the `.gitignore` file using your favourite text editor and add these below:
 # Folder view configuration files
 .DS_Store
 Desktop.ini
+.LSOverride
+
+# Icon must end with two \r
+Icon
 
 # Thumbnail cache files
 ._*
@@ -24,9 +28,18 @@ Thumbs.db
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
+.Spotlight-V100
 .TemporaryItems
+.Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # Compiled Python files
 *.pyc

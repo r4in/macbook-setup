@@ -1,5 +1,7 @@
 # Intro
 
+Oh, hello there! Here contains some of the apps and tools we use on a daily basis. Apps we love are are marked with a [🏆](https://emojipedia.org/trophy/#:~:text=The%20trophy%20emoji%20is%20a,to%20Emoji%201.0%20in%202015.) emoji in its category. You don't need to install everything. Take what you need and experiment what best works for you. 
+
 ## Installation
 
 As much as possible, I do try to install everything using Homebrew because I find updating and managing these apps faster on the terminal.
@@ -8,7 +10,7 @@ As much as possible, I do try to install everything using Homebrew because I fin
 brew cask install <app-name>
 ```
 
-However, not everything is available on the caskroom, such as Adobe Creative Cloud \(Photoshop, Illustrator, ect\), so there will be a few exceptions of course.
+However, not everything is available on the caskroom, such as Adobe Creative Cloud \(Photoshop, Illustrator, ect\), so there will be a few exceptions of course. Which is why some of the apps will be install via mas \(Mac AppStore\) command-line
 
 ## Pro Tip
 
