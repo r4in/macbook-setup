@@ -9,6 +9,10 @@ Keystroke launcher for Windows and macOS
 brew cask install ueli
 ```
 
+After installing, add this under Settings &gt; Application Search
+
+`/System/Applications` 
+
 **Alfred**  
 The original Spotlight Search! \(Before Apple sort of copied it. hehe\)
 
@@ -57,7 +61,8 @@ brew cask install istat-menus
 The best clipboard to have in macOS
 
 ```text
-brew cask install paste
+downlaod online
+mas install 1447797058
 ```
 
 **Rocket** 🏆  
@@ -129,7 +134,7 @@ brew cask install transmission
 A beautiful calculator app for Mac.
 
 ```text
-brew cask install ueli
+brew cask install numi
 ```
 
 **The Unarchiver** 🏆  
