@@ -54,6 +54,10 @@ killall Dock
 ## Keyboard
 
 * **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
+* Under **Text**, uncheck the following:
+  * Correct spelling automatically
+  * Capitalize words automatically
+  * Add period with double space
 
 {% hint style="info" %}
 Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS_X_Yosemite) and resembles a lot to **Alfred.** I still prefer using **Ueli** over Spotlight for various reasons \(Just do your research\). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Ueli anyways.
