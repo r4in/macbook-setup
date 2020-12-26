@@ -6,12 +6,20 @@
 Keystroke launcher for Windows and macOS
 
 ```text
-brew install ueli
+brew install ueli 
 ```
 
-After installing, add this under Settings &gt; Application Search
+{% tabs %}
+{% tab title="Why Ueli?" %}
+I got used to using `option + cmd` to open keystroke launchers \(Alfred\) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.
+{% endtab %}
 
-`/System/Applications` 
+{% tab title="Customizations" %}
+After installing, add this under **Settings &gt; Application Search**
+
+`/System/Applications`
+{% endtab %}
+{% endtabs %}
 
 **Alfred**  
 The original Spotlight Search! \(Before Apple sort of copied it. hehe\)
@@ -23,17 +31,41 @@ brew install alfred
 ### **Screen Recorders**
 
 **Kap** 🏆  
-A minimalist way to record videos/gifs on your screen 
+A minimalist way to record videos / gifs on your screen 
 
 ```text
 brew install kap
 ```
 
-**Loom**  
+**Loom** 🏆  
 Record audio/video of you and yourself and instantly share it from the cloud
 
 ```text
 brew install loom
+```
+
+{% tabs %}
+{% tab title="Why Loom?" %}
+Loom is great and seamless, especially for sending screen recordings + video of your self to clients. However, the free tier only offers 5 minutes.
+{% endtab %}
+{% endtabs %}
+
+
+
+### System Monitors
+
+**Stats** 🏆  
+A free macOS system monitor in your menu bar
+
+```text
+brew install stats
+```
+
+**iStat Menus**  
+A paid macOS system monitor in your menu bar
+
+```text
+brew install istat-menus
 ```
 
 **Handbrake** 🏆  
@@ -50,14 +82,9 @@ Automation and housekeeping on your mac
 brew install hazel
 ```
 
-**iStat Menus**  
-Cool stats for on your menu bar
+### 
 
-```text
-brew install istat-menus
-```
-
-**Paste** 🏆  
+**Paste - Clipboard Manager** 🏆  
 The best clipboard to have in macOS
 
 ```text
@@ -104,7 +131,7 @@ brew install caffeine
 ****_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list 
 
 ```text
-downlaod fomr App Store
+download from App Store
 mas install 1368722917
 ```
 
@@ -130,6 +157,25 @@ Best calendar ever, syncs to everything including Google calendars and FB events
 ```text
 brew install fantastical
 ```
+
+{% tabs %}
+{% tab title="Why Fantastical" %}
+It's really smart when adding events - which autodetects the time, location and place!
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
+
+**Calendar 366 II**  
+A good free alternative with Fantastical-like functionalities
+
+```text
+brew install fantastical
+```
+
+\*\*\*\*
 
 **Transmission** 🏆  
 Best torrent client out there
