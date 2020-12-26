@@ -10,7 +10,7 @@ If this is a new computer, there are a couple tweaks you could make to the Syste
 
 ![Big Sur System Preferences](../../.gitbook/assets/image%20%2812%29.png)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 These settings below are all optional, consider them suggestions.
 {% endhint %}
 

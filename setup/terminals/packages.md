@@ -1,10 +1,43 @@
 # Packages
 
+### Trash
 
+Not really a big fan of `rm` so heres a better alternative: [https://github.com/sindresorhus/trash](https://github.com/sindresorhus/trash)
+
+#### Installation
+
+You will need **Node** in order to install this package, to install Node:
+
+```text
+brew install node
+```
+
+And to install trash:
+
+```text
+npm install trash
+```
 
 {% hint style="info" %}
 If you are already familiar with the folllowing below, here's a setup script that install everything below.
 {% endhint %}
+
+### Z
+
+Z is actually not part of Zsh, but its a really cool way to jump to frecent folders. It makes navigating through the file system a breeze.
+
+To install:
+
+```text
+brew install z
+```
+
+Also, don't forget to add this to your .zshrc file
+
+```text
+# include Z
+. /usr/local/etc/profile.d/z.sh
+```
 
 ### Youtube-dl
 
@@ -114,4 +147,8 @@ brew install trash
 * Help: `trash —- help`
 
 [trashThis page uses some Javascript; please turn it on in your browser. This is a small command-line program for OS X that…hasseg.org](https://hasseg.org/trash/)
+
+## You-Get <a id="5c4c"></a>
+
+[You-Get](https://you-get.org/) is similar to wget and youtube-dl combined, but with more flexible support for many more platforms and web formats. I use this often to grab videos from Twitter, Facebook, and even Instagram.
 

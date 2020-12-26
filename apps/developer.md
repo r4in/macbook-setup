@@ -8,17 +8,15 @@ Most of the development tools found here are geared toward frontend development,
 Your terminal on steroids
 
 ```text
-brew install iterm2
+brew install --cask iterm2
 ```
 
 **Hyper**  [🏆](https://emojipedia.org/trophy/)  
 A terminal built on web technologies.
 
 ```text
-brew install hyper
+brew install --cask hyper
 ```
-
-
 
 {% hint style="info" %}
 Since our move to VS Code from Sublime, alot of people are using the built-in terminal window in it. Depending on your setup - it's up to you if you feel like running lots of different processes on different terminal windows.
@@ -26,13 +24,16 @@ Since our move to VS Code from Sublime, alot of people are using the built-in te
 
 ### \*\*\*\*
 
-### **IRC,** Instant Messaging and Chat
+### **IRC &** Instant Messaging
 
 **Limechat**  
 It's the IRC for geeks
 
+{% embed url="https://apps.apple.com/us/app/limechat/id414030210?mt=12" %}
+
+If you already have previously installed it, you can run 
+
 ```text
-Only downloadable from the App Store
 mas install 414030210
 ```
 
@@ -41,13 +42,20 @@ When googling errors on Stackoverflow fails,  I use mostly Limechat for asking  
 {% endhint %}
 
 **Gitter**  
-Chat tool
+Chat tool for communities
 
 ```text
-brew  install gitter
+brew install --cask gitter
 ```
 
-### \*\*\*\*
+**Spectrum**  
+Chat tool for communities
+
+```text
+brew  install --cask spectrum
+```
+
+\*\*\*\*
 
 ### **Local Server Environments**
 
@@ -55,7 +63,7 @@ brew  install gitter
 Apache + mySQL + PHP stack \(for Wordpress development\)
 
 ```text
-brew  install mamp
+brew install --cask mamp
 ```
 
 {% hint style="info" %}
@@ -81,12 +89,8 @@ I was always looking for a great way to store quick code snippets I could access
 The Lean Github Gist Client
 
 ```text
-brew cask install lepton
+brew install --cask lepton
 ```
-
-if you have bought it:
-
-`mas install 866773894`
 
 {% hint style="info" %}
 I'm starting to move to this one because first of all - the gists syncs up on github \(which is great for sharing\) and it's completely FREE.
@@ -100,7 +104,7 @@ I'm starting to move to this one because first of all - the gists syncs up on gi
 A nice database tool
 
 ```text
-brew install sequel-pro
+brew install --cask sequel-pro
 ```
 
 {% hint style="info" %}
@@ -115,14 +119,14 @@ There are times when I want to modify the database tables easily in a GUI \(Comm
 Simply the best FTP client, it has a price tag tho
 
 ```text
-brew install transmit
+brew install --cask transmit
 ```
 
 **Filezilla**   
 It works, gets the job done and most of all - it's FREE!
 
 ```text
-brew install filezilla
+brew install --cask filezilla
 ```
 
 ### \*\*\*\*
@@ -133,14 +137,14 @@ brew install filezilla
 Select your weapon of choice
 
 ```text
-brew install sublime-text
+brew install --cask sublime-text
 ```
 
 **VS Code** [🏆](https://emojipedia.org/trophy/)  
 Select your weapon of choice
 
 ```text
-brew install visual-studio-code
+brew install --cask visual-studio-code
 ```
 
 ### 
@@ -151,28 +155,28 @@ brew install visual-studio-code
 Select more weapons of choice
 
 ```text
-brew install firefox
+brew install --cask firefox
 ```
 
 **Chrome** 🏆  
 Select more weapons of choice
 
 ```text
-brew install goggle-chrome
+brew install --cask goggle-chrome
 ```
 
 **Brave**  
 Select more weapons of choice
 
 ```text
-brew install brave-browser
+brew install --cask brave-browser
 ```
 
 **Opera**  
 Select more weapons of choice
 
 ```text
-brew install opera
+brew install --cask opera
 ```
 
 ### **Others**
@@ -181,6 +185,6 @@ brew install opera
 Why not**?**
 
 ```text
-brew install docker
+brew install --cask docker
 ```
 

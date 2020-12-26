@@ -7,7 +7,7 @@ Oh, hello there! Here contains some of the apps and tools we use on a daily basi
 As much as possible, I do try to install everything using Homebrew because I find updating and managing these apps faster on the terminal.
 
 ```text
-brew cask install <app-name>
+brew install --cask <app-name>
 ```
 
 However, not everything is available on the caskroom, such as Adobe Creative Cloud \(Photoshop, Illustrator, ect\), so there will be a few exceptions of course. Which is why some of the apps will be install via mas \(Mac AppStore\) command-line

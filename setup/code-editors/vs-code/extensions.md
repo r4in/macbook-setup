@@ -1,7 +1,7 @@
 # Extensions
 
-**Atom One Dark Theme**  
-VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme.
+**One Dark Pro**  
+Atom's iconic One Dark theme for Visual Studio Code
 
 ![](../../../.gitbook/assets/preview-1.png)
 

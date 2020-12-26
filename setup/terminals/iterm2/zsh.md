@@ -20,7 +20,9 @@ What we'll need to do is to add `fpath=(path/to/zsh-completions/src $fpath)` to 
 
 Now let's use a framework built on top of this shell called **Oh My Zsh!**
 
-## Install Oh My Zsh!
+## Shell
+
+### Oh My Zsh
 
 Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and super-charge your terminal!
 
@@ -64,7 +66,7 @@ open ~/.zshrc
 
 ### **How to add plugins?**
 
-To add plugin we need to search and add these strings of text to our current plugins list in the .**zshrc file**
+To add plugin we need to search and add these strings of text to our current plugins list in the .**zshrc file.** Example:
 
 ```text
 plugins=(
@@ -73,8 +75,6 @@ plugins=(
 ```
 
 You can also manually select things you want to add from [this plugins list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins).
-
-Aside from that, there are also plugins that goes beyond autocompleting - [check this list](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview) out. One of my picks are **extract** - for extracting zips in the terminal. This really depends on what you use/need so feel free to customize.
 
 ## Homebrew Stuff To Do
 

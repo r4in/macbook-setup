@@ -29,8 +29,8 @@ sudo '/Applications/Install macOS Big Sur.app/Contents/Resources/createinstallme
 
 ## Backup Checklist
 
-* [ ] Files on the **Downloads** folder
 * [ ] Files on the **Desktop** folder
+* [ ] Files on the **Downloads** folder
 * [ ] Files on the **Documents** folder I recommend Google Docs/Sheets
 * [ ] Files on the **Pictures** folder  I recommend Google Photos
 * [ ] Your **Git** folder I recommend Github or Bitbucket
@@ -58,32 +58,29 @@ Before, I used to back everything up to an external hard drive. Now, I sync all 
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
-**Warning** There's no going back after this point, so be sure to backup your files to the cloud. And if you don't feel comfortable with it, just do a manual backup using your external hard drive.
-{% endhint %}
-
 ## Let The Purge Begin
 
 Now it's time to take a deep breath, shutdown your machine, and hope there won't be regrets. 🐵
 
+{% hint style="warning" %}
+**Warning** There's no going back after this point, so be sure to backup your files to the cloud. And if you don't feel comfortable with it, just do a manual backup using your external hard drive.
+{% endhint %}
+
 Insert the bootable USB and upon pressing the power key, **hold the option key** until it loads up a screen which prompts you to choose which device you want to boot from. So select the thumb drive with the macOS installer.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 Select **Disk Utility** and click **Continue**. 
 
-![](../.gitbook/assets/testestest.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
-Next thing you wanna do is clear out your hard drive by clicking on the your Internal SSD Drive \(_APPLE SSD SM05_.. in this example\) and hitting Erase. This will reformat your drive. Choose **Apple File System \(APFS\).** After that, go back and click on Reinstall OS X.
+Currently what you see here are the drive partitions. What we want to do is to wipe up the whole hard drive. Select **View** &gt; **Show All Devices**
 
-{% hint style="warning" %}
-There's are reported issues with macOS Catalina where it does fully erase the whole drive. If that happens, follows these steps below. \(Thanks for the heads up [@jermaineldilao](https://jermainedilao.github.io/)\)
+Then select the physical storage device you want to erase \(ex. _APPLE SSD AP0512J Media_\), then click **Erase**
 
-* open Disk Utility
-* go to view menu and check the "show All Devices"
-* You will see some options \(Macintosh HD\) on Container-disk1 and one of them is unmounted \(Macintosh HD - Data\). select that one and mount it.
-* finally restart your Mac
-{% endhint %}
+Select **GUID Partition Map** and **Apple File System \(APFS\)** for the file system format. Then enter a name.
 
-After that, the process is pretty much straightforward into a series of clicking next.
+After that, go back and click on Reinstall OS X.
+
+The process is pretty much straightforward into a series of clicking **next**.
 

@@ -1,14 +1,19 @@
+---
+description: The missing package manager for macOS
+---
+
 # Homebrew
 
-[Homebrew](https://brew.sh/) a.k.a. **The missing package manager for macOS**
-
 ![Updating GUI apps and packages has never been this easy](../../.gitbook/assets/image%20%281%29.png)
-
-Why do you need this?
 
 > A package manager or package management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.
 
 This is where we'll be installing software packages such as Git, Node.js or Python. We can also install GUI apps such as Google Chrome, Slack or Skype.
+
+{% hint style="warning" %}
+**Why do you need this?**  
+Homebrew works great for managing for automating the process of installing, upgrading, configuring software packages that you can't normally install using the App Store. 
+{% endhint %}
 
 ## Installation
 

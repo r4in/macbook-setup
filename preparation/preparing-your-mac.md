@@ -4,7 +4,7 @@
 
 Within a year, your machine will start to accumulate a lot of dust. When this happens - your fans will have to work harder to dissipate heat. And when your CPU gets too hot, your machine throttle downs CPU performance. \(If you see `kernal_task` eating up 80-90% on your processes, it's definitely happening\)
 
-![You can see kernal\_task running at 2.8%. I&apos;m using iStats for realtime status reports](../.gitbook/assets/image%20%284%29.png)
+![You can see kernal\_task running at 2.8%.](../.gitbook/assets/image%20%284%29.png)
 
 You can have it cleaned over at your local iStore, which probably costs around Php800 \(Around $16\) or you can do it yourself if you have the tools.  
 

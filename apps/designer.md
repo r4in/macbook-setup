@@ -1,10 +1,30 @@
----
-description: >-
-  At the end of the day, tools are just tools. Feel free to explore what works
-  for your workflow. Checkout https://uxtools.co/survey-2020/
----
-
 # Design Tools
+
+At the end of the day, tools are just tools. Feel free to explore what works for your workflow. Checkout [https://uxtools.co/survey-2020/](https://uxtools.co/survey-2020/)
+
+### **Essentials**
+
+**Adobe Creative Cloud**  🏆
+
+Creative Cloud is basically a launcher for you to download Adobe apps. 
+
+```text
+brew install --cask adobe-creative-cloud
+```
+
+You can install whatever you need. What I only need tho is:
+
+* Adobe Photoshop CC 2020
+* Adobe Illustrator CC 2020
+
+**SIP**  
+A better Color Picker for your Mac.
+
+```text
+brew install sip
+```
+
+\*\*\*\*
 
 ### **UX Tools**
 
@@ -12,8 +32,13 @@ description: >-
 Top tool for brainstorming / design sprint activities
 
 ```text
-brew install miro
+brew install --cask miro
 ```
+
+**Mural**  
+It's like Miro
+
+{% embed url="https://www.mural.co" %}
 
 
 
@@ -23,70 +48,60 @@ brew install miro
 My current favourite collaborative UI design tool.
 
 ```text
-brew install figma
+brew install --cask figma
 ```
 
 **Sketch**  
 My ex-digital design tool
 
 ```text
-brew install sketch
+brew install --cask sketch
 ```
 
 {% hint style="info" %}
-Sketch is an amazing tool I used from 2016 to 2018. Then I switched to Figma due to the remote and collaborative nature of my work setup. One thing that I initially missed on Sketch was the power of plugins, however - Figma was able to catch up with that this year.
+Sketch is an amazing tool I used from 2016 to 2018. Then I switched to Figma due to the remote and collaborative nature of my work setup. One thing that I initially missed on Sketch was the power of plugins, however - Figma was able to catch up with it. And the cross-platform collaboration is just too hard to pass.
 {% endhint %}
+
+**Adobe XD**  
+For those loyal to the Adobe ecosystem. Can only be installed though the Adobe Creative Cloud launcher
+
+{% embed url="https://www.adobe.com/sea/products/xd.html" %}
 
 **Invision Studio**  
 The upcoming design, prototyping and animation tool.
 
-```text
-https://www.invisionapp.com/studio
-```
+{% embed url="https://www.invisionapp.com/studio" %}
 
 {% hint style="info" %}
 This tool has super promising features but a year later - it still hasn't really took off. I used it once for a project, however one thing I liked about it is the ease of using when prototyping with simple transitions & animations.
 {% endhint %}
 
-### Others
+\*\*\*\*
 
-**Adobe Creative Cloud**  
-
-What I usually need are just:
-
-* Adobe Photoshop CC 2020
-* Adobe Illustrator CC 2020
-
-```text
-brew cask install adobe-creative-cloud
-```
-
-Download the [Adobe Creative Cloud](https://www.adobe.com/sea/creativecloud.html) first, and after installing it - that's where you find these apps.
-
-### **3d Stuff**
+### **3D Rendering & Animation**
 
 **Blender**  
 A 3d tool
 
 ```text
-brew cask install blender 
+brew install --cask blender 
 ```
 
   
 **Spline**  
-A design tool for animating 3d
+A design tool for animating 3D
 
 {% embed url="https://spline.design/" %}
 
 
 
-### **Sketch App Plugins & Tools**
+### **Sketch Plugins & Tools**
 
 **Abstract**  
 Its version control for Sketch
 
 ```text
-brew install abstract
+brew install --cask abstract
 ```
 
 {% hint style="info" %}
@@ -97,7 +112,7 @@ I work mostly with Figma - and it has version control baked in already.
 Design to developer handoff
 
 ```text
-brew install zeplin
+brew install --cask zeplin
 ```
 
 {% hint style="info" %}
@@ -108,7 +123,7 @@ My favorite developer handoff tool that integrates nicely with Slack. A bit redu
 Excellent plugin for Sketch from Invision
 
 ```text
-https://www.invisionapp.com/craft
+brew install --cask craftmanager
 ```
 
 ### \*\*\*\*
@@ -119,29 +134,31 @@ https://www.invisionapp.com/craft
 An icon Manager
 
 ```text
-brew cask install iconjar
+brew install --cask iconjar
 ```
 
 **Nucleo**  
 An icon Manager
 
 ```text
-brew cask install nucleo
+brew install --cask nucleo
 ```
 
-{% hint style="info" %}
-I used to be a fan of using icon fonts for design & development because of the ease of use. However, I realized loading a font file is a another http request and might be render-blocking \(if you happen to have it on the top fold of the page\) Since the dawn of svg, its actually much more lighter
+{% hint style="warning" %}
+I used to be a fan of using icon fonts for design & development because of the ease of use. However, I realized loading a font file is a another http request and might be render-blocking \(if you happen to have it on the top fold of the page\) Since the dawn of svg, its actually much more lighter  
+  
+Also, I find myself lately relying more on icon pack libraries in **Figma,** rather than these apps. But it doesn't hurt to have one just incase you need to open it from other apps aside from Figma.
 {% endhint %}
 
 ### 
 
 ### **Webfont Generator**
 
-**Fontplop**🏆  
+**Fontplop** 🏆  
 A ****Fast, Simple, & Free Open Source Webfont Converter
 
 ```text
-brew install fontplop
+brew install --cask fontplop
 ```
 
 {% hint style="info" %}
@@ -156,19 +173,18 @@ Converting OTF / TTF font files to @font-face used to be a drag and drop thing I
 Image compression tools
 
 ```text
-brew install imageoptim
+brew install --cask imageoptim
 ```
 
-**Optimage** [🏆](https://emojipedia.org/trophy/)
-
+**Optimage** [🏆](https://emojipedia.org/trophy/)  
 Image compression tools
 
 ```text
-brew install optimage
+brew install --cask optimage
 ```
 
-{% hint style="info" %}
-Optimizing images should be already baked in your frontend tooling \(by running image optimizing npm packages using gulp, react, grunt, ect.\) But just incase you need to do it manually, here are some good ones. ImageOptim is free, but the paid alternative Optimage [might be better](https://optimage.app/benchmark). But with most frontend tooling utilizing image compression already - you decide.
+{% hint style="warning" %}
+Optimizing images should be already baked in your frontend tooling \(by running image optimizing npm packages using gulp, react, grunt, ect.\) But just incase you need to do it manually, here are some good ones. ImageOptim is free, but the paid alternative Optimage [might be better](https://optimage.app/benchmark). But most frontend tooling, utilizes image compression packages already - you decide.
 {% endhint %}
 
 ### \*\*\*\*
@@ -180,25 +196,23 @@ Each of these prototyping tools has their own set of pros and cons. Find and use
 **Principle**
 
 ```text
-brew install principle
+brew install --cask principle
 ```
 
 **Flinto**
 
-```text
-https://www.flinto.com
-```
+{% embed url="https://www.flinto.com" %}
 
 **Framer**
 
 ```text
-brew install framer
+brew install --cask framer
 ```
 
 **Origami Studio**
 
 ```text
-brew install origami-studio
+brew install --cask origami-studio
 ```
 
 
@@ -209,27 +223,22 @@ brew install origami-studio
 A nice font manager
 
 ```text
-brew  install rightfont
+brew install --cask rightfont
 ```
 
 **Typeface App**  
 A nice font manager
 
 ```text
-appstore
+brew install --cask typeface
 ```
 
 **FontBase**  
 A nice font manager
 
 ```text
-brew install fontbase
+brew install --cask fontbase
 ```
 
-**SIP**  
-A better Color Picker for your Mac.
 
-```text
-brew install sip
-```
 
