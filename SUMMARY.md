@@ -9,9 +9,9 @@
 
 ## Setup
 
+* [Xcode](setup/xcode.md)
 * [System Preferences](setup/preferences/README.md)
   * [Finder](setup/preferences/finder.md)
-* [Xcode](setup/xcode.md)
 * [Homebrew](setup/homebrew/README.md)
   * [Cask](setup/homebrew/cask.md)
   * [Cask Upgrade](setup/homebrew/cask-upgrade.md)
