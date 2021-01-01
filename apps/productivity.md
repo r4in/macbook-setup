@@ -122,12 +122,6 @@ Music while working
 brew install --cask spotify
 ```
 
-**Microsoft Office** 
-
-They're recently switched to a subscription-based model like Adobe
-
-{% embed url="https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12" %}
-
 **ToothFairy**   
 Connect AirPods \(or other Bluetooth headphones\) to your Mac with a single click or keypress.
 
@@ -161,6 +155,22 @@ brew install --cask protonvpn
 ```
 
 ### 
+
+### **Documents, Spreadsheets & Presentations**
+
+**Microsoft Office**   
+They're recently switched to a subscription-based model like Adobe
+
+{% embed url="https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12" %}
+
+**WPS Office**  
+A promising cross-platform that is like Microsoft Office but better than LibreOffice
+
+```text
+brew install --cask wpsoffice
+```
+
+\*\*\*\*
 
 ### Keystroke Launchers
 
