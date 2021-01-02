@@ -287,7 +287,7 @@ brew install --cask tuxera-ntfs
 ```
 
 {% hint style="danger" %}
-As of this writing \(12/26/2020\) These currently is no support yet from **Tuxera** and **Paragon** for Big Sur.
+As of this writing \(12/26/2020\) These currently is no support yet from **Tuxera** for Big Sur.
 {% endhint %}
 
 
