@@ -274,6 +274,8 @@ brew install --cask calendar-366
 
 ### NTFS Tools
 
+MacOS can't natively write files to NTFS formatted drives \(most likely your external drive\). Here are some solutions:
+
 **Paragon NTFS**   
 A paid way to copy NTFS drives without much configs needed
 
