@@ -37,7 +37,7 @@ You can generate ssh keys for your machine by running
 ssh-keygen
 ```
 
-Press enter thrice.
+Then, press enter thrice.
 
 You can checkout your public key by navigating to
 
@@ -45,5 +45,13 @@ You can checkout your public key by navigating to
 cd ~/.ssh
 ```
 
-And you should be seeing **id\_rsa** _****_\(your private key\) and **id\_rsa.pub** your public key
+Type `ls -a` and you should be seeing **id\_rsa** _****_\(your private key\) and **id\_rsa.pub \(**your public key\)
+
+![](../../.gitbook/assets/image%20%2819%29.png)
+
+Then type `cat id_rsa.pub` to see your public key so you could copy paste it to your Github/Bitbucket
+
+
+
+
 
