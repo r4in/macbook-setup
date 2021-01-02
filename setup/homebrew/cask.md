@@ -26,13 +26,11 @@ To install, simple type
 brew tap buo/cask-upgrade
 ```
 
-To use it
+To update all apps in one line:
 
 ```text
-brew cu --all
+brew cu -fa
 ```
 
-{% hint style="danger" %}
-**Brew Update** : There has been a recent update that brew automatically updates the casks too when running ``brew upgrade `outdated```, which makes installing Cask Upgrade optional now.
-{% endhint %}
+\*\*\*\*
 
