@@ -56,7 +56,7 @@ brew install --cask krisp
 ```
 
 **Caffeine** 🏆  
-Prevents screen from falling asleep / turning off
+Prevents screen from falling asleep / turning off with one click
 
 ```text
 brew install --cask caffeine
