@@ -261,10 +261,6 @@ brew install --cask fantastical
 {% tab title="Why Fantastical" %}
 It's really smart when adding events - which autodetects the time, location and place!
 {% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
 {% endtabs %}
 
 **Calendar 366 II**  
