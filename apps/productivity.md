@@ -274,23 +274,35 @@ brew install --cask calendar-366
 
 ### NTFS Tools
 
-**Paragon NTFS**
+**Paragon NTFS**   
+A paid way to copy NTFS drives without much configs needed
 
 ```text
 brew install --cask paragon-ntfs
 ```
 
-**Tuxera Disk Manager**
+**Tuxera Disk Manager**  
+A paid way to copy NTFS drives without much configs needed
 
 ```text
 brew install --cask tuxera-ntfs
 ```
 
-{% hint style="danger" %}
-As of this writing \(12/26/2020\) These currently is no support yet from **Tuxera** for Big Sur.
-{% endhint %}
+**NTFS-3G**  
+The free and open-source way to copy over NTFS with much configs needed
 
+```text
+brew install --cask osxfuse
+```
 
+then:
+
+```text
+brew install ntfs-3g
+```
+
+then follow the rest of the instructions here:  
+[https://medium.com/macoclock/enabling-ntfs-write-in-macos-10-15-catalina-the-open-source-way-a5fd0d1cb32e](https://medium.com/macoclock/enabling-ntfs-write-in-macos-10-15-catalina-the-open-source-way-a5fd0d1cb32e)
 
 ### Communication
 
