@@ -1,6 +1,12 @@
-# Packages
+# Terminal Packages
 
-### Trash
+Below are some recommended packages that is helpful to have in your selected terminal.
+
+{% hint style="info" %}
+If you are already familiar with the packages listed, here's a shell script that installs everything below.
+{% endhint %}
+
+## Trash
 
 Not really a big fan of `rm` so heres a better alternative: [https://github.com/sindresorhus/trash](https://github.com/sindresorhus/trash)
 
@@ -18,13 +24,9 @@ And to install trash:
 npm install trash
 ```
 
-{% hint style="info" %}
-If you are already familiar with the folllowing below, here's a setup script that install everything below.
-{% endhint %}
 
 
-
-### Z
+## Z
 
 Z is actually not part of Zsh, but its a really cool way to jump to frecent folders. It makes navigating through the file system a breeze.
 
@@ -47,7 +49,7 @@ Also, don't forget to add this to your .zshrc file
 z <folder or app name>
 ```
 
-### Youtube-dl
+## Youtube-dl
 
 `Youtube-dl` is a command-line program used to download YouTube videos or videos from any platform in high resolution. There are also tons of other functionalities you can experiment with and you can check them out at their GitHub repository below.
 
@@ -68,7 +70,7 @@ brew install ffmpeg
 
 
 
-### Speedtest
+## Speedtest
 
 `Speedtest-cli` is a command-line interface for testing internet bandwidth. It allows you to test against specific servers and even provides you with a URL so you can brag about your internet speed to your friends.
 
@@ -86,7 +88,7 @@ speedtest-cli
 
 
 
-### Mac App Store CLI 
+## Mac App Store CLI 
 
 `mas` is a Mac App Store command-line interface that lets you install Mac apps from the App Store directly from the command line.
 
@@ -108,7 +110,7 @@ brew install mas
 
 
 
-### wifi-password
+## wifi-password
 
 `wifi-password` does exactly what its name suggests, which is displaying the Wi-Fi password of the network you’re currently connected to. After inputting your Keychain authentication, the password shows up in bright green.
 
@@ -126,7 +128,7 @@ wifi-password
 
 
 
-### tree
+## tree
 
 `tree` is a tool that lists out the content of directories in a folder in a tree-like format. This useful trick is a life-saver for those who want a quick visual representation of a project’s file structure.
 
@@ -144,7 +146,7 @@ tree
 
 
 
-### archey
+## archey
 
 `archey` displays your system information inside the terminal along with a text-based retro-style Apple icon.
 

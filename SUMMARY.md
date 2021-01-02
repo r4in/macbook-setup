@@ -18,7 +18,7 @@
   * [Hyper Setup](setup/terminals/hyper-setup.md)
   * [iTerm2 Setup](setup/terminals/iterm2/README.md)
     * [Zsh](setup/terminals/iterm2/zsh.md)
-  * [Packages](setup/terminals/packages.md)
+* [Terminal Packages](setup/packages.md)
 * [Git](setup/git/README.md)
   * [Git Ignore](setup/git/git-ignore.md)
 * [Code Editor Setups](setup/code-editors/README.md)
