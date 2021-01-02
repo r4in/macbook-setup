@@ -10,7 +10,7 @@ As much as possible, I do try to install everything using Homebrew because I fin
 brew install --cask <app-name>
 ```
 
-However, not everything is available on the caskroom, such as Adobe Creative Cloud \(Photoshop, Illustrator, ect\), so there will be a few exceptions of course. Which is why some of the apps will be install via mas \(Mac AppStore\) command-line
+However, not everything is available on the caskroom, such as Adobe Creative Cloud \(Photoshop, Illustrator, ect\), so there will be a few exceptions of course. Which is why some of the apps will be install via **mas** \(Mac AppStore\) command-line
 
 ## Pro Tip
 

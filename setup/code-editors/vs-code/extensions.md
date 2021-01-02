@@ -1,5 +1,12 @@
 # Extensions
 
+**Sublime Text Keymap and Settings Importer**  
+This extension imports keybindings and settings from Sublime Text to VS Code. This cuts the learning curve if you're switching from SublimeText into VS Code. However, if VS Code is your first editor and you're 
+
+{% hint style="info" %}
+I'm very much used to the keyboard shortcuts using 
+{% endhint %}
+
 **One Dark Pro**  
 Atom's iconic One Dark theme for Visual Studio Code
 
@@ -62,9 +69,6 @@ VS Code has built-in support for SCSS syntax, this will add support for SASS syn
 A [Visual Studio Code](https://code.visualstudio.com/) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax)/[Less](http://lesscss.org/) with [stylelint](https://stylelint.io/)
 
 ![](../../../.gitbook/assets/screenshot.png)
-
-**Sublime Text Keymap and Settings Importer**  
-This extension imports keybindings and settings from Sublime Text to VS Code. This cuts the learning curve if you're switching from SublimeText into VS Code. \(Unless of course, VS Code is your first editor\)
 
 **Trailing Spaces**  
 A [VS Code](https://code.visualstudio.com/) extension that allows you to highlight trailing spaces and delete them in a flash!
