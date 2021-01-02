@@ -133,6 +133,10 @@ If you have already previously installed this:
 mas install 1191449274
 ```
 
+{% hint style="info" %}
+However, with the recent updates to the Bluetooth widget on Big Sur. I don't really need this much anymore.
+{% endhint %}
+
 **Reflector 3**   
 Airplay directly from your iphone to your mac
 
