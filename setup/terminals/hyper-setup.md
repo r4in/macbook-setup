@@ -8,6 +8,8 @@ To install, simply run the following in your terminal:
 brew install hyper
 ```
 
+After installing, open **Hyper** and use it for the rest of the setup.
+
 ### Theme
 
 **hyper snazzy** an elegant Hyper theme with bright colors [https://github.com/sindresorhus/hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
@@ -82,10 +84,10 @@ open ~/.zshrc
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 
-Then add the plugin to the list of plugins for Oh My Zsh to load \(inside `~/.zshrc`\):
+Search for the `plugins` line inside `~/.zshrc` and add the plugin to the list of plugins for Oh My Zsh to load
 
 ```text
-plugins=(zsh-autosuggestions)
+plugins=(git zsh-autosuggestions)
 ```
 
 ### 
@@ -100,14 +102,13 @@ plugins=(zsh-autosuggestions)
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
+Then again, search for the `plugins` line inside `~/.zshrc` and add the plugin to the list of plugins for Oh My Zsh to load
 
+```text
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
 
-#### Adding the plugins to zsh
-
-From my `~/.zshrc`
-
-> plugins=\(git osx **zsh-autosuggestions** **zsh-syntax-highlighting**\)
-
+  
 You need to `source` your config
 
 ```text
