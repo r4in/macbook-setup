@@ -93,9 +93,7 @@ To see what you have installed \(with their version numbers\):
 brew list --versions
 ```
 {% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
 {% endtabs %}
+
+
 

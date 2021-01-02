@@ -2,12 +2,12 @@
 
 [Homebrew Cask](https://caskroom.github.io/) is centered around installing GUI applications through the CLI. With this, you can install the latest versions of applications by typing in a single command. \(like Google Chrome, Dropbox, VS Code and Slack\)
 
-## Usage
+### Usage
 
 To see if an app is available on Cask you can search on the [official Cask website](https://caskroom.github.io/search). You can also search using the following command:
 
 ```text
-brew cask search <app-name-here>
+brew search <app-name-here>
 ```
 
 To update brew and upgrade all install apps
@@ -16,15 +16,23 @@ To update brew and upgrade all install apps
 brew update && brew upgrade `brew outdated`
 ```
 
-## App Suggestions
+## **Cask Upgrade**
 
-Give it a try! Try installing these apps below by running the command:
+\*\*\*\*[**Brew Cask Upgrade**](https://github.com/buo/homebrew-cask-upgrade) is a command-line tool for upgrading every outdated app installed by [Homebrew Cask](https://caskroom.github.io/).
+
+To install, simple type
 
 ```text
-brew cask install alfred
-brew cask install google-chrome
-brew cask install sublime-text
+brew tap buo/cask-upgrade
 ```
 
-You can skip to our [recommended apps](https://www.macsetup.xyz/apps/apps) list to checkout things to install
+To use it
+
+```text
+brew cu --all
+```
+
+{% hint style="danger" %}
+**Brew Update** : There has been a recent update that brew automatically updates the casks too when running ``brew upgrade `outdated```, which makes installing Cask Upgrade optional now.
+{% endhint %}
 

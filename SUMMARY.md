@@ -14,7 +14,6 @@
   * [Finder](setup/preferences/finder.md)
 * [Homebrew](setup/homebrew/README.md)
   * [Cask](setup/homebrew/cask.md)
-  * [Cask Upgrade](setup/homebrew/cask-upgrade.md)
 * [Terminal Setups](setup/terminals/README.md)
   * [Hyper Setup](setup/terminals/hyper-setup.md)
   * [iTerm2 Setup](setup/terminals/iterm2/README.md)
