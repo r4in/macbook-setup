@@ -9,13 +9,6 @@ Good video converter
 brew install --cask handbrake
 ```
 
-**Hazel**  
-Automation and housekeeping on your mac
-
-```text
-brew install --cask hazel
-```
-
 **Paste - Clipboard Manager** 🏆  
 The best clipboard to have in macOS
 
@@ -108,7 +101,7 @@ For extracting alot of zips
 brew install --cask the-unarchiver
 ```
 
-**VLC PLayer**   
+**VLC Player** 🏆  
 Best media player ever
 
 ```text
@@ -137,7 +130,7 @@ mas install 1191449274
 However, with the recent updates to the Bluetooth widget on Big Sur. I don't really need this much anymore.
 {% endhint %}
 
-**Reflector 3**   
+**Reflector 3** 🏆  
 Airplay directly from your iphone to your mac
 
 ```text
@@ -151,14 +144,28 @@ A powerful and stable keyboard customizer for macOS
 brew install --cask karabiner-elements
 ```
 
-**Proton VPN**  
-A good VPN to use s    
+**Proton VPN** 🏆  
+A good VPN to use
 
 ```text
 brew install --cask protonvpn
 ```
 
-### 
+**Geekbench**  
+If you're into benchmarking and comparing performance of your diff machines
+
+```text
+brew install --cask geekbench
+```
+
+**Hazel**  
+Automation and housekeeping on your mac
+
+```text
+brew install --cask hazel
+```
+
+
 
 ### **Documents, Spreadsheets & Presentations**
 
@@ -190,10 +197,16 @@ brew install --cask ueli
 I got used to using `option + cmd` to open keystroke launchers \(Alfred\) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.
 {% endtab %}
 
-{% tab title="Customizations" %}
+{% tab title="Setup" %}
 After installing, add this under **Settings &gt; Application Search**
 
 `/System/Applications`
+
+Disable everything except:  
+- Application Search  
+- Calculator  
+- Operating system commands  
+- Operating system settings
 {% endtab %}
 {% endtabs %}
 
