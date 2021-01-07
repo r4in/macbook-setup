@@ -28,7 +28,8 @@
   * [Sublime Text](setup/code-editors/sublime-text/README.md)
     * [Preferences](setup/code-editors/sublime-text/preferences.md)
     * [Packages](setup/code-editors/sublime-text/packages.md)
-* [Tech Stack](setup/techstack.md)
+* [Tech Stack](setup/techstack/README.md)
+  * [Package Managers](setup/techstack/package-managers.md)
 
 ## Apps
 
