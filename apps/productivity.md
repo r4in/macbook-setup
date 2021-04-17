@@ -217,7 +217,12 @@ The original Spotlight Search! \(Before Apple sort of copied it. hehe\)
 brew install --cask alfred
 ```
 
-\*\*\*\*
+**Raycast**  
+A rising app thats more than a keystroke launcher !
+
+```text
+https://raycast.com/
+```
 
 ### **Screen Recorders**
 
@@ -283,7 +288,12 @@ A good free alternative with Fantastical-like functionalities
 brew install --cask calendar-366
 ```
 
-### 
+**Itsycal**  
+Another good free alternative with Fantastical-like functionalities
+
+```text
+brew install --cask itsycal
+```
 
 ### NTFS Tools
 
