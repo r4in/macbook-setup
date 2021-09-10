@@ -16,15 +16,18 @@ These settings below are all optional, consider them suggestions.
 
 ## General
 
-* Appearance &gt; Select **Dark**
-* Make sure **Allow Handoff between this Mac and your iCloud devices** is checked
+* Appearance : **Dark**
+* Check **Allow Handoff between this Mac and your iCloud devices**
+* Recent Items : **None**
 
 ## Dock & Menu Bar
 
-* Size &gt; **Small**
-* Magnification &gt; **Unchecked**
-* Position on screen &gt; **Left**
-* Show recent applications in Dock &gt; **Unchecked**
+### Dock
+
+* Size : **Small**
+* Uncheck **Magnification**
+* Position on screen : **Left**
+* Uncheck **Show recent applications in Dock**
 * **Spotlight** &gt; Uncheck **Show in Menu Bar**
 
 Remove workspace auto-switching by running the following command in the terminal:
