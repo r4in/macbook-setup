@@ -7,14 +7,16 @@ Open **Finder** &gt; **Preferences**
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
 * General
-  * [ ] Show these items on the desktop &gt; **Uncheck everything**
-  * [ ] New Finder windows show &gt; **Desktop** 
+  * [ ] **Show these items on the desktop** &gt; **Uncheck everything**
+  * [ ] **New Finder windows show** &gt; **Desktop** 
 * Sidebar
   * Uncheck everything except:
-    * [ ] Applications
-    * [ ] Desktop
-    * [ ] Downloads
-    * [ ] Home Directory 
+    * [ ] **Airdrop**
+    * [ ] **Applications**
+    * [ ] **Desktop**
+    * [ ] **Downloads**
+    * [ ] **francisalturas** \(or whatever is your computer name\)
+    * [ ] **Francis's Macbook Pro** 
 
 ## Modifying the Sidebar
 

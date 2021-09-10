@@ -14,6 +14,8 @@ After installing, open **Hyper** and use it for the rest of the setup.
 
 **hyper snazzy** an elegant Hyper theme with bright colors [https://github.com/sindresorhus/hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
 
+_You'll need to install the PURE prompt installed first before proceeding_
+
 ```text
 hyper install hyper-snazzy
 ```
@@ -70,6 +72,12 @@ Your .zshrc file is usually located at the root. To open it up using your defaul
 ```text
 open ~/.zshrc
 ```
+
+**Big Sur Issue: After installing Brew, I get a "command not found"**
+
+Simply open your .zshrc file and add this:
+
+`export PATH=/opt/homebrew/bin:$PATH`
 {% endhint %}
 
 ## Zsh Plugins
