@@ -22,12 +22,13 @@ These settings below are all optional, consider them suggestions.
 
 ## Dock & Menu Bar
 
-### Dock
-
 * Size : **Small**
 * Uncheck **Magnification**
 * Position on screen : **Left**
 * Uncheck **Show recent applications in Dock**
+
+### Menu Bar Only
+
 * **Spotlight** &gt; Uncheck **Show in Menu Bar**
 
 Remove workspace auto-switching by running the following command in the terminal:
@@ -56,6 +57,8 @@ killall Dock
 
 ## Keyboard
 
+* **Keyboard &gt;  Press \(Globe Icon\) to** &gt; **Do Nothing**
+* **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
 * **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
 * Under **Text**, uncheck the following:
   * Correct spelling automatically
