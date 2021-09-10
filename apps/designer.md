@@ -130,7 +130,14 @@ brew install --cask craftmanager
 
 ### **Icon Managers**
 
-**Iconjar** [🏆](https://emojipedia.org/trophy/)  
+**Iconset** [🏆](https://emojipedia.org/trophy/)  
+A free icon Manager
+
+```text
+brew install --cask iconset
+```
+
+**Iconjar**   
 An icon Manager
 
 ```text

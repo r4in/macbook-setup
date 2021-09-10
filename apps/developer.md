@@ -162,7 +162,7 @@ brew install --cask firefox
 Select more weapons of choice
 
 ```text
-brew install --cask goggle-chrome
+brew install --cask google-chrome
 ```
 
 **Brave**  

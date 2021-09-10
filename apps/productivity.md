@@ -349,7 +349,7 @@ brew install --cask skype
 Great for group video calls
 
 ```text
-brew install --cask zooomus
+brew install --cask zoom
 ```
 
 **Discord**  
@@ -391,8 +391,15 @@ brew install --cask whatsapp
 
 ### Password Managers
 
-**LastPass** 🏆  
-****My password manager of choice
+**Bitwarden** 🏆  
+****Its free and it just works!
+
+```text
+brew install --cask bitwarden
+```
+
+**LastPass**   
+My password manager of choice
 
 ```text
 brew install --cask lastpass
@@ -531,7 +538,7 @@ brew install --cask magnet
 ```
 
 **Moom**  
-Window manager
+Window manager too
 
 ```text
 brew install --cask moom
