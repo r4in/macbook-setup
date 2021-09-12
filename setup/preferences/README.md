@@ -26,6 +26,7 @@ These settings below are all optional, consider them suggestions.
 * Uncheck **Magnification**
 * Position on screen : **Left**
 * Uncheck **Show recent applications in Dock**
+* **Spotlight &gt;** Uncheck **Show in Menu Bar**
 
 ### Menu Bar Only
 
