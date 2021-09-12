@@ -74,3 +74,8 @@ Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https
 * Point & Click
   * Check **Tap to click**
 
+## Accessibility
+
+* Pointer Control
+  * Check **Ignore built-in trackpad when mouse or wireless trackpad is present** \(I only do this when I'm using a wireless mouse\)
+
