@@ -2,127 +2,127 @@
 
 ### Essentials
 
-**Handbrake** 🏆  
+**Handbrake** 🏆\
 Good video converter
 
-```text
+```
 brew install --cask handbrake
 ```
 
-**Paste - Clipboard Manager** 🏆  
+**Paste - Clipboard Manager** 🏆\
 The best clipboard to have in macOS
 
 {% embed url="https://apps.apple.com/us/app/paste-clipboard-manager/id1020667032" %}
 
 If you have already previously installed this:
 
-```text
+```
 mas install 1447797058
 ```
 
-**Rocket** 🏆  
+**Rocket** 🏆\
 Gives you that slack-like experience of entering emojis
 
-```text
+```
 brew install --cask rocket
 ```
 
-**raindrop.io** 🏆  
+**raindrop.io** 🏆\
 Great bookmarking app
 
-```text
+```
 brew install --cask raindropio
 ```
 
-**App Cleaner** 🏆  
+**App Cleaner** 🏆\
 Fully uninstall apps including its preferences
 
-```text
+```
 brew install --cask appcleaner
 ```
 
-**Krisp.ai** 🏆  
+**Krisp.ai** 🏆\
 Removes the background noise during your calls
 
-```text
+```
 brew install --cask krisp
 ```
 
-**Caffeine** 🏆  
+**Caffeine** 🏆\
 Prevents screen from falling asleep / turning off with one click
 
-```text
+```
 brew install --cask caffeine
 ```
 
-**Effortless** 🏆  
-****_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list 
+**Effortless** 🏆\
+****_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list&#x20;
 
 {% embed url="https://apps.apple.com/us/app/effortless/id1368722917?mt=12" %}
 
 If you have already previously installed this:
 
-```text
+```
 mas install 1368722917
 ```
 
-**f.lux** 🏆  
-Changes your screen color during nighttime \(before Apple implemented their very own NightShift\)
+**f.lux** 🏆\
+Changes your screen color during nighttime (before Apple implemented their very own NightShift)
 
-```text
+```
 brew install --cask flux
 ```
 
-**Daisydisk**  
+**Daisydisk**\
 Great for inspecting your HD on to know which files are taking up too much space
 
-```text
+```
 brew install --cask daisydisk
 ```
 
-**Transmission** 🏆  
+**Transmission** 🏆\
 Best torrent client out there
 
-```text
+```
 brew install --cask transmission
 ```
 
-**Numi** 🏆  
+**Numi** 🏆\
 A beautiful calculator app for Mac.
 
-```text
+```
 brew install --cask numi
 ```
 
-**The Unarchiver** 🏆  
+**The Unarchiver** 🏆\
 For extracting alot of zips
 
-```text
+```
 brew install --cask the-unarchiver
 ```
 
-**VLC Player** 🏆  
+**VLC Player** 🏆\
 Best media player ever
 
-```text
+```
 brew install --cask vlc
 ```
 
-**Spotify** 🏆  
+**Spotify** 🏆\
 Music while working
 
-```text
+```
 brew install --cask spotify
 ```
 
-**ToothFairy**   
-Connect AirPods \(or other Bluetooth headphones\) to your Mac with a single click or keypress.
+**ToothFairy** \
+Connect AirPods (or other Bluetooth headphones) to your Mac with a single click or keypress.
 
 {% embed url="https://apps.apple.com/us/app/toothfairy/id1191449274?mt=12" %}
 
 If you have already previously installed this:
 
-```text
+```
 mas install 1191449274
 ```
 
@@ -130,38 +130,38 @@ mas install 1191449274
 However, with the recent updates to the Bluetooth widget on Big Sur. I don't really need this much anymore.
 {% endhint %}
 
-**Reflector 3** 🏆  
+**Reflector 3** 🏆\
 Airplay directly from your iphone to your mac
 
-```text
+```
 brew install --cask reflector
 ```
 
-**Karabiner Elements**  
+**Karabiner Elements**\
 A powerful and stable keyboard customizer for macOS
 
-```text
+```
 brew install --cask karabiner-elements
 ```
 
-**Proton VPN** 🏆  
+**Proton VPN** 🏆\
 A good VPN to use
 
-```text
+```
 brew install --cask protonvpn
 ```
 
-**Geekbench**  
+**Geekbench**\
 If you're into benchmarking and comparing performance of your diff machines
 
-```text
+```
 brew install --cask geekbench
 ```
 
-**Hazel**  
+**Hazel**\
 Automation and housekeeping on your mac
 
-```text
+```
 brew install --cask hazel
 ```
 
@@ -169,74 +169,74 @@ brew install --cask hazel
 
 ### **Documents, Spreadsheets & Presentations**
 
-**Microsoft Office**   
+**Microsoft Office** \
 They're recently switched to a subscription-based model like Adobe
 
 {% embed url="https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12" %}
 
-**WPS Office**  
-A promising cross-platform that is like Microsoft Office but better than LibreOffice
+**WPS Office**\
+****A promising cross-platform that is like Microsoft Office but better than LibreOffice
 
-```text
+```
 brew install --cask wpsoffice
 ```
 
-\*\*\*\*
+****
 
 ### Keystroke Launchers
 
-**Ueli** 🏆  
+**Ueli** 🏆\
 Keystroke launcher for Windows and macOS
 
-```text
+```
 brew install --cask ueli 
 ```
 
 {% tabs %}
 {% tab title="Why Ueli?" %}
-I got used to using `option + cmd` to open keystroke launchers \(Alfred\) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.
+I got used to using `option + cmd` to open keystroke launchers (Alfred) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.
 {% endtab %}
 
 {% tab title="Setup" %}
-After installing, add this under **Settings &gt; Application Search**
+After installing, add this under **Settings > Application Search**
 
 `/System/Applications`
 
-Disable everything except:  
-- Application Search  
-- Calculator  
-- Operating system commands  
-- Operating system settings
+Disable everything except:\
+\- Application Search\
+\- Calculator\
+\- Operating system commands\
+\- Operating system settings
 {% endtab %}
 {% endtabs %}
 
-**Alfred**  
-The original Spotlight Search! \(Before Apple sort of copied it. hehe\)
+**Alfred**\
+The original Spotlight Search! (Before Apple sort of copied it. hehe)
 
-```text
+```
 brew install --cask alfred
 ```
 
-**Raycast**  
+**Raycast**\
 A rising app thats more than a keystroke launcher !
 
-```text
+```
 https://raycast.com/
 ```
 
 ### **Screen Recorders**
 
-**Kap** 🏆  
-A minimalist way to record videos / gifs on your screen 
+**Kap** 🏆\
+A minimalist way to record videos / gifs on your screen&#x20;
 
-```text
+```
 brew install --cask kap
 ```
 
-**Loom** 🏆  
+**Loom** 🏆\
 Record audio/video of you and yourself and instantly share it from the cloud
 
-```text
+```
 brew install --cask loom
 ```
 
@@ -250,28 +250,28 @@ Loom is great and seamless, especially for sending screen recordings + video of 
 
 ### System Monitors
 
-**Stats** 🏆  
+**Stats** 🏆\
 A free macOS system monitor in your menu bar
 
-```text
+```
 brew install --cask stats
 ```
 
-**iStat Menus**  
+**iStat Menus**\
 A paid macOS system monitor in your menu bar
 
-```text
+```
 brew install --cask istat-menus
 ```
 
-\*\*\*\*
+****
 
 ### **Calendars**
 
-**Fantastical 2** 🏆  
+**Fantastical 2** 🏆\
 Best calendar ever, syncs to everything including Google calendars and FB events!
 
-```text
+```
 brew install --cask fantastical
 ```
 
@@ -281,134 +281,134 @@ It's really smart when adding events - which autodetects the time, location and 
 {% endtab %}
 {% endtabs %}
 
-**Calendar 366 II**  
+**Calendar 366 II**\
 A good free alternative with Fantastical-like functionalities
 
-```text
+```
 brew install --cask calendar-366
 ```
 
-**Itsycal**  
+**Itsycal**\
 Another good free alternative with Fantastical-like functionalities
 
-```text
+```
 brew install --cask itsycal
 ```
 
 ### NTFS Tools
 
-MacOS can't natively write files to NTFS formatted drives \(most likely your external drive\). Here are some solutions:
+MacOS can't natively write files to NTFS formatted drives (most likely your external drive). Here are some solutions:
 
-**Paragon NTFS**   
-A paid way to copy NTFS drives without much configs needed
+**Paragon NTFS** \
+****A paid way to copy NTFS drives without much configs needed
 
-```text
+```
 brew install --cask paragon-ntfs
 ```
 
-**Tuxera Disk Manager**  
-A paid way to copy NTFS drives without much configs needed
+**Tuxera Disk Manager**\
+****A paid way to copy NTFS drives without much configs needed
 
-```text
+```
 brew install --cask tuxera-ntfs
 ```
 
-**NTFS-3G**  
-The free and open-source way to copy over NTFS with much configs needed
+**NTFS-3G**\
+****The free and open-source way to copy over NTFS with much configs needed
 
-```text
+```
 brew install --cask osxfuse
 ```
 
 then:
 
-```text
+```
 brew install ntfs-3g
 ```
 
-then follow the rest of the instructions here:  
+then follow the rest of the instructions here:\
 [https://medium.com/macoclock/enabling-ntfs-write-in-macos-10-15-catalina-the-open-source-way-a5fd0d1cb32e](https://medium.com/macoclock/enabling-ntfs-write-in-macos-10-15-catalina-the-open-source-way-a5fd0d1cb32e)
 
 ### Communication
 
-**Slack** [🏆](https://emojipedia.org/trophy/)  
+**Slack** [🏆](https://emojipedia.org/trophy/)\
 Team communication
 
-```text
+```
 brew install --cask slack
 ```
 
-**Skype**   
+**Skype** \
 Client communication
 
-```text
+```
 brew install --cask skype
 ```
 
-**Zoom**   
+**Zoom** \
 Great for group video calls
 
-```text
+```
 brew install --cask zoom
 ```
 
-**Discord**  
+**Discord**\
 Great for group video calls
 
-```text
+```
 brew install --cask discord
 ```
 
-**Gitter**  
+**Gitter**\
 Checkout the community
 
-```text
+```
 brew install --cask gitter
 ```
 
-**Facebook Messenger**  
+**Facebook Messenger**\
 Checkout the community
 
-```text
+```
 brew install --cask messenger
 ```
 
-**Telegram**  
+**Telegram**\
 Used once for a project's main communication tool
 
-```text
+```
 brew install --cask telegram
 ```
 
-**Whatsapp**  
+**Whatsapp**\
 Used as a main communication tool in some projects as well
 
-```text
+```
 brew install --cask whatsapp
 ```
 
-### 
+###
 
 ### Password Managers
 
-**Bitwarden** 🏆  
+**Bitwarden** 🏆\
 ****Its free and it just works!
 
-```text
+```
 brew install --cask bitwarden
 ```
 
-**LastPass**   
-My password manager of choice
+**LastPass** \
+****My password manager of choice
 
-```text
+```
 brew install --cask lastpass
 ```
 
-**1Password**  
-A good password manager
+**1Password**\
+****A good password manager
 
-```text
+```
 brew install --cask 1password
 ```
 
@@ -416,43 +416,43 @@ brew install --cask 1password
 
 ### Email Apps
 
-**Edison**  
+**Edison**\
 A better email app then the default one
 
 {% embed url="https://mail.edison.tech/mac" %}
 
-**Airmail 4** 🏆  
+**Airmail 4** 🏆\
 A better email app then the default one
 
 {% embed url="https://apps.apple.com/us/app/airmail-4/id918858936?mt=12" %}
 
-**Spark**  
+**Spark**\
 A better email app then the default one
 
 {% embed url="https://itunes.apple.com/app/id1176895641" %}
 
-### 
+###
 
 ### Menu Bar Organizer
 
-**Vanilla** [🏆](https://emojipedia.org/trophy/)  
+**Vanilla** [🏆](https://emojipedia.org/trophy/)\
 A simple, fast and freemium menu bar organizer.
 
-```text
+```
 brew install --cask vanilla
 ```
 
-**Bartender**  
+**Bartender**\
 Customize your menu bar & hide unwanted icons
 
-```text
+```
 brew install --cask bartender
 ```
 
-**Dozer**  
+**Dozer**\
 A free menu bar manager
 
-```text
+```
 brew install --cask dozer
 ```
 
@@ -460,28 +460,28 @@ brew install --cask dozer
 I used to be on team Bartender. But the ease-of-use and simplicity of Vanilla is too hard to pass. Best of all, it's freemium.
 {% endhint %}
 
-\*\*\*\*
+****
 
 ### **Cloud Storage**
 
-**Backup & Sync**  
+**Backup & Sync**\
 Previously called GoogleDrive, I used this to **backup everything**
 
-```text
+```
 brew install --cask google-backup-and-sync
 ```
 
-**Dropbox**  
+**Dropbox**\
 The cloud for backing up
 
-```text
+```
 brew install --cask dropbox
 ```
 
-**Filestream**  
+**Filestream**\
 For office files that you don't want to take up space on your machine
 
-```text
+```
 brew install --cask google-drive-file-stream
 ```
 
@@ -489,32 +489,32 @@ brew install --cask google-drive-file-stream
 
 ### Notebooks
 
-**Notion** [🏆](https://emojipedia.org/trophy/)  
-The most amazing notebook I've ever had. It's more affordable than Evernote, 
+**Notion** [🏆](https://emojipedia.org/trophy/)\
+The most amazing notebook I've ever had. It's more affordable than Evernote,&#x20;
 
-```text
+```
 brew install --cask notion
 ```
 
-**Evernote**  
+**Evernote**\
 My first favorite app for note-taking projects
 
-```text
+```
 brew install --cask evernote
 ```
 
 {% hint style="info" %}
-Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and many more. ****However, it just didn't really stick with me.
+Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and many more. **** However, it just didn't really stick with me.
 {% endhint %}
 
-\*\*\*\*
+****
 
 ### Window Management Apps
 
-**Rectangle** 🏆  
+**Rectangle** 🏆\
 My favorite window manager
 
-```text
+```
 brew install --cask rectangle
 ```
 
@@ -530,49 +530,48 @@ Mainly because I'm super familiar with Spectacle before and it follows the same 
 {% endtab %}
 {% endtabs %}
 
-**Magnet**  
+**Magnet**\
 Window manager
 
-```text
+```
 brew install --cask magnet
 ```
 
-**Moom**  
+**Moom**\
 Window manager too
 
-```text
+```
 brew install --cask moom
 ```
 
-**Amethyst** 🏆  
+**Amethyst** 🏆\
 A tiling window manager. ... Also, it supports global shortcuts for moving, focusing and changing size of the windows, as well as cycling through the layouts
 
-```text
+```
 brew install --cask amethyst
 ```
 
-### \*\*\*\*
+### ****
 
 ### **Gaming**
 
-**OpenEmu**  
+**OpenEmu**\
 Emulator for playing retro games on macOS
 
-```text
+```
 brew install --cask openemu
 ```
 
-**Steam**  
+**Steam**\
 For Dota 2
 
-```text
+```
 brew install --cask steam
 ```
 
-**Battle.net**  
+**Battle.net**\
 Launcher for Diablo III and Starcraft II
 
-```text
+```
 brew install --cask battle-net
 ```
-
