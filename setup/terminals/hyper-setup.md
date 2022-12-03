@@ -28,7 +28,7 @@ Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need
 
 ### **Zsh Framework**
 
-**Oh-my-zsh** is an open source, community-driven framework for managing your zsh configuration [http://ohmyz.sh/](http://ohmyz.sh)
+**Oh-my-zsh** is an open source, community-driven framework for managing your zsh configuration [http://ohmyz.sh/](http://ohmyz.sh/)
 
 #### Installation:
 
@@ -84,7 +84,7 @@ Simply open your .zshrc file and add this:
 
 ### Zsh autosuggestions
 
-[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com)-like fast/unobtrusive autosuggestions for zsh. It suggests commands as you type based on command history.
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh. It suggests commands as you type based on command history.
 
 #### **Installation**:
 

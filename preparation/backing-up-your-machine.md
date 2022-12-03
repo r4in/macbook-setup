@@ -6,11 +6,13 @@ I usually prefer wiping out my whole hard drive and just doing a fresh install. 
 
 First, download the latest macOS via App Store:
 
-![macOS Monterey should be at your Applications folder after downloading](<../.gitbook/assets/Screen Shot 2022-01-02 at 9.09.11 PM.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2022-12-04 at 3.44.01 AM.png" alt=""><figcaption><p>Search for macOS Ventura in your App Store</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-12-04 at 3.43.49 AM.png" alt=""><figcaption><p>macOS Ventura currently being downloaded</p></figcaption></figure>
 
 ## Creating A Bootable Installer
 
-There are numerous apps and ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com) no longer supports Big Sur. But you can still easily do this on your Terminal. Here's how you create a bootable thumb drive:
+There are numerous apps and ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports older macOS starting from Big Sur. Fortunately, you can still easily do this on your Terminal. Here's how you create a bootable thumb drive:
 
 * Prepare a 16GB usb thumb drive that's ready to be wiped out
 * Make sure you already have downloaded macOS Big Sur. After downloading, It should be sitting on your Applications folder like this:
@@ -20,12 +22,12 @@ There are numerous apps and ways to create a bootable macOS install. As of this 
 * Insert your thumbdrive and simply run this command below on your terminal. Make sure you replace "**Untitled"** with the name of your usb thumb drive.
 
 ```
-sudo '/Applications/Install macOS Monterey.app/Contents/Resources/createinstallmedia' --volume '/Volumes/Untitled'
+sudo '/Applications/Install macOS Ventura.app/Contents/Resources/createinstallmedia' --volume '/Volumes/Untitled'
 ```
 
 * Wait for around 10-15 minutes to complete. You should see this after completing it:
 
-![Bootable macOS Monterey installer completed successfully](<../.gitbook/assets/Screen Shot 2022-01-02 at 9.56.35 PM (1).png>)
+<figure><img src="../.gitbook/assets/Screenshot 2022-12-04 at 4.31.44 AM.png" alt=""><figcaption><p>Bootable macOS Ventura installer completed successfully</p></figcaption></figure>
 
 ## Backup Checklist
 
@@ -38,17 +40,17 @@ sudo '/Applications/Install macOS Monterey.app/Contents/Resources/createinstallm
 * [ ] Your **Git** folder\
   I recommend Github or Bitbucket
 * [ ] Quick code snippets / links / random texts \
-  Instead of saving them on icloud notes or on sublime text/note taking apps - use [Paste](https://pasteapp.me)!&#x20;
+  Instead of saving them on icloud notes or on sublime text/note taking apps - use [Paste](https://pasteapp.me/)!&#x20;
 * [ ] Browser bookmarks, settings, history, ect.  \
-  If you're using different browsers, [Raindrop.io](https://raindrop.io) is a great bookmarks manager.
+  If you're using different browsers, [Raindrop.io](https://raindrop.io/) is a great bookmarks manager.
 * [ ] Passwords, Server logins, sensitive-stuff. \
-  (Don't store them in your notes. Use password generators like [1Password](https://1password.com). I recommend [LastPass](https://www.lastpass.com))
+  (Don't store them in your notes. Use password generators like [1Password](https://1password.com/). I recommend [LastPass](https://www.lastpass.com/))
 * [ ] Don't forget to backup your public ssh keys too
 * [ ] Your saved typefaces
 
 ## Cloud Storage
 
-Before, I used to back everything up to an external hard drive. Now, I sync all my files to the cloud. [Dropbox](https://www.dropbox.com) is great (And right-clicking to share public links works like a charm). But I'm seeing [Google One ](https://one.google.com)as a more economically viable option. And if you're living on an Apple ecosystem, [iCloud](https://www.apple.com/ph/icloud/) might make sense for you.&#x20;
+Before, I used to back everything up to an external hard drive. Now, I sync all my files to the cloud. [Dropbox](https://www.dropbox.com/) is great (And right-clicking to share public links works like a charm). But I'm seeing [Google One ](https://one.google.com/)as a more economically viable option. And if you're living on an Apple ecosystem, [iCloud](https://www.apple.com/ph/icloud/) might make sense for you.&#x20;
 
 {% tabs %}
 {% tab title="Google One" %}

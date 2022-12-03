@@ -24,7 +24,7 @@ Now let's use a framework built on top of this shell called **Oh My Zsh!**
 
 ### Oh My Zsh
 
-Install [Oh My Zsh](http://ohmyz.sh) on top of zsh to get additional functionality and super-charge your terminal!
+Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and super-charge your terminal!
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -153,7 +153,7 @@ Then refresh zsh by typing `source ~/.zshrc` or by restarting your terminal
 
 **There's these weird \[?] symbols on my terminal.** Probably missing the [powerline fonts](https://github.com/powerline/fonts)
 
-**Where are my zsh settings stored?** `.zshrc`file located in your home directory. It’s a hidden file, so you might not see it in your home directory, but you can view it by running `open ~/.zshrc`from the terminal. Swap out `open`with your favorite editor command, such as `nano`, `subl`or `vim`. (these are text editors, `nano` for [GNU Nano](https://www.nano-editor.org), `subl` for [Sublime Text](https://www.sublimetext.com), and `vim` for [Vim](http://www.vim.org))
+**Where are my zsh settings stored?** `.zshrc`file located in your home directory. It’s a hidden file, so you might not see it in your home directory, but you can view it by running `open ~/.zshrc`from the terminal. Swap out `open`with your favorite editor command, such as `nano`, `subl`or `vim`. (these are text editors, `nano` for [GNU Nano](https://www.nano-editor.org/), `subl` for [Sublime Text](https://www.sublimetext.com/), and `vim` for [Vim](http://www.vim.org/))
 
 **It's not working!** Did you carefully follow the instructions? Also try restarting your terminal for it to take effect.
 

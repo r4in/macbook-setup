@@ -66,9 +66,9 @@ Or running it automatically on every save, add this to your preferences
 ![](../../../.gitbook/assets/screen-shot-2019-09-18-at-1.25.09-am.png)
 
 **stylelint**\
-****A [Visual Studio Code](https://code.visualstudio.com) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS\_REFERENCE.html#syntax)/[Less](http://lesscss.org) with [stylelint](https://stylelint.io)
+****A [Visual Studio Code](https://code.visualstudio.com/) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS\_REFERENCE.html#syntax)/[Less](http://lesscss.org/) with [stylelint](https://stylelint.io/)
 
 ![](../../../.gitbook/assets/screenshot.png)
 
 **Trailing Spaces**\
-****A [VS Code](https://code.visualstudio.com) extension that allows you to highlight trailing spaces and delete them in a flash!
+****A [VS Code](https://code.visualstudio.com/) extension that allows you to highlight trailing spaces and delete them in a flash!

@@ -11,7 +11,7 @@ I like my code to breathe (hence the huge line height)\
 `"editor.fontSize": 16,` \
 `"editor.lineHeight": 32,`
 
-[Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) works great, but if want some fun - [Dank Mono](https://dank.sh) is something you might want to consider\
+[Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) works great, but if want some fun - [Dank Mono](https://dank.sh/) is something you might want to consider\
 `"editor.fontFamily": "Dank Mono,Source Code Pro, Monaco, 'Courier New', monospace",`
 
 ![Dank Mono - love the ligatures too!](<../../../.gitbook/assets/image (18).png>)

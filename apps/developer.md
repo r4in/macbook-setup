@@ -38,7 +38,7 @@ mas install 414030210
 ```
 
 {% hint style="info" %}
-When googling errors on Stackoverflow fails,  I use mostly Limechat for asking  questions when I want instantaneous answers in language-specific channels (#css, #wordpress, #js) at [Freenode](https://freenode.net)
+When googling errors on Stackoverflow fails,  I use mostly Limechat for asking  questions when I want instantaneous answers in language-specific channels (#css, #wordpress, #js) at [Freenode](https://freenode.net/)
 {% endhint %}
 
 **Gitter**\

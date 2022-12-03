@@ -1,6 +1,6 @@
 # Git
 
-What's a developer without [Git](http://git-scm.com)? To install, simply run:
+What's a developer without [Git](http://git-scm.com/)? To install, simply run:
 
 ```
 brew install git
@@ -14,7 +14,7 @@ git --version
 
 And `which git`should output`/usr/local/bin/git`. If not, try restarting the terminal.
 
-Next, we'll define your Git user (should be the same name and email you use for [GitHub](https://github.com)):
+Next, we'll define your Git user (should be the same name and email you use for [GitHub](https://github.com/)):
 
 ```
 git config --global user.name "Your Name Here"

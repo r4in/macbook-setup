@@ -1,6 +1,6 @@
 # Cask
 
-[Homebrew Cask](https://caskroom.github.io) is centered around installing GUI applications through the CLI. With this, you can install the latest versions of applications by typing in a single command. (like Google Chrome, Dropbox, VS Code and Slack)
+[Homebrew Cask](https://caskroom.github.io/) is centered around installing GUI applications through the CLI. With this, you can install the latest versions of applications by typing in a single command. (like Google Chrome, Dropbox, VS Code and Slack)
 
 ### Usage
 
@@ -18,7 +18,7 @@ brew update && brew upgrade `brew outdated`
 
 ## **Cask Upgrade**
 
-****[**Brew Cask Upgrade**](https://github.com/buo/homebrew-cask-upgrade) is a command-line tool for upgrading every outdated app installed by [Homebrew Cask](https://caskroom.github.io).
+****[**Brew Cask Upgrade**](https://github.com/buo/homebrew-cask-upgrade) is a command-line tool for upgrading every outdated app installed by [Homebrew Cask](https://caskroom.github.io/).
 
 To install, simple type
 
