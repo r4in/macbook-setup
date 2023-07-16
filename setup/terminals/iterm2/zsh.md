@@ -52,7 +52,7 @@ rm -f ~/.zcompdump; compinit
 
 ## Plugins
 
-You can further extend zsh's power and functionalities by adding plugins to Oh My Zsh. There are useful plugins like completion plugins **** that will let `zsh` know which arguments the package has so it can autocomplete. We can do so by adding this to our .zshrc file
+You can further extend zsh's power and functionalities by adding plugins to Oh My Zsh. There are useful plugins like completion plugins that will let `zsh` know which arguments the package has so it can autocomplete. We can do so by adding this to our .zshrc file
 
 **What is a .zshrc file?** Basically it's its a Z-shell resource which contains all your configurations.
 
@@ -109,7 +109,7 @@ While there are [alot of themes](https://github.com/robbyrussell/oh-my-zsh/wiki/
 
 ## Powerline
 
-What are **** [**Powerline**](https://github.com/powerline/powerline)? It's a statusline plugin for vim, and provides statuslines and prompts. And along with it are [**Powerline Fonts**](https://github.com/powerline/fonts) that is responsible for the icons you have on your terminal. To enable powerline fonts on the theme we're using:
+What are [**Powerline**](https://github.com/powerline/powerline)? It's a statusline plugin for vim, and provides statuslines and prompts. And along with it are [**Powerline Fonts**](https://github.com/powerline/fonts) that is responsible for the icons you have on your terminal. To enable powerline fonts on the theme we're using:
 
 Powerline uses Pip (Which is a package manager for Python) Unfortunately,&#x20;
 

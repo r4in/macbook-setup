@@ -22,7 +22,7 @@ brew install --cask hyper
 Since our move to VS Code from Sublime, alot of people are using the built-in terminal window in it. Depending on your setup - it's up to you if you feel like running lots of different processes on different terminal windows.
 {% endhint %}
 
-### ****
+###
 
 ### **IRC &** Instant Messaging
 
@@ -55,7 +55,7 @@ Chat tool for communities
 brew  install --cask spectrum
 ```
 
-****
+
 
 ### **Local Server Environments**
 
@@ -96,7 +96,7 @@ brew install --cask lepton
 I'm starting to move to this one because first of all - the gists syncs up on github (which is great for sharing) and it's completely FREE.
 {% endhint %}
 
-### ****
+###
 
 ### **Database Management**
 
@@ -111,7 +111,7 @@ brew install --cask sequel-pro
 There are times when I want to modify the database tables easily in a GUI (Command-line is cool and geeky, but sometimes - I'm just in a hurry)
 {% endhint %}
 
-### ****
+###
 
 ### **FTP Clients**
 
@@ -129,7 +129,7 @@ It works, gets the job done and most of all - it's FREE!
 brew install --cask filezilla
 ```
 
-### ****
+###
 
 ### Text Editor
 

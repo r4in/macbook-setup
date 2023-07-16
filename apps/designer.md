@@ -24,7 +24,7 @@ A better Color Picker for your Mac.
 brew install sip
 ```
 
-****
+
 
 ### **UX Tools**
 
@@ -76,20 +76,20 @@ The upcoming design, prototyping and animation tool.
 This tool has super promising features but a year later - it still hasn't really took off. I used it once for a project, however one thing I liked about it is the ease of using when prototyping with simple transitions & animations.
 {% endhint %}
 
-****
+
 
 ### **3D Rendering & Animation**
 
 **Blender**\
-****A 3d tool
+A 3d tool
 
 ```
 brew install --cask blender 
 ```
 
-****\
+\
 **Spline**\
-****A design tool for animating 3D
+A design tool for animating 3D
 
 {% embed url="https://spline.design/" %}
 
@@ -126,7 +126,7 @@ Excellent plugin for Sketch from Invision
 brew install --cask craftmanager
 ```
 
-### ****
+###
 
 ### **Icon Managers**
 
@@ -162,7 +162,7 @@ Also, I find myself lately relying more on icon pack libraries in **Figma,** rat
 ### **Webfont Generator**
 
 **Fontplop** 🏆\
-A **** Fast, Simple, & Free Open Source Webfont Converter
+A Fast, Simple, & Free Open Source Webfont Converter
 
 ```
 brew install --cask fontplop
@@ -194,7 +194,7 @@ brew install --cask optimage
 Optimizing images should be already baked in your frontend tooling (by running image optimizing npm packages using gulp, react, grunt, ect.) But just incase you need to do it manually, here are some good ones. ImageOptim is free, but the paid alternative Optimage [might be better](https://optimage.app/benchmark). But most frontend tooling, utilizes image compression packages already - you decide.
 {% endhint %}
 
-### ****
+###
 
 ### **Prototyping Tools**
 

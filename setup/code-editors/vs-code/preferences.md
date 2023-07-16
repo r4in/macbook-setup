@@ -18,7 +18,7 @@ I like my code to breathe (hence the huge line height)\
 
 {% hint style="info" %}
 **Why Dank Mono?**\
-****TLDR; It's awesome. Here's an in-depth explanation why: [https://medium.com/@philpl/what-sets-dank-mono-apart-1bbdc1cc3cbd](https://medium.com/@philpl/what-sets-dank-mono-apart-1bbdc1cc3cbd)
+TLDR; It's awesome. Here's an in-depth explanation why: [https://medium.com/@philpl/what-sets-dank-mono-apart-1bbdc1cc3cbd](https://medium.com/@philpl/what-sets-dank-mono-apart-1bbdc1cc3cbd)
 {% endhint %}
 
 I've been using Brogrammer and Material Theme previously in Sublime, but **Atom One Dark** is really nice for VS Code\

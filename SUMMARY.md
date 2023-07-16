@@ -15,6 +15,7 @@
 * [Homebrew](setup/homebrew/README.md)
   * [Cask](setup/homebrew/cask.md)
 * [Terminal Setups](setup/terminals/README.md)
+  * [Warp Setup](setup/terminals/warp-setup.md)
   * [Hyper Setup](setup/terminals/hyper-setup.md)
   * [iTerm2 Setup](setup/terminals/iterm2/README.md)
     * [Zsh](setup/terminals/iterm2/zsh.md)
@@ -37,4 +38,3 @@
 * [Design Tools](apps/designer.md)
 * [Developer Tools](apps/developer.md)
 * [Productivity Tools](apps/productivity.md)
-

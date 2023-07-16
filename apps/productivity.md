@@ -56,7 +56,7 @@ brew install --cask caffeine
 ```
 
 **Effortless** 🏆\
-****_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list&#x20;
+_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list&#x20;
 
 {% embed url="https://apps.apple.com/us/app/effortless/id1368722917?mt=12" %}
 
@@ -175,13 +175,13 @@ They're recently switched to a subscription-based model like Adobe
 {% embed url="https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12" %}
 
 **WPS Office**\
-****A promising cross-platform that is like Microsoft Office but better than LibreOffice
+A promising cross-platform that is like Microsoft Office but better than LibreOffice
 
 ```
 brew install --cask wpsoffice
 ```
 
-****
+
 
 ### Keystroke Launchers
 
@@ -264,7 +264,7 @@ A paid macOS system monitor in your menu bar
 brew install --cask istat-menus
 ```
 
-****
+
 
 ### **Calendars**
 
@@ -300,21 +300,21 @@ brew install --cask itsycal
 MacOS can't natively write files to NTFS formatted drives (most likely your external drive). Here are some solutions:
 
 **Paragon NTFS** \
-****A paid way to copy NTFS drives without much configs needed
+A paid way to copy NTFS drives without much configs needed
 
 ```
 brew install --cask paragon-ntfs
 ```
 
 **Tuxera Disk Manager**\
-****A paid way to copy NTFS drives without much configs needed
+A paid way to copy NTFS drives without much configs needed
 
 ```
 brew install --cask tuxera-ntfs
 ```
 
 **NTFS-3G**\
-****The free and open-source way to copy over NTFS with much configs needed
+The free and open-source way to copy over NTFS with much configs needed
 
 ```
 brew install --cask osxfuse
@@ -392,21 +392,21 @@ brew install --cask whatsapp
 ### Password Managers
 
 **Bitwarden** 🏆\
-****Its free and it just works!
+Its free and it just works!
 
 ```
 brew install --cask bitwarden
 ```
 
 **LastPass** \
-****My password manager of choice
+My password manager of choice
 
 ```
 brew install --cask lastpass
 ```
 
 **1Password**\
-****A good password manager
+A good password manager
 
 ```
 brew install --cask 1password
@@ -460,7 +460,7 @@ brew install --cask dozer
 I used to be on team Bartender. But the ease-of-use and simplicity of Vanilla is too hard to pass. Best of all, it's freemium.
 {% endhint %}
 
-****
+
 
 ### **Cloud Storage**
 
@@ -504,10 +504,10 @@ brew install --cask evernote
 ```
 
 {% hint style="info" %}
-Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and many more. **** However, it just didn't really stick with me.
+Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and many more. However, it just didn't really stick with me.
 {% endhint %}
 
-****
+
 
 ### Window Management Apps
 
@@ -551,7 +551,7 @@ A tiling window manager. ... Also, it supports global shortcuts for moving, focu
 brew install --cask amethyst
 ```
 
-### ****
+###
 
 ### **Gaming**
 

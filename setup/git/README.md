@@ -45,7 +45,7 @@ You can checkout your public key by navigating to
 cd ~/.ssh
 ```
 
-Type `ls -a` and you should be seeing **id\_rsa **_****_ (your private key) and **id\_rsa.pub (**your public key)
+Type `ls -a` and you should be seeing **id\_rsa** (your private key) and **id\_rsa.pub (**your public key)
 
 ![](<../../.gitbook/assets/image (21).png>)
 

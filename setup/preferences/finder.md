@@ -9,7 +9,7 @@ Open **Finder** > **Preferences**
 * General
   * [ ] **Show these items on the desktop** > **Uncheck everything**
   * [ ] **New Finder windows show** > **Desktop**\
-    ****
+
 * Sidebar
   * Uncheck everything except:
     * [ ] **Airdrop**

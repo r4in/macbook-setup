@@ -12,7 +12,7 @@ This is where we'll be installing software packages such as Git, Node.js or Pyth
 
 {% hint style="warning" %}
 **Why do you need this?**\
-****Homebrew works great for managing for automating the process of installing, upgrading, configuring software packages that you can't normally install using the App Store.&#x20;
+Homebrew works great for managing for automating the process of installing, upgrading, configuring software packages that you can't normally install using the App Store.&#x20;
 {% endhint %}
 
 ## Installation

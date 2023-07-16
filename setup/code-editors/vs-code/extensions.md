@@ -8,22 +8,22 @@ I'm very much used to the keyboard shortcuts using&#x20;
 {% endhint %}
 
 **One Dark Pro**\
-****Atom's iconic One Dark theme for Visual Studio Code
+Atom's iconic One Dark theme for Visual Studio Code
 
 ![](../../../.gitbook/assets/preview-1.png)
 
 **Auto Rename Tag**\
-****Auto rename paired html tags
+Auto rename paired html tags
 
 ![](../../../.gitbook/assets/usage.gif)
 
 **CSS Peak**\
-****Allow you to peak on CSS classes directly on the HTML markup
+Allow you to peak on CSS classes directly on the HTML markup
 
 ![](../../../.gitbook/assets/working.gif)
 
 **File Utils**\
-****A more convenient way of creating, duplicating, moving, renaming and deleting files
+A more convenient way of creating, duplicating, moving, renaming and deleting files
 
 ![](../../../.gitbook/assets/demo.gif)
 
@@ -33,12 +33,12 @@ Provides CSS class name completions for the HTML `class` attribute based on the 
 ![](../../../.gitbook/assets/68747470733a2f2f692e696d6775722e636f6d2f3563724d66546a2e676966.gif)
 
 **Material Icon Theme**\
-****Adds material icons to opened tabs and items in the Explorer window
+Adds material icons to opened tabs and items in the Explorer window
 
 ![](../../../.gitbook/assets/screen-shot-2019-09-18-at-1.19.45-am.png)
 
 **Prettier - Code Formatter**\
-****VS Code package to format your JavaScript / TypeScript / CSS using [Prettier](https://github.com/prettier/prettier).
+VS Code package to format your JavaScript / TypeScript / CSS using [Prettier](https://github.com/prettier/prettier).
 
 Manually running prettier from the command palette (cmd+shift+p)
 
@@ -61,14 +61,14 @@ Or running it automatically on every save, add this to your preferences
 ```
 
 **Sass**\
-****VS Code has built-in support for SCSS syntax, this will add support for SASS syntax
+VS Code has built-in support for SCSS syntax, this will add support for SASS syntax
 
 ![](../../../.gitbook/assets/screen-shot-2019-09-18-at-1.25.09-am.png)
 
 **stylelint**\
-****A [Visual Studio Code](https://code.visualstudio.com/) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS\_REFERENCE.html#syntax)/[Less](http://lesscss.org/) with [stylelint](https://stylelint.io/)
+A [Visual Studio Code](https://code.visualstudio.com/) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS\_REFERENCE.html#syntax)/[Less](http://lesscss.org/) with [stylelint](https://stylelint.io/)
 
 ![](../../../.gitbook/assets/screenshot.png)
 
 **Trailing Spaces**\
-****A [VS Code](https://code.visualstudio.com/) extension that allows you to highlight trailing spaces and delete them in a flash!
+A [VS Code](https://code.visualstudio.com/) extension that allows you to highlight trailing spaces and delete them in a flash!
