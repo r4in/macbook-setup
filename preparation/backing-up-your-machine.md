@@ -15,9 +15,9 @@ First, download the latest macOS via App Store:
 There are numerous apps and ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports older macOS starting from Big Sur. Fortunately, you can still easily do this on your Terminal. Here's how you create a bootable thumb drive:
 
 * Prepare a 16GB usb thumb drive that's ready to be wiped out
-* Make sure you already have downloaded macOS Big Sur. After downloading, It should be sitting on your Applications folder like this:
+* Make sure you already have downloaded macOS Ventura. After downloading, It should be sitting on your Applications folder like this:
 
-![You can find it under Applications > Install macOS Monterey](<../.gitbook/assets/Screen Shot 2022-01-02 at 10.00.20 PM.png>)
+![You can find it under Applications > Install macOS Ventura](<../.gitbook/assets/Screen Shot 2022-01-02 at 10.00.20 PM.png>)
 
 * Insert your thumbdrive and simply run this command below on your terminal. Make sure you replace "**Untitled"** with the name of your usb thumb drive.
 
@@ -43,8 +43,8 @@ sudo '/Applications/Install macOS Ventura.app/Contents/Resources/createinstallme
   Instead of saving them on icloud notes or on sublime text/note taking apps - use [Paste](https://pasteapp.me/)!&#x20;
 * [ ] Browser bookmarks, settings, history, ect.  \
   If you're using different browsers, [Raindrop.io](https://raindrop.io/) is a great bookmarks manager.
-* [ ] Passwords, Server logins, sensitive-stuff. \
-  (Don't store them in your notes. Use password generators like [1Password](https://1password.com/). I recommend [LastPass](https://www.lastpass.com/))
+* [ ] Passwords, Server logins, sensitive-stuff.\
+  Don't store them in your notes. Use password generators like [1Password](https://1password.com/) or [LastPass](https://www.lastpass.com/). I recommend using [Bitwarden](https://bitwarden.com/) - the free tier is good enough for my personal needs and is open source.
 * [ ] Don't forget to backup your public ssh keys too
 * [ ] Your saved typefaces
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Basically setting up a product designer's dev environment for UI Development.
-  *Updated for MacOS Big Sur*
+  Basically setting up a product designer's machine for UX Development & UI
+  Design. *Updated for MacOS Ventura*
 ---
 
 # Introduction
