@@ -10,7 +10,7 @@ Lately, I've been using Warp — which is a nice terminal with AI built in. It b
 
 To install, simple run: `brew install --cask warp`
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Theme
 
@@ -18,13 +18,17 @@ I love **hyper snazzy**, which is an elegant terminal theme with bright colors. 
 
 Download the `snazzy.yaml` file (and any other accent file) and copy it to `~/.warp/themes`
 
+Open Warp, then run the command palette by typing `cmd+p` and search for **Open Theme Picker**. Scroll down and select **Snazzy.**&#x20;
+
 Make sure you use the **Menlo** font.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Shell
 
 ### **Zsh**
 
-Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need to manually install zsh anymore. If you're not sure you can run `echo "$SHELL"` on your terminal and you should get `/bin/zsh` as a response.
+Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need to manually install zsh anymore. If you're not sure you can run `echo $SHELL` on your terminal and you should get `/bin/zsh` as a response.
 
 ### **Zsh Framework**
 
@@ -35,6 +39,8 @@ Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Prompt
 

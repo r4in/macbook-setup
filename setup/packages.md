@@ -108,26 +108,6 @@ brew install mas
 * Pending update apps: `mas outdated`
 * Update apps: `mas upgrade`
 
-
-
-## wifi-password
-
-`wifi-password` does exactly what its name suggests, which is displaying the Wi-Fi password of the network you’re currently connected to. After inputting your Keychain authentication, the password shows up in bright green.
-
-#### Installation
-
-```
-brew install wifi-password
-```
-
-#### Usage
-
-```
-wifi-password
-```
-
-
-
 ## tree
 
 `tree` is a tool that lists out the content of directories in a folder in a tree-like format. This useful trick is a life-saver for those who want a quick visual representation of a project’s file structure.
@@ -144,8 +124,6 @@ brew install tree
 tree
 ```
 
-
-
 ## archey
 
 `archey` displays your system information inside the terminal along with a text-based retro-style Apple icon.
@@ -161,7 +139,3 @@ brew install archey
 * Run: `archey`
 * Color: `archey -c`
 * Black and white: `archey -b`
-
-{% hint style="warning" %}
-I forgot which medium article I got some of these from. Credits to their respective owners. Feel free to DM so I can attribute you. Thanks!
-{% endhint %}

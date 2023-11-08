@@ -4,7 +4,7 @@ description: The missing package manager for macOS
 
 # Homebrew
 
-![Updating GUI apps and packages has never been this easy](<../../.gitbook/assets/image (1).png>)
+![Updating GUI apps and packages has never been this easy](<../../.gitbook/assets/image (1) (1).png>)
 
 > A package manager or package management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.
 
