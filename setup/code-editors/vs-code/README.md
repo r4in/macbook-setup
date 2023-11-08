@@ -8,9 +8,7 @@ I'm using VS Code as my daily driver, so here's how I set it up!
 
 [Download](https://code.visualstudio.com/) the **.dmg** file and drag-and-drop it to the **Applications** folder or simply
 
-```text
-brew cask install visual-studio-code
 ```
-
-
+brew install --cask visual-studio-code
+```
 
