@@ -1,81 +1,69 @@
 # System Preferences
 
-First thing you should do is update the system. To do that go: **Apple menu \(\) &gt; About This Mac &gt; Software Update.**
+The first thing you should do is update your OS. To do that, go to: **Apple menu () -> System Settings.. -> Software Update**
 
-Also upgrade your OS in case you want to work on the latest OS. macOS upgrades are usually free so you might as well keep your machine up to date.
+Don't forget to sign in your Apple ID to sync in your iCloud account
 
-If this is a new computer, there are a couple tweaks you could make to the System Preferences.
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-* Sign in your Apple ID to sync in your iCloud account
+There are a couple of tweaks you could make to the System Preferences. These settings below are all optional, so consider them as suggestions.
 
-![Big Sur System Preferences](../../.gitbook/assets/image%20%2812%29.png)
+### General
 
-{% hint style="warning" %}
-These settings below are all optional, consider them suggestions.
-{% endhint %}
-
-## General
-
-* Appearance : **Dark**
 * Check **Allow Handoff between this Mac and your iCloud devices**
 * Recent Items : **None**
 
-## Dock & Menu Bar
+### Appearance
+
+* Appearance : **Dark**
+
+### Accessibility
+
+* **Motor**
+  * **Pointer Control**
+    * Check **Ignore built-in trackpad when mouse or wireless trackpad is present** (I primarily use a mouse. So I find it annoying when I accidentally move the mouse pointer when typing on the keyboard.)
+
+### Control Center
+
+* **Spotlight** -> Set to **Don't Show in Menu Bar**
+
+### Desktop & Dock
+
+Your dock is probably flooded with all of macOS' default apps. I usually drag them all to the trash to make it cleaner. Then I would usually hide the Dock (`cmd + option + d`) because accessing apps through spotlight search is faster.&#x20;
 
 * Size : **Small**
-* Uncheck **Magnification**
 * Position on screen : **Left**
-* Uncheck **Show recent applications in Dock**
+* Uncheck **Show suggested and recent apps in Dock**
 
-### Menu Bar Only
+### Wallpaper
 
-* **Spotlight** &gt; Uncheck **Show in Menu Bar**
+* Update to your favorite wallpaper
 
-Remove workspace auto-switching by running the following command in the terminal:
+### Siri & Spotlight
 
-```text
-defaults write com.apple.dock workspaces-auto-swoosh -bool NO
-```
+* Uncheck **Ask Siri**
 
-and then
-
-```text
-killall Dock
-```
-
-## Siri
-
-* Uncheck **Enable Ask Siri**
-
-## Internet Accounts
-
-* Add your Google, Yahoo or iCloud accounts to sync in with the Mail, Calendar, Messages and other macOS apps.
-
-## Users & Groups
+### Users & Groups
 
 * Set up your Password, Apple ID, Avatar, etc.
 
-## Keyboard
+### Internet Accounts
 
-* **Keyboard &gt;  Press \(Globe Icon\) to** &gt; **Do Nothing**
-* **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
-* **Shortcuts** &gt; **Spotlight** &gt; Unchecked **Show Spotlight search** 
-* Under **Text**, uncheck the following:
-  * Correct spelling automatically
-  * Capitalize words automatically
-  * Add period with double space
+* Add your Google, Yahoo or iCloud accounts to sync in with the Mail, Calendar, Messages and other macOS apps.
+
+### Keyboard
+
+* Set  **Press** 🌐︎ **key  to** -> **Do Nothing**
+* Set **Shortcuts** -> **Spotlight** -> uncheck **Show Spotlight search**&#x20;
+* Set **Shortcuts** -> **Spotlight** -> uncheck **Show Finder search window**
 
 {% hint style="info" %}
-Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS_X_Yosemite) and resembles a lot to **Alfred.** I still prefer using **Ueli** over Spotlight for various reasons \(Just do your research\). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Ueli anyways.
+Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS\_X\_Yosemite) and resembles a lot to **Alfred.** I still prefer using **Ueli** over Spotlight for various reasons (Just do your research). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Ueli anyways.
 {% endhint %}
 
-## Trackpad
+### Trackpad
 
-* Point & Click
-  * Check **Tap to click**
+* **Point & Click**
+  * Enable **Tap to click**
 
-## Accessibility
-
-* Pointer Control
-  * Check **Ignore built-in trackpad when mouse or wireless trackpad is present** \(I only do this when I'm using a wireless mouse\)
-
+###

@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this quick guide was initially written with the intent of setting up a UI development environment for product designers which was previously adopted at [Symph](https://www.symph.co) and [Abstract Digital](https://abstract.ph/). Now, I'm sharing it to the world to help super-charge other design teams, and for everyone who loves to ship digital products! 🚀
+This quick guide was initially written with the intent of setting up a UI development environment for product designers which was previously adopted at [Symph](https://www.symph.co) and [Abstract Digital](https://abstract.ph/). Now, I'm sharing it to the world to help super-charge other design teams, and for everyone who loves to ship digital products! 🚀
 
 If you feel that:
 

@@ -8,10 +8,12 @@ Download and install it from the **App Store** or from [Apple's website](https:/
 
 ## Xcode Command Line Tools
 
-Then proceed to installing the **Xcode command line tools** by running the following command in your terminal:
+Then proceed to install the Xcode Command Line Tools by running the following command in your terminal:
 
 ```
 xcode-select --install
 ```
+
+<figure><img src="../.gitbook/assets/image (32).png" alt="" width="375"><figcaption><p>Click on install to continue</p></figcaption></figure>
 
 This will prompt you to install the command line tools. Follow the instructions and you'll have **Xcode** and **Xcode command line tools** both installed.
