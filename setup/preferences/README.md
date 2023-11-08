@@ -43,7 +43,7 @@ Your dock is probably flooded with all of macOS' default apps. I usually drag th
 
 ### Wallpaper
 
-* Update to your favorite wallpaper
+* Update your favorite wallpaper.
 
 ### Siri & Spotlight
 
@@ -55,7 +55,7 @@ Your dock is probably flooded with all of macOS' default apps. I usually drag th
 
 ### Internet Accounts
 
-* Add your Google, Yahoo or iCloud accounts to sync in with the Mail, Calendar, Messages and other macOS apps.
+* Add your Google, Yahoo, or iCloud accounts to sync in with the Mail, Calendar, Messages, and other macOS apps.
 
 ### Keyboard
 
@@ -64,8 +64,15 @@ Your dock is probably flooded with all of macOS' default apps. I usually drag th
 * Set **Shortcuts** -> **Spotlight** -> uncheck **Show Finder search window**
 
 {% hint style="info" %}
-Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS\_X\_Yosemite) and resembles a lot to **Alfred.** I still prefer using **Ueli** over Spotlight for various reasons (Just do your research). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Ueli anyways.
+Fun fact: **Spotlight** was redesigned completely on [OS X 10.10 Yosemite](https://en.wikipedia.org/wiki/OS\_X\_Yosemite) and resembles a lot to **Alfred.** I still prefer using **Ueli** over Spotlight for various reasons (Just do your research). That being said, we'll be disabling the Spotlight search keyboard shortcut since we'll be using Ueli anyway.
 {% endhint %}
+
+### Mouse
+
+If you're using a Magic Mouse:
+
+* Adjust tracking speed to preferred speed
+* Set **Secondary click** -> **Click Right Side**
 
 ### Trackpad
 

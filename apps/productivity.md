@@ -387,7 +387,12 @@ Used as a main communication tool in some projects as well
 brew install --cask whatsapp
 ```
 
-###
+**Grammarly Desktop**\
+Effective communication and writing is an underrated skill for designers. If English isn't your first language, this definitely helps a lot.
+
+```
+brew install --cask grammarly-desktop 
+```
 
 ### Password Managers
 
@@ -509,7 +514,7 @@ Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and
 
 
 
-### Window Management Apps
+### Window Management
 
 **Rectangle** 🏆\
 My favorite window manager
@@ -519,14 +524,34 @@ brew install --cask rectangle
 ```
 
 {% tabs %}
-{% tab title="Settings" %}
-* Go to **Preference** and uncheck **Move to adjacent display on repeated left or right commands**
-{% endtab %}
-
 {% tab title="Why Rectangle?" %}
 Mainly because I'm super familiar with Spectacle before and it follows the same shortcuts such as:
 
 * `cmd + option + arrow key` to cycle thru 1/2 and 1/3 to the direction you want it auto-arrange
+{% endtab %}
+
+{% tab title="Settings" %}
+Some shortcuts that I don't normally use conflict with the other apps that I frequently use (like Figma's copy merged)
+
+*   Go to **Preference** and disable the shortcuts for:
+
+    * Top Left
+    * Top Right
+    * Bottom Left
+    * Bottom Right
+    * Maximize
+    * Almost Maximize
+    * Maximize Height
+    * Make Smaller
+    * Make Larger
+    * Center
+    * Restore
+
+
+* Check **Launch on login**
+* Check **Hide menu bar icon**
+* Set **Repeated commands -> cycle 1/2, 2/3 and 1/3 on half actions**
+* Set **Gaps between windows -> 8px**
 {% endtab %}
 {% endtabs %}
 

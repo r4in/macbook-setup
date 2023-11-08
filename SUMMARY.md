@@ -32,7 +32,7 @@
 * [Tech Stack](setup/techstack/README.md)
   * [Package Managers](setup/techstack/package-managers.md)
 
-## Apps
+## Apps + Tools <a href="#apps" id="apps"></a>
 
 * [Intro](apps/apps.md)
 * [Design Tools](apps/designer.md)
