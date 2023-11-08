@@ -1,12 +1,12 @@
 ---
 description: >-
-  Basically setting up a product designer's machine for UX Development & UI
-  Design. *Updated for MacOS Ventura*
+  Basically setting up a product designer's machine for UX design & development.
+  *Updated for MacOS Sonoma*
 ---
 
 # Introduction
 
-Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this quick guide was initially written with the intent of setting up a UI development environment for product designers which were adopted at [Symph](https://www.symph.co) and [Abstract Digital](https://abstract.ph/). Now, I'm sharing it to the world to help super-charge other design teams, and for everyone who loves to ship digital products! 🚀
+Originally a fork from [Sourabh Bajaj](http://sourabhbajaj.com/mac-setup/), this quick guide was initially written with the intent of setting up a UI development environment for product designers which was previously adopted at [Symph](https://www.symph.co) and [Abstract Digital](https://abstract.ph/). Now, I'm sharing it to the world to help super-charge other design teams, and for everyone who loves to ship digital products! 🚀
 
 If you feel that:
 
@@ -18,4 +18,4 @@ Then this guide might be for you.&#x20;
 
 ![Just a typical day at the office](.gitbook/assets/frame.png)
 
-Feel free to use this guide – share it or fork it. No need to strictly follow it. This guide is designed to our workflow and tech stack in the company, so please do feel free to augment it according to your needs. 🦄✨
+Feel free to use this guide – share it or fork it. No need to strictly follow it. This guide is designed for our workflow and tech stack in the company, so please do feel free to augment it according to your needs. 🦄✨
