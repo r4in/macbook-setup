@@ -21,7 +21,7 @@ There are numerous apps and ways to create a bootable macOS install. As of this 
 * Prepare a 16GB USB thumb drive that's ready to be wiped out
 * Make sure you already have downloaded macOS Sonoma. After downloading, It should be sitting in your Applications folder like this:
 
-![You can find it under Applications > Install macOS Sonoma](<../.gitbook/assets/Screen Shot 2022-01-02 at 10.00.20 PM.png>)
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>You can find it under Applications > Install macOS Sonoma</p></figcaption></figure>
 
 * Insert your thumb drive and simply run this command below on your terminal. Make sure you replace "**Untitled"** with the name of your USB thumb drive.
 
@@ -31,11 +31,11 @@ sudo '/Applications/Install macOS Sonoma.app/Contents/Resources/createinstallmed
 
 * Wait for around 10-15 minutes to complete. You should see this after completing it:
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-12-04 at 4.31.44 AM.png" alt=""><figcaption><p>Bootable macOS Ventura installer completed successfully</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Bootable macOS Sonoma installer completed successfully</p></figcaption></figure>
 
 ## Backup Checklist
 
-* [ ] Files on your **Desktop**&#x20;
+* [ ] Files in your **Desktop** folder
 * [ ] Files in your **Downloads** folder
 * [ ] Files in your **Documents** folder
 * [ ] Files on the **Pictures** folder&#x20;
