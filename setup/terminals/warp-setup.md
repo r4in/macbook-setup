@@ -4,7 +4,7 @@ description: The modern, AI-assisted terminal.
 
 # Warp Setup
 
-Before we proceed, there's 3 main things that we want to setup in a terminal. Mainly, the **Theme**, **Prompt, & Shell.**
+Before we proceed, there are three main things that we want to set up in a terminal. Mainly, the **Theme**, **Prompt, and shell.**
 
 Lately, I've been using Warp — which is a nice terminal with AI built in. It boasts shared workflows and saved commands so you can collaborate with your team better. You can check it out here: [https://www.warp.dev/](https://www.warp.dev/)
 
@@ -38,7 +38,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Prompt
 
-**Pure** is a pretty, minimal and fast ZSH prompt [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
+**Pure** is a pretty, minimal, and fast ZSH prompt [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
 
 But you'll need node installed first:
 
@@ -63,11 +63,11 @@ prompt pure
 {% hint style="info" %}
 ### **FAQ**
 
-**What is a .zshrc file?** Basically it's its a Z-shell resource which contains all your configurations.
+**What is a .zshrc file?** Basically, it's a Z-shell resource that contains all your configurations.
 
-#### How do I edit / access the .zshrc file?
+#### How do I edit/access the .zshrc file?
 
-Your .zshrc file is usually located at the root. To open it up using your default text editor:
+Your .zshrc file is usually located at the root. To open use your default text editor:
 
 ```
 open ~/.zshrc
@@ -84,7 +84,7 @@ Simply open your .zshrc file and add this:
 
 ### Zsh autosuggestions
 
-[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh. It suggests commands as you type based on command history.
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com/)-like fast/unobtrusive auto-suggestions for zsh. It suggests commands as you type based on command history.
 
 #### **Installation**:
 
@@ -102,7 +102,7 @@ plugins=(git zsh-autosuggestions)
 
 ### Zsh Syntax Highlighting
 
-[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a Fish shell like syntax highlighting for Zsh.
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a Fish shell-like syntax highlighting for Zsh.
 
 #### Installation:
 

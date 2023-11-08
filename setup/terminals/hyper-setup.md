@@ -28,7 +28,7 @@ Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need
 
 ### **Zsh Framework**
 
-**Oh-my-zsh** is an open source, community-driven framework for managing your zsh configuration [http://ohmyz.sh/](http://ohmyz.sh/)
+**Oh-my-zsh** is an open-source, community-driven framework for managing your zsh configuration [http://ohmyz.sh/](http://ohmyz.sh/)
 
 #### Installation:
 
@@ -38,7 +38,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Prompt
 
-**Pure** is a pretty, minimal and fast ZSH prompt [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
+**Pure** is a pretty, minimal, and fast ZSH prompt [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
 
 But you'll need node installed first:
 
@@ -63,11 +63,11 @@ prompt pure
 {% hint style="info" %}
 ### **FAQ**
 
-**What is a .zshrc file?** Basically it's its a Z-shell resource which contains all your configurations.
+**What is a .zshrc file?** Basically, it's a Z-shell resource that contains all your configurations.
 
 #### How do I edit / access the .zshrc file?
 
-Your .zshrc file is usually located at the root. To open it up using your default text editor:
+Your .zshrc file is usually located at the root. To open, use your default text editor:
 
 ```
 open ~/.zshrc

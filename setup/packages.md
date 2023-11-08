@@ -1,6 +1,6 @@
 # Terminal Packages
 
-Below are some recommended packages that is helpful to have in your selected terminal.
+Below are some recommended packages that are helpful to have in your selected terminal.
 
 {% hint style="info" %}
 If you are already familiar with the packages listed, here's a shell script that installs everything below. [https://github.com/r4in/shellscripts/blob/master/packages.sh](https://github.com/r4in/shellscripts/blob/master/packages.sh)
@@ -14,13 +14,13 @@ Not really a big fan of `rm` so heres a better alternative: [https://github.com/
 
 You will need **Node** in order to install this package, to install Node:
 
-```text
+```
 brew install node
 ```
 
 And to install trash:
 
-```text
+```
 npm install trash
 ```
 
@@ -32,20 +32,20 @@ Z is actually not part of Zsh, but its a really cool way to jump to frecent fold
 
 #### Installation
 
-```text
+```
 brew install z
 ```
 
 Also, don't forget to add this to your .zshrc file
 
-```text
+```
 # include Z
 . /usr/local/etc/profile.d/z.sh
 ```
 
 #### Usage
 
-```text
+```
 z <folder or app name>
 ```
 
@@ -53,13 +53,13 @@ z <folder or app name>
 
 `Youtube-dl` is a command-line program used to download YouTube videos or videos from any platform in high resolution. There are also tons of other functionalities you can experiment with and you can check them out at their GitHub repository below.
 
-```text
+```
 brew install youtube-dl
 ```
 
 #### Installation
 
-```text
+```
 brew install ffmpeg
 ```
 
@@ -76,19 +76,19 @@ brew install ffmpeg
 
 #### Installation
 
-```text
+```
 brew install speedtest-cli
 ```
 
 #### Usage
 
-```text
+```
 speedtest-cli
 ```
 
 
 
-## Mac App Store CLI 
+## Mac App Store CLI&#x20;
 
 `mas` is a Mac App Store command-line interface that lets you install Mac apps from the App Store directly from the command line.
 
@@ -96,7 +96,7 @@ You can search for apps, install all existing updates, print the version number 
 
 #### Installation
 
-```text
+```
 brew install mas
 ```
 
@@ -104,7 +104,7 @@ brew install mas
 
 * List all apps: `mas list`
 * Search for apps: `mas search Xcode`
-* Install apps: `mas install 497799835` \(the version number of the app\)
+* Install apps: `mas install 497799835` (the version number of the app)
 * Pending update apps: `mas outdated`
 * Update apps: `mas upgrade`
 
@@ -116,13 +116,13 @@ brew install mas
 
 #### Installation
 
-```text
+```
 brew install wifi-password
 ```
 
 #### Usage
 
-```text
+```
 wifi-password
 ```
 
@@ -134,13 +134,13 @@ wifi-password
 
 #### Installation
 
-```text
+```
 brew install tree
 ```
 
 #### Usage
 
-```text
+```
 tree
 ```
 
@@ -152,7 +152,7 @@ tree
 
 #### Installation
 
-```text
+```
 brew install archey
 ```
 
@@ -165,4 +165,3 @@ brew install archey
 {% hint style="warning" %}
 I forgot which medium article I got some of these from. Credits to their respective owners. Feel free to DM so I can attribute you. Thanks!
 {% endhint %}
-

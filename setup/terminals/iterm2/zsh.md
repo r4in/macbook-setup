@@ -12,7 +12,7 @@ Install zsh and zsh-completions using Homebrew:
 brew install zsh zsh-completions
 ```
 
-Upon completing installation, you'll probably come across this message:
+Upon completing installation, you'll come across this message:
 
 ![](../../../.gitbook/assets/screen-shot-2019-12-30-at-9.29.06-pm.png)
 
@@ -24,7 +24,7 @@ Now let's use a framework built on top of this shell called **Oh My Zsh!**
 
 ### Oh My Zsh
 
-Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and super-charge your terminal!
+Install [Oh My Zsh](http://ohmyz.sh/) on top of zsh to get additional functionality and supercharge your terminal!
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -54,11 +54,11 @@ rm -f ~/.zcompdump; compinit
 
 You can further extend zsh's power and functionalities by adding plugins to Oh My Zsh. There are useful plugins like completion plugins that will let `zsh` know which arguments the package has so it can autocomplete. We can do so by adding this to our .zshrc file
 
-**What is a .zshrc file?** Basically it's its a Z-shell resource which contains all your configurations.
+**What is a .zshrc file?** Basically, it's a Z-shell resource that contains all your configurations.
 
-### How do I edit / access the .zshrc file?
+### How do I edit/access the .zshrc file?
 
-Your .zshrc file is usually located at the root. To open it up using your default text editor:
+Your .zshrc file is usually located at the root. To open, use your default text editor:
 
 ```
 open ~/.zshrc
@@ -66,7 +66,7 @@ open ~/.zshrc
 
 ### **How to add plugins?**
 
-To add plugin we need to search and add these strings of text to our current plugins list in the .**zshrc file.** Example:
+To add a plugin we need to search and add these strings of text to our current plugins list in the .**zshrc file.** Example:
 
 ```
 plugins=(
@@ -102,14 +102,14 @@ My personal favorite is the [Cobalt2 iTerm theme](https://github.com/wesbos/Coba
 
 ## Oh My Zsh Themes
 
-While there are [alot of themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) you can use with Oh My Zsh, my favourite is the [Cobalt2 theme](https://github.com/wesbos/Cobalt2-iterm). You can click on the theme link and follow the instructions there or follow thru here:
+While there are [a lot of themes](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) you can use with Oh My Zsh, my favorite is the [Cobalt2 theme](https://github.com/wesbos/Cobalt2-iterm). You can click on the theme link and follow the instructions there or follow through here:
 
 1. Open & edit your .zshrc file with `$ open .zshrc` then search & modify the following line `$ ZSH_THEME="cobalt2"`
 2. Copy & paste the [cobalt2.zsh-theme](https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme) file to `~/.oh-my-zsh/themes/`  directory
 
 ## Powerline
 
-What are [**Powerline**](https://github.com/powerline/powerline)? It's a statusline plugin for vim, and provides statuslines and prompts. And along with it are [**Powerline Fonts**](https://github.com/powerline/fonts) that is responsible for the icons you have on your terminal. To enable powerline fonts on the theme we're using:
+What is [**Powerline**](https://github.com/powerline/powerline)? It's a statusline plugin for vim, and provides statuslines and prompts. And along with it are [**Powerline Fonts**](https://github.com/powerline/fonts) that is responsible for the icons you have on your terminal. To enable powerline fonts on the theme we're using:
 
 Powerline uses Pip (Which is a package manager for Python) Unfortunately,&#x20;
 
@@ -127,7 +127,7 @@ cd fonts
 ./install.sh
 ```
 
-Now head back to iTerm and go to **Preferences** > **Profiles** > **Text** and change the font family to **Inconsolata for Powerline**, font weight to **Medium** and set the font size to **12px**. Then you should be seeing icons in your command prompt like this:
+Now head back to iTerm and go to **Preferences** > **Profiles** > **Text** and change the font family to **Inconsolata for Powerline**, font weight to **Medium,** and set the font size to **12px**. Then you should be seeing icons in your command prompt like this:
 
 ![](../../../.gitbook/assets/screen-shot-2019-12-31-at-12.31.00-am.png)
 
