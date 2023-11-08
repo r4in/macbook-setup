@@ -21,9 +21,25 @@ An important dependency before Homebrew can run is the **Command Line Tools** fo
 
 To install Homebrew paste the following command in your **Terminal** and hit enter, and follow the steps on the screen:
 
+{% code overflow="wrap" %}
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+{% endcode %}
+
+You might need to add Homebrew to your `PATH` you can do so by entering these 2 commands:
+
+{% code overflow="wrap" %}
+```
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/francisalturas/.zprofile
+```
+{% endcode %}
+
+```
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+After running those commands.
 
 To be able to use `brew` you need to start a new terminal session. Do this by opening a new terminal tab with **Cmd+T** (you should also close the old one), then run the following command to make sure everything is working:
 
