@@ -31,9 +31,15 @@ There are a couple of tweaks you could make to the System Preferences. These set
 
 Your dock is probably flooded with all of macOS' default apps. I usually drag them all to the trash to make it cleaner. Then I would usually hide the Dock (`cmd + option + d`) because accessing apps through spotlight search is faster.&#x20;
 
-* Size : **Small**
-* Position on screen : **Left**
-* Uncheck **Show suggested and recent apps in Dock**
+*   **Dock**
+
+    * Size : **Small**
+    * Position on screen : **Left**
+    * Uncheck **Show suggested and recent apps in Dock**
+
+
+* **Desktop & Stage Manager**
+  * Set **Click wallpaper to reveal desktop -> Only in Stage Manager**
 
 ### Wallpaper
 
