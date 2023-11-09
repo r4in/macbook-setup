@@ -66,12 +66,33 @@ If you have already previously installed this:
 mas install 1368722917
 ```
 
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mention</summary>
+
+
+
+**ToothFairy** \
+Connect AirPods (or other Bluetooth headphones) to your Mac with a single click or keypress.
+
+If you have already previously installed this:
+
+```
+mas install 1191449274
+```
+
+_However, with the recent updates to the Bluetooth widget on Big Sur. I don't really need this much anymore._
+
 **f.lux** 🏆\
 Changes your screen color during nighttime (before Apple implemented their very own NightShift)
 
 ```
 brew install --cask flux
 ```
+
+</details>
+
+
 
 **Daisydisk**\
 Great for inspecting your HD on to know which files are taking up too much space
@@ -114,21 +135,6 @@ Music while working
 ```
 brew install --cask spotify
 ```
-
-**ToothFairy** \
-Connect AirPods (or other Bluetooth headphones) to your Mac with a single click or keypress.
-
-{% embed url="https://apps.apple.com/us/app/toothfairy/id1191449274?mt=12" %}
-
-If you have already previously installed this:
-
-```
-mas install 1191449274
-```
-
-{% hint style="info" %}
-However, with the recent updates to the Bluetooth widget on Big Sur. I don't really need this much anymore.
-{% endhint %}
 
 **Reflector 3** 🏆\
 Airplay directly from your iphone to your mac
@@ -185,30 +191,31 @@ brew install --cask wpsoffice
 
 ### Keystroke Launchers
 
-**Ueli** 🏆\
+
+
+**Raycast** 🏆\
+The best keystroke launcher out there.
+
+```
+brew install --cask raycast
+```
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
+
+**Ueli**\
 Keystroke launcher for Windows and macOS
 
 ```
 brew install --cask ueli 
 ```
 
-{% tabs %}
-{% tab title="Why Ueli?" %}
-I got used to using `option + cmd` to open keystroke launchers (Alfred) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.
-{% endtab %}
-
-{% tab title="Setup" %}
-After installing, add this under **Settings > Application Search**
-
-`/System/Applications`
-
-Disable everything except:\
+I got used to using option + cmd to open keystroke launchers (Alfred) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.After installing, add this under Settings > Application Search/System/ApplicationsDisable everything except:\
 \- Application Search\
 \- Calculator\
 \- Operating system commands\
 \- Operating system settings
-{% endtab %}
-{% endtabs %}
 
 **Alfred**\
 The original Spotlight Search! (Before Apple sort of copied it. hehe)
@@ -217,17 +224,12 @@ The original Spotlight Search! (Before Apple sort of copied it. hehe)
 brew install --cask alfred
 ```
 
-**Raycast**\
-A rising app thats more than a keystroke launcher !
-
-```
-https://raycast.com/
-```
+</details>
 
 ### **Screen Recorders**
 
 **Kap** 🏆\
-A minimalist way to record videos / gifs on your screen&#x20;
+A minimalist way to record videos / gifs on your screen.
 
 ```
 brew install --cask kap
@@ -281,6 +283,10 @@ It's really smart when adding events - which autodetects the time, location and 
 {% endtab %}
 {% endtabs %}
 
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
+
 **Calendar 366 II**\
 A good free alternative with Fantastical-like functionalities
 
@@ -295,18 +301,15 @@ Another good free alternative with Fantastical-like functionalities
 brew install --cask itsycal
 ```
 
+</details>
+
 ### NTFS Tools
 
 MacOS can't natively write files to NTFS formatted drives (most likely your external drive). Here are some solutions:
 
-**Paragon NTFS** \
-A paid way to copy NTFS drives without much configs needed
 
-```
-brew install --cask paragon-ntfs
-```
 
-**Tuxera Disk Manager**\
+**Tuxera Disk Manager** 🏆\
 A paid way to copy NTFS drives without much configs needed
 
 ```
@@ -329,6 +332,19 @@ brew install ntfs-3g
 then follow the rest of the instructions here:\
 [https://medium.com/macoclock/enabling-ntfs-write-in-macos-10-15-catalina-the-open-source-way-a5fd0d1cb32e](https://medium.com/macoclock/enabling-ntfs-write-in-macos-10-15-catalina-the-open-source-way-a5fd0d1cb32e)
 
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
+
+**Paragon NTFS** \
+A paid way to copy NTFS drives without much configs needed
+
+```
+brew install --cask paragon-ntfs
+```
+
+</details>
+
 ### Communication
 
 **Slack** [🏆](https://emojipedia.org/trophy/)\
@@ -345,14 +361,14 @@ Client communication
 brew install --cask skype
 ```
 
-**Zoom** \
+**Zoom** [🏆](https://emojipedia.org/trophy/)\
 Great for group video calls
 
 ```
 brew install --cask zoom
 ```
 
-**Discord**\
+**Discord** [🏆](https://emojipedia.org/trophy/)\
 Great for group video calls
 
 ```
@@ -366,7 +382,7 @@ Checkout the community
 brew install --cask gitter
 ```
 
-**Facebook Messenger**\
+**Facebook Messenger** [🏆](https://emojipedia.org/trophy/)\
 Checkout the community
 
 ```
@@ -380,14 +396,14 @@ Used once for a project's main communication tool
 brew install --cask telegram
 ```
 
-**Whatsapp**\
+**Whatsapp** [🏆](https://emojipedia.org/trophy/)\
 Used as a main communication tool in some projects as well
 
 ```
 brew install --cask whatsapp
 ```
 
-**Grammarly Desktop**\
+**Grammarly Desktop** [🏆](https://emojipedia.org/trophy/)\
 Effective communication and writing is an underrated skill for designers. If English isn't your first language, this definitely helps a lot.
 
 ```
@@ -397,7 +413,7 @@ brew install --cask grammarly-desktop 
 ### Password Managers
 
 **Bitwarden** 🏆\
-Its free and it just works!
+It's free and it just works!
 
 ```
 brew install --cask bitwarden
@@ -421,15 +437,15 @@ brew install --cask 1password
 
 ### Email Apps
 
+**Airmail 5** 🏆\
+A better email app then the default one
+
+{% embed url="https://apps.apple.com/us/app/airmail-4/id918858936?mt=12" %}
+
 **Edison**\
 A better email app then the default one
 
 {% embed url="https://mail.edison.tech/mac" %}
-
-**Airmail 4** 🏆\
-A better email app then the default one
-
-{% embed url="https://apps.apple.com/us/app/airmail-4/id918858936?mt=12" %}
 
 **Spark**\
 A better email app then the default one
@@ -441,14 +457,14 @@ A better email app then the default one
 ### Menu Bar Organizer
 
 **Vanilla** [🏆](https://emojipedia.org/trophy/)\
-A simple, fast and freemium menu bar organizer.
+A simple, fast, and freemium menu bar organizer.
 
 ```
 brew install --cask vanilla
 ```
 
 **Bartender**\
-Customize your menu bar & hide unwanted icons
+Customize your menu bar & hide unwanted icons.
 
 ```
 brew install --cask bartender
@@ -469,11 +485,11 @@ I used to be on team Bartender. But the ease-of-use and simplicity of Vanilla is
 
 ### **Cloud Storage**
 
-**Backup & Sync**\
-Previously called GoogleDrive, I used this to **backup everything**
+**Google Drive** [🏆](https://emojipedia.org/trophy/)\
+I used this to backup my whole machine**.**
 
 ```
-brew install --cask google-backup-and-sync
+brew install --cask google-drive
 ```
 
 **Dropbox**\
@@ -483,23 +499,28 @@ The cloud for backing up
 brew install --cask dropbox
 ```
 
-**Filestream**\
-For office files that you don't want to take up space on your machine
-
-```
-brew install --cask google-drive-file-stream
-```
-
 
 
 ### Notebooks
 
 **Notion** [🏆](https://emojipedia.org/trophy/)\
-The most amazing notebook I've ever had. It's more affordable than Evernote,&#x20;
+The best notebook I've ever had. It's more affordable than Evernote. Only missing is offline mode.
 
 ```
 brew install --cask notion
 ```
+
+#### Craft
+
+A really good contender against Notion.&#x20;
+
+```
+brew install --cask craft
+```
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
 **Evernote**\
 My first favorite app for note-taking projects
@@ -508,11 +529,9 @@ My first favorite app for note-taking projects
 brew install --cask evernote
 ```
 
-{% hint style="info" %}
 Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and many more. However, it just didn't really stick with me.
-{% endhint %}
 
-
+</details>
 
 ### Window Management
 
@@ -580,21 +599,21 @@ brew install --cask amethyst
 
 ### **Gaming**
 
-**OpenEmu**\
+**OpenEmu** 🏆\
 Emulator for playing retro games on macOS
 
 ```
 brew install --cask openemu
 ```
 
-**Steam**\
+**Steam** 🏆\
 For Dota 2
 
 ```
 brew install --cask steam
 ```
 
-**Battle.net**\
+**Battle.net** 🏆\
 Launcher for Diablo III and Starcraft II
 
 ```

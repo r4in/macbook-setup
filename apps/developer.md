@@ -4,6 +4,14 @@ Most of the development tools found here are geared toward frontend development,
 
 ### **Terminal**
 
+**Warp** [🏆](https://emojipedia.org/trophy/)
+
+AI-powered terminal
+
+```
+brew install --cask warp
+```
+
 **iTerm**\
 Your terminal on steroids
 
@@ -11,22 +19,18 @@ Your terminal on steroids
 brew install --cask iterm2
 ```
 
-**Hyper**  [🏆](https://emojipedia.org/trophy/)\
+**Hyper**  \
 A terminal built on web technologies.
 
 ```
 brew install --cask hyper
 ```
 
-{% hint style="info" %}
-Since our move to VS Code from Sublime, alot of people are using the built-in terminal window in it. Depending on your setup - it's up to you if you feel like running lots of different processes on different terminal windows.
-{% endhint %}
 
-###
 
 ### **IRC &** Instant Messaging
 
-**Limechat**\
+**Limechat** [🏆](https://emojipedia.org/trophy/)\
 It's the IRC for geeks
 
 {% embed url="https://apps.apple.com/us/app/limechat/id414030210?mt=12" %}
@@ -55,7 +59,7 @@ Chat tool for communities
 brew  install --cask spectrum
 ```
 
-
+###
 
 ### **Local Server Environments**
 
@@ -70,7 +74,7 @@ brew install --cask mamp
 If you want to build Wordpress sites, MAMP does a good job of running a local server for your Wordpress site to run.
 {% endhint %}
 
-###
+
 
 ### Code Snippets Manager
 
@@ -82,10 +86,10 @@ https://happenapps.com/downloads/QuiverFreeTrial.zip
 ```
 
 {% hint style="info" %}
-I was always looking for a great way to store quick code snippets I could access anytime because I find it really annoying opening old projects because of a code snippet that I find reusable. **Quiver** was a good contender for it being lightweight, fast, and it having good code-formatting. Shared notebooks allows you to sync-in code snippet collaboratively. Only downside would probably it's $10 price tag and the iOS app is read-only.
+I was always looking for a great way to store quick code snippets I could access anytime because I find it really annoying opening old projects because of a code snippet that I find reusable. **Quiver** was a good contender for it being lightweight, fast, and has good code formatting. Shared notebooks allow you to sync in code snippets collaboratively. The only downside is its hefty $10 price tag, and the iOS app is read-only.
 {% endhint %}
 
-**Lepton** [🏆](https://emojipedia.org/trophy/)\
+**Lepton** \
 The Lean Github Gist Client
 
 ```
@@ -96,7 +100,7 @@ brew install --cask lepton
 I'm starting to move to this one because first of all - the gists syncs up on github (which is great for sharing) and it's completely FREE.
 {% endhint %}
 
-###
+
 
 ### **Database Management**
 
@@ -111,78 +115,85 @@ brew install --cask sequel-pro
 There are times when I want to modify the database tables easily in a GUI (Command-line is cool and geeky, but sometimes - I'm just in a hurry)
 {% endhint %}
 
-###
+
 
 ### **FTP Clients**
 
 **Transmit** [🏆](https://emojipedia.org/trophy/)\
-Simply the best FTP client, it has a price tag tho
+Simply the best FTP client. It is quite pricey though.
 
 ```
 brew install --cask transmit
 ```
 
 **Filezilla** \
-It works, gets the job done and most of all - it's FREE!
+It works, gets the job done, and most of all - it's FREE!
 
 ```
 brew install --cask filezilla
 ```
 
-###
+
 
 ### Text Editor
 
-**SublimeText**\
-Select your weapon of choice
-
-```
-brew install --cask sublime-text
-```
-
 **VS Code** [🏆](https://emojipedia.org/trophy/)\
-Select your weapon of choice
+The best code editor
 
 ```
 brew install --cask visual-studio-code
+```
+
+**SublimeText**\
+Before VS Code, this was king.
+
+```
+brew install --cask sublime-text
 ```
 
 ###
 
 ### Internet Browsers
 
-**Firefox**\
-Select more weapons of choice
+There are lots of internet browsers out there. Some interesting ones I have noticed are:
 
-```
-brew install --cask firefox
-```
+**Arc -** [https://arc.net](https://arc.net)
 
-**Chrome** 🏆\
-Select more weapons of choice
+
+
+**Chrome** 🏆
 
 ```
 brew install --cask google-chrome
 ```
 
-**Brave**\
-Select more weapons of choice
+**Firefox**
+
+```
+brew install --cask firefox
+```
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
+
+**Brave**
 
 ```
 brew install --cask brave-browser
 ```
 
-**Opera**\
-Select more weapons of choice
+**Opera**
 
 ```
 brew install --cask opera
 ```
 
+</details>
+
 ### **Others**
 
-**Docker**\
-Why not**?**
+**Docker**
 
 ```
 brew install --cask docker

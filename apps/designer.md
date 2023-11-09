@@ -10,11 +10,9 @@ You might want to check the [2022 Design Tools Survey](https://uxtools.co/survey
 
 **Adobe Creative Cloud**  🏆
 
-Creative Cloud is basically a launcher for you to download Adobe apps.&#x20;
+Creative Cloud is basically a launcher for you to download Adobe apps. Installing it via cask is buggy, so I recommend installing it from the web.
 
-```
-brew install --cask adobe-creative-cloud
-```
+[https://creativecloud.adobe.com/apps/download/creative-cloud](https://creativecloud.adobe.com/apps/download/creative-cloud)
 
 You can install whatever you need. What I only need tho is:
 
@@ -175,7 +173,7 @@ brew install --cask spline
 ### **Icon Managers**
 
 **Iconset** [🏆](https://emojipedia.org/trophy/)\
-A ~~free~~ icon Manager
+A simple icon manager
 
 ```
 brew install --cask iconset
@@ -288,22 +286,19 @@ brew install --cask origami-studio
 
 ### Font Managers
 
-**RightFont 5**\
-A nice font manager
+**RightFont 8**
 
 ```
 brew install --cask rightfont
 ```
 
-**Typeface App**\
-A nice font manager
+**Typeface App**
 
 ```
 brew install --cask typeface
 ```
 
-**FontBase**\
-A nice font manager
+**FontBase**
 
 ```
 brew install --cask fontbase
