@@ -26,6 +26,13 @@ A better Color Picker for your Mac.
 brew install --cask sip
 ```
 
+**GIFski** 🏆\
+The best free gif app
+
+```
+https://gif.ski
+```
+
 ### **UI Design**
 
 **Figma** 🏆\

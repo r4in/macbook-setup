@@ -157,9 +157,13 @@ brew install --cask sublime-text
 
 There are lots of internet browsers out there. Some interesting ones I have noticed are:
 
-**Arc -** [https://arc.net](https://arc.net)
+**Arc -** Dubbed the "Chrome Replacement**".**  [https://arc.net](https://arc.net)
 
+**Orion -** Built on WebKit, _Orion_ gives you a fast, smooth, and lightweight _browsing experience_
 
+```
+brew install --cask orion
+```
 
 **Chrome** 🏆
 

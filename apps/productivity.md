@@ -41,6 +41,20 @@ Fully uninstall apps including its preferences
 brew install --cask appcleaner
 ```
 
+**Jumpshare** 🏆\
+A quick and instant way to share files using a public link
+
+```
+brew install --cask jumpshare
+```
+
+**Neardrop**\
+Want to "airdrop" files from your Android phone to your Macbook? Now it's possible using Google's Nearby Share protocol on your Mac. [Check it out.](https://github.com/grishka/NearDrop)
+
+```
+brew install grishka/grishka/neardrop
+```
+
 **Krisp.ai** 🏆\
 Removes the background noise during your calls
 
@@ -91,8 +105,6 @@ brew install --cask flux
 ```
 
 </details>
-
-
 
 **Daisydisk**\
 Great for inspecting your HD on to know which files are taking up too much space
@@ -170,6 +182,23 @@ Automation and housekeeping on your mac
 ```
 brew install --cask hazel
 ```
+
+**Around**\
+[https://www.around.co](https://www.around.co)
+
+```
+brew install --cask around
+```
+
+**Screen Studio**\
+The most elegant way to do a screen recording. [https://www.screen.studio](https://www.screen.studio)
+
+```
+brew install --cask screen-studio
+```
+
+**Multi**\
+A very promising app that helps teams collaborate faster. [https://multi.app](https://multi.app)
 
 
 
@@ -283,6 +312,13 @@ It's really smart when adding events - which autodetects the time, location and 
 {% endtab %}
 {% endtabs %}
 
+**Cron** 🏆\
+A very promising alternative to Fantastical.&#x20;
+
+```
+brew install --cask cron
+```
+
 <details>
 
 <summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
@@ -302,6 +338,15 @@ brew install --cask itsycal
 ```
 
 </details>
+
+### VPN
+
+**NordVPN**\
+Pricey but worth it. Speeds are fast.
+
+```
+brew install --cask nordvpn
+```
 
 ### NTFS Tools
 
