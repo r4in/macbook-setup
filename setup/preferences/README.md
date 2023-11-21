@@ -38,8 +38,13 @@ Your dock is probably flooded with all of macOS' default apps. I usually drag th
     * Uncheck **Show suggested and recent apps in Dock**
 
 
-* **Desktop & Stage Manager**
-  * Set **Click wallpaper to reveal desktop -> Only in Stage Manager**
+*   **Desktop & Stage Manager**
+
+    * Set **Click wallpaper to reveal desktop -> Only in Stage Manager**
+
+
+* **Hot Corners**
+  * Set all to none
 
 ### Wallpaper
 
