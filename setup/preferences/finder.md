@@ -1,14 +1,19 @@
 # Finder
 
-### Preferences
+### Settings
 
-Open **Finder** > **Preferences**
+Open **Finder** > **Settings**
 
 ![](<../../.gitbook/assets/image (14).png>)
 
 * **General**
   * [ ] **Show these items on the desktop** -> Uncheck everything
-  * [ ] **New Finder windows show** -> Select **Desktop**\
+  * [ ] **New Finder windows show** -> Select **Desktop** \
+
+*   **Tag**
+
+    * [ ] &#x20;Uncheck everything
+
 
 * **Sidebar**
   * Uncheck everything except:
