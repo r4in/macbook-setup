@@ -6,7 +6,7 @@ Within a year, your machine will start to accumulate a lot of dust. When this ha
 
 ![You can see kernel\_task running at 2.8%.](<../.gitbook/assets/image (4).png>)
 
-You can have it cleaned over at your local iStore, which probably costs around Php800 (Around $16) or you can do it yourself if you have the tools.\
+You can have it cleaned at your local iStore, which probably costs around Php 800 (about $16), or you can do it yourself if you have the right tools.\
 
 
 ### **Recommended Tools**
@@ -29,7 +29,7 @@ You can have it cleaned over at your local iStore, which probably costs around P
 
 ## Thermal Paste Replacement
 
-If your Mac has been around for more than 3-4 years, maybe it's time to add a fresh thermal paste for your CPU and GPU. Any thermal paste will do, however, a low-quality one won't last long. I used **Thermal Grizzly Kryonaut** Thermal Paste a noticed a significant 10-degree drop from my previous thermal paste.
+If your Mac has been around for more than 3-4 years, it might be time to apply fresh thermal paste to your CPU and GPU. While any thermal paste will work, a low-quality one won’t last long. I used Thermal Grizzly Kryonaut Thermal Paste and noticed a significant 10-degree drop compared to my previous thermal paste.
 
 ### **Recommended Tools**
 

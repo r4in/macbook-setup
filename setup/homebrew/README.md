@@ -8,7 +8,7 @@ description: The missing package manager for macOS
 
 > A package manager or package management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.
 
-This is where we'll be installing software packages such as Git, Node.js or Python. We can also install GUI apps such as Google Chrome, Slack or Skype.
+This is where we’ll be installing software packages like Git, Node.js, or Python. We can also install GUI apps such as Google Chrome, Slack, or VSCode.
 
 {% hint style="warning" %}
 **Why do you need this?**\
@@ -17,9 +17,9 @@ Homebrew works great for managing for automating the process of installing, upgr
 
 ## Installation
 
-An important dependency before Homebrew can run is the **Command Line Tools** for **Xcode**. So make sure you completed the previous step. These include compilers that will allow you to build things from source, if you are missing this it's available through the **App Store > Updates.**
+An important dependency before Homebrew can run is the **Command Line Tools for Xcode**, so make sure you’ve completed the previous step. These tools include compilers that allow you to build software from source. If you’re missing this, it’s available through **App Store > Updates**.
 
-To install Homebrew paste the following command in your **Terminal** and hit enter, and follow the steps on the screen:
+To install Homebrew, paste the following command into your Terminal, press **Enter**, and follow the on-screen instructions::
 
 {% code overflow="wrap" %}
 ```
@@ -27,7 +27,7 @@ To install Homebrew paste the following command in your **Terminal** and hit ent
 ```
 {% endcode %}
 
-You might need to add Homebrew to your `PATH` you can do so by entering these 2 commands:
+You might need to add Homebrew to your `PATH.` You can do so by entering these two commands:
 
 {% code overflow="wrap" %}
 ```
@@ -39,9 +39,7 @@ You might need to add Homebrew to your `PATH` you can do so by entering these 2 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-After running those commands.
-
-To be able to use `brew` you need to start a new terminal session. Do this by opening a new terminal tab with **Cmd+T** (you should also close the old one), then run the following command to make sure everything is working:
+To start using Homebrew, you’ll need to open a new Terminal session. Do this by opening a new Terminal tab with Cmd+T (be sure to close the old one). Then, run the following command to ensure everything is working correctly:
 
 ```
 brew doctor

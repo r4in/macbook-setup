@@ -2,7 +2,7 @@
 
 ## Fresh Install, Is Best Install
 
-I usually prefer wiping out my whole hard drive and just doing a fresh install. I've done macOS upgrades in the past but I still feel the bloat after two continuous OS upgrades. So let's create a bootable macOS installer!
+I usually prefer wiping out my whole hard drive and just doing a fresh install. I've done macOS upgrades in the past but I still feel the bloat after two continuous OS upgrades. So, let's create a bootable macOS installer!
 
 First, download the latest macOS on the App Store:
 
@@ -16,7 +16,7 @@ First, download the latest macOS on the App Store:
 
 ## Creating A Bootable Installer
 
-There are numerous apps and ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports older macOS starting from Big Sur. Fortunately, you can still easily do this on your Terminal. Here's how you create a bootable thumb drive:
+There are numerous ways to create a bootable macOS install. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports older macOS starting from Big Sur. Fortunately, you can still easily do this on your Terminal. Here's how you create a bootable thumb drive:
 
 * Prepare a 16GB USB thumb drive that's ready to be wiped out
 * Make sure you already have downloaded macOS Sonoma. After downloading, It should be sitting in your Applications folder like this:
@@ -29,7 +29,7 @@ There are numerous apps and ways to create a bootable macOS install. As of this 
 sudo '/Applications/Install macOS Sonoma.app/Contents/Resources/createinstallmedia' --volume '/Volumes/Untitled'
 ```
 
-* Wait for around 10-15 minutes to complete. You should see this after completing it:
+* Wait for about 10-15 minutes for the process to complete. You should see this once it’s finished:
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Bootable macOS Sonoma installer completed successfully</p></figcaption></figure>
 
@@ -51,7 +51,7 @@ sudo '/Applications/Install macOS Sonoma.app/Contents/Resources/createinstallmed
 
 ## Cloud Storage
 
-Before, I used to back everything up to an external hard drive. Now, I sync all my files to the cloud. [Dropbox](https://www.dropbox.com/) is great (And right-clicking to share public links works like a charm). But I see [Google One ](https://one.google.com/)as a more economically viable option. And if you're living in an Apple ecosystem, [iCloud](https://www.apple.com/ph/icloud/) might make more sense for you.
+I used to back everything up to an external hard drive, but now I sync all my files to the cloud. [Dropbox](https://www.dropbox.com/) is great (and right-clicking to share public links works like a charm). However, I find [Google One](https://one.google.com/about/) to be a more economically viable option. If you’re fully immersed in the Apple ecosystem, [iCloud](https://www.icloud.com/) might make more sense for you.
 
 {% tabs %}
 {% tab title="Google One" %}
@@ -69,13 +69,13 @@ Before, I used to back everything up to an external hard drive. Now, I sync all 
 
 ## Let The Purge Begin
 
-Now it's time to take a deep breath, shutdown your machine, and hope there won't be an ounce of regret. 🐵
+Now it’s time to take a deep breath, shut down your machine, and hope there won’t be an ounce of regret. 🐵
 
 {% hint style="warning" %}
-**Warning** There's no going back after this point, so be sure to backup your files to the cloud. And if you don't feel comfortable with it, just do a manual backup using your external hard drive.
+**Warning** here’s no going back after this point, so be sure to back up your files to the cloud. If you’re not comfortable with that, you can always do a manual backup using your external hard drive.
 {% endhint %}
 
-Insert the bootable USB and upon pressing the power key, **hold the option key** until it loads up a screen which prompts you to choose which device you want to boot from. So select the thumb drive with the macOS installer.
+Insert the bootable USB, and as you press the power key, hold down the **Option key** until a screen appears prompting you to choose which device you want to boot from. Select the thumb drive with the macOS installer.
 
 ![](<../.gitbook/assets/image (16).png>)
 
@@ -83,12 +83,8 @@ Select **Disk Utility** and click **Continue**.&#x20;
 
 ![](<../.gitbook/assets/image (17).png>)
 
-Currently what you see here are the drive partitions. What we want to do is to wipe up the whole hard drive. Select **View** > **Show All Devices**
+What you see here are the drive partitions. Our goal is to wipe the entire hard drive. First, select **View > Show All Devices**. Then, choose the physical storage device you want to erase (e.g., _APPLE SSD AP0512J Media_), and click **Erase**.
 
-Then select the physical storage device you want to erase (ex. _APPLE SSD AP0512J Media_), then click **Erase**
+Select **GUID Partition Map** and **Apple File System (APFS)** as the file system format, then enter a name for the drive.
 
-Select **GUID Partition Map** and **Apple File System (APFS)** for the file system format. Then enter a name.
-
-After that, go back and click on **Reinstall OS X**.
-
-The process is pretty much straightforward into a series of clicking **next**.
+Once done, go back and click on **Reinstall OS X**.
