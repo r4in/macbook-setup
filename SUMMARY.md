@@ -35,6 +35,6 @@
 ## Apps + Tools <a href="#apps" id="apps"></a>
 
 * [Intro](apps/apps.md)
+* [Productivity Tools](apps/productivity.md)
 * [Design Tools](apps/designer.md)
 * [Developer Tools](apps/developer.md)
-* [Productivity Tools](apps/productivity.md)
