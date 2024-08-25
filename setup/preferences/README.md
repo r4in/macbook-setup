@@ -35,7 +35,7 @@ There are a couple of tweaks you can make to the System Preferences. The setting
 
 ### Desktop & Dock
 
-Your dock is probably flooded with all of macOS’s default apps. I usually drag them all to the Trash to make it cleaner. Then, I typically hide the Dock (`cmd + option + d`) because launching apps an app launcher like Raycast is way better.
+Your dock is probably flooded with all of macOS’s default apps. I usually drag them all to the Trash to make it cleaner. I usually hide the Dock (`cmd + option + d`) because launching apps with an app launcher like Raycast is faster.
 
 *   **Dock**
 
@@ -54,6 +54,10 @@ Your dock is probably flooded with all of macOS’s default apps. I usually drag
 
 * **Hot Corners**
   * Set all to none
+
+### Display
+
+* Disable **True Tone**
 
 ### Wallpaper
 
