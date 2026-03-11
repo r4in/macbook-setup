@@ -1,6 +1,5 @@
 # Code Editor Setups
 
-A decade ago, I had my fair share of using **Notepad++, Brackets & Atom** as my default code editor. Until **SublimeText** came and changed everything with lightning fast speed.
+A decade ago, I used **Notepad++**, **Brackets**, and **Atom** as my default code editors. Then **Sublime Text** came along and changed everything with lightning-fast speed.
 
-Couple of years later, **Visual Studio Code** came out of nowhere and tho initially bulky, it's performance has improved for the past 4 years and I find it more powerful too. It has a huge plugin community and is truly extensible. VS Code as been my daily driver since 2016 and I highly recommend it for designers trying to code.
-
+A couple of years later, **Visual Studio Code** came out of nowhere. It was initially bulky, but its performance has improved over the past few years. I also find it more powerful. It has a huge plugin community and is truly extensible. VS Code has been my daily driver since 2016, and I highly recommend it for designers trying to code.

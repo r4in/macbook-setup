@@ -1,10 +1,10 @@
 # Extensions
 
 **Sublime Text Keymap and Settings Importer**\
-This extension imports keybindings and settings from Sublime Text to VS Code. This cuts the learning curve if you're switching from SublimeText into VS Code. However, if VS Code is your first editor and you're&#x20;
+This extension imports keybindings and settings from Sublime Text to VS Code. This cuts the learning curve if you're switching from Sublime Text to VS Code. If VS Code is your first editor, you can skip this.
 
 {% hint style="info" %}
-I'm very much used to the keyboard shortcuts using&#x20;
+I’m very used to Sublime Text shortcuts. This makes the switch easier.
 {% endhint %}
 
 **One Dark Pro**\
@@ -13,17 +13,17 @@ Atom's iconic One Dark theme for Visual Studio Code
 ![](../../../.gitbook/assets/preview-1.png)
 
 **Auto Rename Tag**\
-Auto rename paired html tags
+Auto-renames paired HTML tags
 
 ![](../../../.gitbook/assets/usage.gif)
 
 **CSS Peak**\
-Allow you to peak on CSS classes directly on the HTML markup
+Lets you peek at CSS classes directly from the HTML markup
 
 ![](../../../.gitbook/assets/working.gif)
 
 **File Utils**\
-A more convenient way of creating, duplicating, moving, renaming and deleting files
+A more convenient way of creating, duplicating, moving, renaming, and deleting files
 
 ![](../../../.gitbook/assets/demo.gif)
 
@@ -35,12 +35,12 @@ Provides CSS class name completions for the HTML `class` attribute based on the 
 **Material Icon Theme**\
 Adds material icons to opened tabs and items in the Explorer window
 
-![](../../../.gitbook/assets/screen-shot-2019-09-18-at-1.19.45-am.png)
+![](<../../../.gitbook/assets/Screen Shot 2019-09-18 at 1.19.45 AM.png>)
 
 **Prettier - Code Formatter**\
 VS Code package to format your JavaScript / TypeScript / CSS using [Prettier](https://github.com/prettier/prettier).
 
-Manually running prettier from the command palette (cmd+shift+p)
+Manually run Prettier from the Command Palette (`cmd + shift + p`):
 
 ```
 1. CMD + Shift + P -> Format Document
@@ -49,7 +49,7 @@ OR
 2. CMD + Shift + P -> Format Selection
 ```
 
-Or running it automatically on every save, add this to your preferences
+To run it automatically on every save, add this to your preferences:
 
 ```
 // Set the default
@@ -61,12 +61,12 @@ Or running it automatically on every save, add this to your preferences
 ```
 
 **Sass**\
-VS Code has built-in support for SCSS syntax, this will add support for SASS syntax
+VS Code has built-in support for SCSS syntax. This adds support for SASS syntax.
 
-![](../../../.gitbook/assets/screen-shot-2019-09-18-at-1.25.09-am.png)
+![](<../../../.gitbook/assets/Screen Shot 2019-09-18 at 1.25.09 AM.png>)
 
 **stylelint**\
-A [Visual Studio Code](https://code.visualstudio.com/) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS\_REFERENCE.html#syntax)/[Less](http://lesscss.org/) with [stylelint](https://stylelint.io/)
+A [Visual Studio Code](https://code.visualstudio.com/) extension to lint [CSS](https://www.w3.org/Style/CSS/)/[SCSS](https://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax)/[Less](http://lesscss.org/) with [stylelint](https://stylelint.io/)
 
 ![](../../../.gitbook/assets/screenshot.png)
 

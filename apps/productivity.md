@@ -1,113 +1,82 @@
 # Productivity Tools
 
+### AI
+
+**ChatGPT** 🏆\
+Why not?
+
+```
+brew install --cask chatgpt
+```
+
+**Cursor** 🏆\
+Why not?
+
+```
+brew install --cask cursor
+```
+
 ### Essentials
 
-**Handbrake** 🏆\
-Good video converter
+**HandBrake** 🏆\
+Good video converter.
 
 ```
 brew install --cask handbrake
 ```
 
 **Paste - Clipboard Manager** 🏆\
-The best clipboard to have in macOS
+The best clipboard manager on macOS.
 
 {% embed url="https://apps.apple.com/us/app/paste-clipboard-manager/id1020667032" %}
 
-If you have already previously installed this:
+If you’ve installed this before:
 
 ```
 mas install 1447797058
 ```
 
 **Rocket** 🏆\
-Gives you that slack-like experience of entering emojis
+Gives you a Slack-like emoji picker.
 
 ```
 brew install --cask rocket
 ```
 
-**raindrop.io** 🏆\
-Great bookmarking app
-
-```
-brew install --cask raindropio
-```
-
-**App Cleaner** 🏆\
-Fully uninstall apps including its preferences
+**AppCleaner** 🏆\
+Fully uninstalls apps, including their preferences.
 
 ```
 brew install --cask appcleaner
 ```
 
-**Jumpshare** 🏆\
-A quick and instant way to share files using a public link
-
-```
-brew install --cask jumpshare
-```
-
-**Neardrop**\
-Want to "airdrop" files from your Android phone to your Macbook? Now it's possible using Google's Nearby Share protocol on your Mac. [Check it out.](https://github.com/grishka/NearDrop)
+**Neardrop** 🏆\
+Want to “AirDrop” files from your Android phone to your MacBook? Now it’s possible using Google’s Nearby Share protocol. [Check it out.](https://github.com/grishka/NearDrop)
 
 ```
 brew install grishka/grishka/neardrop
 ```
 
-**Krisp.ai** 🏆\
-Removes the background noise during your calls
-
-```
-brew install --cask krisp
-```
-
 **Caffeine** 🏆\
-Prevents screen from falling asleep / turning off with one click
+Prevents your screen from sleeping with one click.
 
 ```
 brew install --cask caffeine
 ```
 
 **Effortless** 🏆\
-_Effortless_ is a Mac menu bar _app_ that helps you stay focused on one thing at a time. It allows you to create a simple plaintext to-do list&#x20;
+Effortless is a Mac menu bar app that helps you focus on one thing at a time. It lets you keep a simple plaintext to-do list.
 
 {% embed url="https://apps.apple.com/us/app/effortless/id1368722917?mt=12" %}
 
-If you have already previously installed this:
+If you’ve installed this before:
 
 ```
 mas install 1368722917
 ```
 
-<details>
-
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mention</summary>
-
-
-
-**ToothFairy** \
-Connect AirPods (or other Bluetooth headphones) to your Mac with a single click or keypress.
-
-If you have already previously installed this:
-
-```
-mas install 1191449274
-```
-
-_However, with the recent updates to the Bluetooth widget on Big Sur. I don't really need this much anymore._
-
-**f.lux** 🏆\
-Changes your screen color during nighttime (before Apple implemented their very own NightShift)
-
-```
-brew install --cask flux
-```
-
-</details>
-
-**Daisydisk**\
-Great for inspecting your HD on to know which files are taking up too much space
+**DaisyDisk**\
+Great for inspecting your drive to see which files are taking up space.
 
 ```
 brew install --cask daisydisk
@@ -128,7 +97,7 @@ brew install --cask numi
 ```
 
 **The Unarchiver** 🏆\
-For extracting alot of zips
+For extracting a lot of ZIP files.
 
 ```
 brew install --cask the-unarchiver
@@ -148,13 +117,6 @@ Music while working
 brew install --cask spotify
 ```
 
-**Reflector 3** 🏆\
-Airplay directly from your iphone to your mac
-
-```
-brew install --cask reflector
-```
-
 **Karabiner Elements**\
 A powerful and stable keyboard customizer for macOS
 
@@ -170,57 +132,72 @@ brew install --cask protonvpn
 ```
 
 **Geekbench**\
-If you're into benchmarking and comparing performance of your diff machines
+If you're into benchmarking and comparing performance across different machines
 
 ```
 brew install --cask geekbench
 ```
 
 **Hazel**\
-Automation and housekeeping on your mac
+Automation and housekeeping on your Mac
 
 ```
 brew install --cask hazel
 ```
 
-**Around**\
-[https://www.around.co](https://www.around.co)
-
-```
-brew install --cask around
-```
-
 **Screen Studio**\
-The most elegant way to do a screen recording. [https://www.screen.studio](https://www.screen.studio)
+The most elegant way to record your screen. [https://www.screen.studio](https://www.screen.studio)
 
 ```
 brew install --cask screen-studio
 ```
 
-**Multi**\
-A very promising app that helps teams collaborate faster. [https://multi.app](https://multi.app)
+<details>
 
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mention</summary>
 
+**Jumpshare**\
+A quick and instant way to share files using a public link
+
+```
+brew install --cask jumpshare
+```
+
+**Krisp.ai**\
+Removes the background noise during your calls
+
+```
+brew install --cask krisp
+```
+
+**ToothFairy**\
+Connect AirPods (or other Bluetooth headphones) to your Mac with a single click or keypress.
+
+If you’ve installed this before:
+
+```
+mas install 1191449274
+```
+
+_However, with the recent updates to the Bluetooth widget in Big Sur, I don't really need this much anymore._
+
+**f.lux** 🏆\
+Changes your screen color at night (before Apple implemented their very own Night Shift)
+
+```
+brew install --cask flux
+```
+
+</details>
 
 ### **Documents, Spreadsheets & Presentations**
 
-**Microsoft Office** \
-They're recently switched to a subscription-based model like Adobe
+**Microsoft Office**\
+They recently switched to a subscription-based model like Adobe
 
 {% embed url="https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12" %}
 
-**WPS Office**\
-A promising cross-platform that is like Microsoft Office but better than LibreOffice
-
-```
-brew install --cask wpsoffice
-```
-
-
-
 ### Keystroke Launchers
-
-
 
 **Raycast** 🏆\
 The best keystroke launcher out there.
@@ -237,17 +214,17 @@ brew install --cask raycast
 Keystroke launcher for Windows and macOS
 
 ```
-brew install --cask ueli 
+brew install --cask ueli
 ```
 
-I got used to using option + cmd to open keystroke launchers (Alfred) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. And customization is really nice with this app.After installing, add this under Settings > Application Search/System/ApplicationsDisable everything except:\
+I got used to using option + cmd to open keystroke launchers (Alfred) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. Customization is really nice with this app. After installing, add this under Settings > Application Search/System/Applications. Disable everything except:\
 \- Application Search\
 \- Calculator\
 \- Operating system commands\
 \- Operating system settings
 
 **Alfred**\
-The original Spotlight Search! (Before Apple sort of copied it. hehe)
+The original Spotlight Search! (Before Apple sort of copied it, hehe)
 
 ```
 brew install --cask alfred
@@ -265,7 +242,7 @@ brew install --cask kap
 ```
 
 **Loom** 🏆\
-Record audio/video of you and yourself and instantly share it from the cloud
+Record audio/video of yourself and instantly share it from the cloud
 
 ```
 brew install --cask loom
@@ -273,11 +250,9 @@ brew install --cask loom
 
 {% tabs %}
 {% tab title="Why Loom?" %}
-Loom is great and seamless, especially for sending screen recordings + video of your self to clients. However, the free tier only offers 5 minutes.
+Loom is great and seamless, especially for sending screen recordings + video of yourself to clients. However, the free tier only offers 5 minutes.
 {% endtab %}
 {% endtabs %}
-
-
 
 ### System Monitors
 
@@ -295,12 +270,10 @@ A paid macOS system monitor in your menu bar
 brew install --cask istat-menus
 ```
 
-
-
 ### **Calendars**
 
 **Fantastical 2** 🏆\
-Best calendar ever, syncs to everything including Google calendars and FB events!
+Best calendar ever. Syncs to everything, including Google calendars and FB events!
 
 ```
 brew install --cask fantastical
@@ -308,15 +281,15 @@ brew install --cask fantastical
 
 {% tabs %}
 {% tab title="Why Fantastical" %}
-It's really smart when adding events - which autodetects the time, location and place!
+It's really smart when adding events. It autodetects the time and location!
 {% endtab %}
 {% endtabs %}
 
-**Cron** 🏆\
-A very promising alternative to Fantastical.&#x20;
+**Notion Calendar** 🏆\
+Cron's successor
 
 ```
-brew install --cask cron
+brew install --cask notion-calendar
 ```
 
 <details>
@@ -350,19 +323,17 @@ brew install --cask nordvpn
 
 ### NTFS Tools
 
-MacOS can't natively write files to NTFS formatted drives (most likely your external drive). Here are some solutions:
-
-
+macOS can't natively write files to NTFS-formatted drives (most likely your external drive). Here are some solutions:
 
 **Tuxera Disk Manager** 🏆\
-A paid way to copy NTFS drives without much configs needed
+A paid way to write to NTFS drives without much configuration needed
 
 ```
 brew install --cask tuxera-ntfs
 ```
 
 **NTFS-3G**\
-The free and open-source way to copy over NTFS with much configs needed
+The free and open-source way to write to NTFS drives with more configuration needed
 
 ```
 brew install --cask osxfuse
@@ -381,8 +352,8 @@ then follow the rest of the instructions here:\
 
 <summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
-**Paragon NTFS** \
-A paid way to copy NTFS drives without much configs needed
+**Paragon NTFS**\
+A paid way to write to NTFS drives without much configuration needed
 
 ```
 brew install --cask paragon-ntfs
@@ -399,13 +370,6 @@ Team communication
 brew install --cask slack
 ```
 
-**Skype** \
-Client communication
-
-```
-brew install --cask skype
-```
-
 **Zoom** [🏆](https://emojipedia.org/trophy/)\
 Great for group video calls
 
@@ -420,55 +384,20 @@ Great for group video calls
 brew install --cask discord
 ```
 
-**Gitter**\
-Checkout the community
-
-```
-brew install --cask gitter
-```
-
-**Facebook Messenger** [🏆](https://emojipedia.org/trophy/)\
-Checkout the community
-
-```
-brew install --cask messenger
-```
-
-**Telegram**\
-Used once for a project's main communication tool
-
-```
-brew install --cask telegram
-```
-
-**Whatsapp** [🏆](https://emojipedia.org/trophy/)\
+**WhatsApp** [🏆](https://emojipedia.org/trophy/)\
 Used as a main communication tool in some projects as well
 
 ```
 brew install --cask whatsapp
 ```
 
-**Grammarly Desktop** [🏆](https://emojipedia.org/trophy/)\
-Effective communication and writing is an underrated skill for designers. If English isn't your first language, this definitely helps a lot.
-
-```
-brew install --cask grammarly-desktop 
-```
-
 ### Password Managers
 
 **Bitwarden** 🏆\
-It's free and it just works!
+It's free and it just works
 
 ```
 brew install --cask bitwarden
-```
-
-**LastPass** \
-My password manager of choice
-
-```
-brew install --cask lastpass
 ```
 
 **1Password**\
@@ -478,26 +407,12 @@ A good password manager
 brew install --cask 1password
 ```
 
-
-
 ### Email Apps
 
 **Airmail 5** 🏆\
-A better email app then the default one
+A better email app than the default one
 
 {% embed url="https://apps.apple.com/us/app/airmail-4/id918858936?mt=12" %}
-
-**Edison**\
-A better email app then the default one
-
-{% embed url="https://mail.edison.tech/mac" %}
-
-**Spark**\
-A better email app then the default one
-
-{% embed url="https://itunes.apple.com/app/id1176895641" %}
-
-###
 
 ### Menu Bar Organizer
 
@@ -515,52 +430,26 @@ Customize your menu bar & hide unwanted icons.
 brew install --cask bartender
 ```
 
-**Dozer**\
-A free menu bar manager
-
-```
-brew install --cask dozer
-```
-
 {% hint style="info" %}
 I used to be on team Bartender. But the ease-of-use and simplicity of Vanilla is too hard to pass. Best of all, it's freemium.
 {% endhint %}
 
-
-
 ### **Cloud Storage**
 
 **Google Drive** [🏆](https://emojipedia.org/trophy/)\
-I used this to backup my whole machine**.**
+I used this to back up my whole machine.
 
 ```
 brew install --cask google-drive
 ```
 
-**Dropbox**\
-The cloud for backing up
-
-```
-brew install --cask dropbox
-```
-
-
-
 ### Notebooks
 
 **Notion** [🏆](https://emojipedia.org/trophy/)\
-The best notebook I've ever had. It's more affordable than Evernote. Only missing is offline mode.
+The best notebook I've ever had. It's more affordable than Evernote. It's only missing offline mode.
 
 ```
 brew install --cask notion
-```
-
-#### Craft
-
-A really good contender against Notion.&#x20;
-
-```
-brew install --cask craft
 ```
 
 <details>
@@ -574,7 +463,15 @@ My first favorite app for note-taking projects
 brew install --cask evernote
 ```
 
-Of course, there are runner ups I've tried such as **Bear, Milanote, Boost** and many more. However, it just didn't really stick with me.
+Of course, there are runners-up I've tried such as **Bear, Milanote, Boost** and many more. However, it just didn't really stick with me.
+
+#### Craft
+
+A really good contender against Notion.
+
+```
+brew install --cask craft
+```
 
 </details>
 
@@ -591,33 +488,34 @@ brew install --cask rectangle
 {% tab title="Why Rectangle?" %}
 Mainly because I'm super familiar with Spectacle before and it follows the same shortcuts such as:
 
-* `cmd + option + arrow key` to cycle thru 1/2 and 1/3 to the direction you want it auto-arrange
+* `cmd + option + arrow key` to cycle through 1/2 and 1/3 to the direction you want it auto-arrange
 {% endtab %}
 
 {% tab title="Settings" %}
 Some shortcuts that I don't normally use conflict with the other apps that I frequently use (like Figma's copy merged)
 
-*   Go to **Preference** and disable the shortcuts for:
-
-    * Top Left
-    * Top Right
-    * Bottom Left
-    * Bottom Right
-    * Maximize
-    * Almost Maximize
-    * Maximize Height
-    * Make Smaller
-    * Make Larger
-    * Center
-    * Restore
-
-
+* Go to **Preferences** and disable the shortcuts for:
+  * Top Left
+  * Top Right
+  * Bottom Left
+  * Bottom Right
+  * Maximize
+  * Almost Maximize
+  * Maximize Height
+  * Make Smaller
+  * Make Larger
+  * Center
+  * Restore
 * Check **Launch on login**
 * Check **Hide menu bar icon**
 * Set **Repeated commands -> cycle 1/2, 2/3 and 1/3 on half actions**
 * Set **Gaps between windows -> 8px**
 {% endtab %}
 {% endtabs %}
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
 **Magnet**\
 Window manager
@@ -634,13 +532,13 @@ brew install --cask moom
 ```
 
 **Amethyst** 🏆\
-A tiling window manager. ... Also, it supports global shortcuts for moving, focusing and changing size of the windows, as well as cycling through the layouts
+A tiling window manager. It supports global shortcuts for moving, focusing and changing size of the windows, as well as cycling through the layouts
 
 ```
 brew install --cask amethyst
 ```
 
-###
+</details>
 
 ### **Gaming**
 
@@ -656,11 +554,4 @@ For Dota 2
 
 ```
 brew install --cask steam
-```
-
-**Battle.net** 🏆\
-Launcher for Diablo III and Starcraft II
-
-```
-brew install --cask battle-net
 ```

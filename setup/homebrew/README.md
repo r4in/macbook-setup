@@ -4,7 +4,7 @@ description: The missing package manager for macOS
 
 # Homebrew
 
-![Updating GUI apps and packages has never been this easy](<../../.gitbook/assets/image (1) (1).png>)
+![Updating GUI apps and packages has never been this easy](<../../.gitbook/assets/image (4).png>)
 
 > A package manager or package management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.
 
@@ -12,14 +12,14 @@ This is where we’ll be installing software packages like Git, Node.js, or Pyth
 
 {% hint style="warning" %}
 **Why do you need this?**\
-Homebrew works great for managing for automating the process of installing, upgrading, configuring software packages that you can't normally install using the App Store.&#x20;
+Homebrew works great for automating the process of installing, upgrading, and configuring software packages that you can’t normally install using the App Store.
 {% endhint %}
 
 ## Installation
 
 An important dependency before Homebrew can run is the **Command Line Tools for Xcode**, so make sure you’ve completed the previous step. These tools include compilers that allow you to build software from source. If you’re missing this, it’s available through **App Store > Updates**.
 
-To install Homebrew, paste the following command into your Terminal, press **Enter**, and follow the on-screen instructions::
+To install Homebrew, paste the following command into your Terminal, press **Enter**, and follow the on-screen instructions:
 
 {% code overflow="wrap" %}
 ```
@@ -27,11 +27,11 @@ To install Homebrew, paste the following command into your Terminal, press **Ent
 ```
 {% endcode %}
 
-You might need to add Homebrew to your `PATH.` You can do so by entering these two commands:
+You might need to add Homebrew to your `PATH`. You can do so by entering these two commands:
 
 {% code overflow="wrap" %}
 ```
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/francisalturas/.zprofile
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
 ```
 {% endcode %}
 
@@ -39,7 +39,7 @@ You might need to add Homebrew to your `PATH.` You can do so by entering these t
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-To start using Homebrew, you’ll need to open a new Terminal session. Do this by opening a new Terminal tab with Cmd+T (be sure to close the old one). Then, run the following command to ensure everything is working correctly:
+To start using Homebrew, you’ll need to open a new Terminal session. Do this by opening a new Terminal tab with `cmd + t` (be sure to close the old one). Then run the following command to ensure everything is working correctly:
 
 ```
 brew doctor
@@ -108,4 +108,3 @@ brew list --versions
 ```
 {% endtab %}
 {% endtabs %}
-

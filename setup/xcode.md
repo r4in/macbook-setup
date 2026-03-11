@@ -14,6 +14,6 @@ Then proceed to install the Xcode Command Line Tools by running the following co
 xcode-select --install
 ```
 
-<figure><img src="../.gitbook/assets/image (32).png" alt="" width="375"><figcaption><p>Click on install to continue</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt="" width="375"><figcaption><p>Click on install to continue</p></figcaption></figure>
 
-This will prompt you to install the command line tools. Follow the instructions and you'll have **Xcode** and **Xcode command line tools** both installed.
+This will prompt you to install the command line tools. Follow the instructions and you’ll have both **Xcode** and **Xcode Command Line Tools** installed.

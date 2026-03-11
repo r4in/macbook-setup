@@ -1,6 +1,6 @@
 # Hyper Setup
 
-Hyper is an Electron-based terminal built on HTML/CSS/JS. I like how less configurations I need to do to start doing my work. Credits to [@cesarmcferreira](https://twitter.com/cesarmcferreira) for this neat setup.
+Hyper is an Electron-based terminal built on HTML/CSS/JS. I like how few configuration changes I need to start working. Credits to [@cesarmcferreira](https://twitter.com/cesarmcferreira) for this neat setup.
 
 To install, simply run the following in your terminal:
 
@@ -12,9 +12,9 @@ After installing, open **Hyper** and use it for the rest of the setup.
 
 ### Theme
 
-**hyper snazzy** an elegant Hyper theme with bright colors [https://github.com/sindresorhus/hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
+**hyper snazzy** is an elegant Hyper theme with bright colors: [https://github.com/sindresorhus/hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy)
 
-_You'll need to install the PURE prompt installed first before proceeding_
+_You’ll need to install the Pure prompt first before proceeding._
 
 ```
 hyper install hyper-snazzy
@@ -24,11 +24,11 @@ hyper install hyper-snazzy
 
 ### **Zsh**
 
-Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need to manually install zsh anymore. If you're not sure you can run `echo "$SHELL"` on your terminal and you should get `/bin/zsh` as a response.
+Since macOS Catalina, Zsh has been adopted as the default shell, replacing Bash. So there’s no need to manually install Zsh anymore. If you’re not sure, run `echo "$SHELL"` in your terminal. You should get `/bin/zsh` as a response.
 
 ### **Zsh Framework**
 
-**Oh-my-zsh** is an open-source, community-driven framework for managing your zsh configuration [http://ohmyz.sh/](http://ohmyz.sh/)
+**Oh My Zsh** is an open-source, community-driven framework for managing your Zsh configuration: [http://ohmyz.sh/](http://ohmyz.sh/)
 
 #### Installation:
 
@@ -38,9 +38,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Prompt
 
-**Pure** is a pretty, minimal, and fast ZSH prompt [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
+**Pure** is a pretty, minimal, and fast Zsh prompt: [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
 
-But you'll need node installed first:
+But you’ll need Node installed first:
 
 ```
 brew install node
@@ -52,7 +52,7 @@ Then, to install:
 npm install --global pure-prompt
 ```
 
-And add this to the end of your `~/.zshrc`
+And add this to the end of your `~/.zshrc`:
 
 ```
 # .zshrc
@@ -63,11 +63,11 @@ prompt pure
 {% hint style="info" %}
 ### **FAQ**
 
-**What is a .zshrc file?** Basically, it's a Z-shell resource that contains all your configurations.
+**What is a .zshrc file?** Basically, it’s a Z shell resource file that contains your configuration.
 
 #### How do I edit / access the .zshrc file?
 
-Your .zshrc file is usually located at the root. To open, use your default text editor:
+Your `.zshrc` file is in your home directory. To open it, use your default text editor:
 
 ```
 open ~/.zshrc
@@ -84,7 +84,7 @@ Simply open your .zshrc file and add this:
 
 ### Zsh autosuggestions
 
-[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh. It suggests commands as you type based on command history.
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com/)-like, fast, unobtrusive auto-suggestion plugin for Zsh. It suggests commands as you type, based on your command history.
 
 #### **Installation**:
 
@@ -102,7 +102,7 @@ plugins=(git zsh-autosuggestions)
 
 ### Zsh Syntax Highlighting
 
-[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a Fish shell like syntax highlighting for Zsh.
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a Fish shell-like syntax highlighting plugin for Zsh.
 
 #### Installation:
 
@@ -122,4 +122,3 @@ You need to `source` your config
 ```
 source ~/.zshrc
 ```
-

@@ -1,8 +1,8 @@
 # Preferences
 
-This is an example of User Settings for a basic development but please feel free to modify or update as per your choice.
+This is an example of User Settings for a basic development setup. Feel free to modify it to match your preferences.
 
-```text
+```
 {
     "auto_complete_delay": 5,
     "auto_complete_selector": "source, text",
@@ -60,4 +60,3 @@ This is an example of User Settings for a basic development but please feel free
     "word_wrap": true
 }
 ```
-

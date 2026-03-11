@@ -4,18 +4,18 @@ The first thing you should do is update your OS. To do that, go to: **Apple menu
 
 Don’t forget to sign in with your Apple ID to sync your iCloud account.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-There are a couple of tweaks you can make to the System Preferences. The settings below are all optional, so consider them as suggestions.
+There are a couple of tweaks you can make in System Settings. The settings below are optional, so consider them suggestions.
 
 ### General
 
 * **Airdrop & Handoff**
-  * **Airdrop** -> Select **Everyone**
+  * **AirDrop** -> Select **Everyone**
 
 ### Appearance
 
-* Appearance : **Dark**
+* Appearance: **Dark**
 
 ### Accessibility
 
@@ -27,7 +27,7 @@ There are a couple of tweaks you can make to the System Preferences. The setting
 ### Control Center
 
 * **Menu Bar Only**
-  * **Spotlight** -> Set to **Don't Show in Menu Bar**
+  * **Spotlight** -> Set to **Don’t Show in Menu Bar**
 
 ### Siri & Spotlight
 
@@ -37,21 +37,15 @@ There are a couple of tweaks you can make to the System Preferences. The setting
 
 Your dock is probably flooded with all of macOS’s default apps. I usually drag them all to the Trash to make it cleaner. I usually hide the Dock (`cmd + option + d`) because launching apps with an app launcher like Raycast is faster.
 
-*   **Dock**
-
-    * Size : **Small**
-    * Position on screen : **Left**
-    * Uncheck **Automatically hide and show the Dock**
-    * Uncheck **Show suggested and recent apps in Dock**
-
-
-*   **Desktop & Stage Manager**
-
-    * Uncheck **Show Items -> On Desktop**
-    * Set **Click wallpaper to reveal desktop -> Only in Stage Manager**
-    * Uncheck **Stage Manager**
-
-
+* **Dock**
+  * Size : **Small**
+  * Position on screen : **Left**
+  * Uncheck **Automatically hide and show the Dock**
+  * Uncheck **Show suggested and recent apps in Dock**
+* **Desktop & Stage Manager**
+  * Uncheck **Show Items -> On Desktop**
+  * Set **Click wallpaper to reveal desktop -> Only in Stage Manager**
+  * Uncheck **Stage Manager**
 * **Hot Corners**
   * Set all to none
 
@@ -69,9 +63,9 @@ Your dock is probably flooded with all of macOS’s default apps. I usually drag
 
 ### Keyboard
 
-* Set  **Press** 🌐︎ **key  to** -> **Do Nothing**
+* Set **Press** 🌐︎ **key to** -> **Do Nothing**
 * **Keyboard Shortcuts**
-  * **Spotlight** -> uncheck **Show Spotlight search**&#x20;
+  * **Spotlight** -> uncheck **Show Spotlight search**
   * **Spotlight** -> uncheck **Show Finder search window**
 
 {% hint style="info" %}
@@ -89,4 +83,3 @@ If you're using a Magic Mouse:
 
 * **Point & Click**
   * Enable **Tap to click**
-

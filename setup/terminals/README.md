@@ -1,8 +1,8 @@
 # Terminal Setups
 
-Throughout the years, I've moved between different terminals. My favorite one currently is **Warp.** Mainly because of the fewer customizations I need to do and how clean it looks straight out of the box. Not much of a headache to get started and running too.
+Throughout the years, I’ve moved between different terminals. My current favorite is **Warp**. It needs fewer customizations and looks clean out of the box. It’s also quick to get up and running.
 
-It seemed like setting up my usual iTerm theming felt like a chore. If you want a minimalist, easy-to-setup, and working terminal – I recommend trying out the **Warp setup**. **Hyper** isn't bad too. If you have the time, hate web-wrappers, and enjoy tinkering – check out the **iTerm Setup**.
+Setting up my usual iTerm theming started to feel like a chore. If you want a minimalist, easy-to-setup terminal, try the **Warp setup**. **Hyper** isn’t bad either. If you have the time, hate web wrappers, and enjoy tinkering, check out the **iTerm Setup**.
 
 {% hint style="info" %}
 ### Terminologies
@@ -15,5 +15,5 @@ It seemed like setting up my usual iTerm theming felt like a chore. If you want 
 
 **Terminal:** This is the actual interface to the console. The program we use to interact with the console is actually a “terminal emulator”, providing us the experience of typing into an old-school terminal from the convenience of our modern graphical operating system.
 
-**Text CLI shells:** Basically is a user interface for accessing OS services. Examples are Bourne-Again Shell (Bash), z Shell (zsh) Korn shell (ksh). macOS ships with [a couple of shells](https://en.wikipedia.org/wiki/Comparison\_of\_command\_shells) actually, you can check them out by running  `cat /etc/shells`
+**Text CLI shells:** Basically, a user interface for accessing OS services. Examples include Bourne-Again Shell (Bash), Z shell (zsh), and Korn shell (ksh). macOS ships with [a couple of shells](https://en.wikipedia.org/wiki/Comparison_of_command_shells). You can check them out by running `cat /etc/shells`.
 {% endhint %}

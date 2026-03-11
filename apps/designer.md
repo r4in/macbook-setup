@@ -1,6 +1,6 @@
 # Design Tools
 
-At the end of the day, tools are just tools. But great tools do make the work easier for the craftsman. Feel free to explore what works for your workflow.&#x20;
+At the end of the day, tools are just tools. But great tools do make the work easier for the craftsman. Feel free to explore what works for your workflow.
 
 {% hint style="info" %}
 You might want to check the [2022 Design Tools Survey](https://uxtools.co/survey/2022) to see what the industry is using.
@@ -8,16 +8,27 @@ You might want to check the [2022 Design Tools Survey](https://uxtools.co/survey
 
 ### **Essentials**
 
-**Adobe Creative Cloud**  🏆
+**Adobe Creative Cloud** 🏆
 
 Creative Cloud is basically a launcher for you to download Adobe apps. Installing it via cask is buggy, so I recommend installing it from the web.
 
 [https://creativecloud.adobe.com/apps/download/creative-cloud](https://creativecloud.adobe.com/apps/download/creative-cloud)
 
-You can install whatever you need. What I only need tho is:
+You can install whatever you need. What I only need, though, is:
 
 * Adobe Photoshop CC 2023
 * Adobe Illustrator CC 2023
+
+**GIFski** 🏆\
+The best free GIF app
+
+```
+https://gif.ski
+```
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
 **SIP**\
 A better Color Picker for your Mac.
@@ -26,21 +37,23 @@ A better Color Picker for your Mac.
 brew install --cask sip
 ```
 
-**GIFski** 🏆\
-The best free gif app
-
-```
-https://gif.ski
-```
+</details>
 
 ### **UI Design**
 
 **Figma** 🏆\
-Never had looked back. Currently the best digital design tool out there.
+Never looked back. Currently the best digital design tool out there.
 
 ```
 brew install --cask figma
 ```
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
+
+**Adobe XD**\
+For those loyal to the Adobe ecosystem.
 
 **Sketch**\
 My ex-digital design tool from 2016 - 2018.
@@ -49,23 +62,14 @@ My ex-digital design tool from 2016 - 2018.
 brew install --cask sketch
 ```
 
-**Adobe XD**\
-For those loyal to the Adobe ecosystem. It can only be installed through the Adobe Creative Cloud launcher. Unfortunately. they will be sun-setting the app. Now, that [Adobe have acquired Figma](https://www.theverge.com/2022/9/17/23357404/adobe-figma-acquisition-20-billion-bet-control-creative-market-antitrust).
-
-{% embed url="https://www.adobe.com/sea/products/xd.html" %}
-
-<details>
-
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
-
 **Abstract**\
-Its version control for Sketch
+It’s version control for Sketch
 
 ```
 brew install --cask abstract
 ```
 
-I work mostly with Figma - and it has version control baked in already.
+I work mostly with Figma, and it has version control baked in already.
 
 **Zeplin**\
 Design to developer handoff
@@ -85,8 +89,6 @@ brew install --cask craftmanager
 
 </details>
 
-
-
 ### **Digital Whiteboarding**
 
 **FigJam** 🏆
@@ -96,6 +98,10 @@ This whiteboarding tool has definitely matured, and using it in Figma saves a lo
 ```
 brew install --cask figma
 ```
+
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
 **Miro** 🏆\
 It's still a top tool for brainstorming & workshopping.
@@ -108,16 +114,10 @@ brew install --cask miro
 Did you know before Miro, it was previously called RealtimeBoard?
 {% endhint %}
 
-<details>
-
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
-
 **Mural**\
 Haven't used this in ages. But it's a whiteboarding tool similar to Miro.
 
 </details>
-
-
 
 ### **Design Systems**
 
@@ -137,13 +137,11 @@ Tools used for user testing
 
 **Maze -** [**https://maze.co**](https://maze.co)
 
-**Lyssna (Previously UsabilityHub) -** [**https://www.lyssna.com**](https://www.lyssna.com)
+**Lyssna -** [**https://www.lyssna.com**](https://www.lyssna.com)
 
 **Usertesting -** [**https://www.usertesting.com**](https://www.usertesting.com)
 
 **UserInterviews** - [https://www.userinterviews.com](https://www.userinterviews.com)
-
-
 
 ### Research Repository
 
@@ -162,20 +160,18 @@ brew install --cask notion
 ### **3D**
 
 **Blender**\
-A 3d tool for the pros
+A 3D tool for the pros
 
 ```
-brew install --cask blender 
+brew install --cask blender
 ```
 
 **Spline**\
 A design tool for animating 3D
 
 ```
-brew install --cask spline 
+brew install --cask spline
 ```
-
-
 
 ### **Icon Managers**
 
@@ -190,15 +186,15 @@ brew install --cask iconset
 
 <summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
-**Iconjar** \
-An icon Manager
+**Iconjar**\
+An icon manager
 
 ```
 brew install --cask iconjar
 ```
 
 **Nucleo**\
-An icon Manager
+An icon manager
 
 ```
 brew install --cask nucleo
@@ -207,14 +203,10 @@ brew install --cask nucleo
 </details>
 
 {% hint style="warning" %}
-I used to be a fan of using icon fonts for design & development because of the ease of use. However, I realized loading a font file is a another http request and might be render-blocking (if you happen to have it on the top fold of the page) Since the dawn of svg, its actually much more lighter\
+I used to be a fan of icon fonts for design & development because of the ease of use. However, loading a font file is another HTTP request, and it might be render-blocking (if it’s above the fold). Since the dawn of SVG, it’s usually lighter.\
 \
-Also, I find myself lately relying more on icon pack libraries in **Figma,** rather than these apps. But it doesn't hurt to have one just incase you need to open it from other apps aside from Figma.
+Lately, I rely more on icon pack libraries in **Figma** rather than these apps. Still, it doesn’t hurt to have one in case you need to open icons outside of Figma.
 {% endhint %}
-
-
-
-###
 
 ### **Webfont Generator**
 
@@ -248,7 +240,7 @@ brew install --cask imageoptim
 ```
 
 {% hint style="warning" %}
-Optimizing images should be already baked in your frontend tooling (by running image optimizing npm packages using gulp, react, grunt, ect.) But just incase you need to do it manually, here are some good ones. ImageOptim is free, but the paid alternative Optimage [might be better](https://optimage.app/benchmark). But most frontend tooling, utilizes image compression packages already - you decide.
+Optimizing images should already be baked into your frontend tooling (e.g., using image-optimizing npm packages with Gulp, React, Grunt, etc.). But if you need to do it manually, here are some good ones. ImageOptim is free, but the paid alternative Optimage [might be better](https://optimage.app/benchmark). Most frontend tooling already uses image compression packages, so you decide.
 {% endhint %}
 
 ### **Prototyping Tools**
@@ -257,7 +249,7 @@ Each of these prototyping tools has its own set of pros and cons. Use each one t
 
 **ProtoPie** :trophy:
 
-This is [number one](https://uxtools.co/survey/2022/advanced-prototyping) based on the 2022 Design Tools Survey for advaned prototyping.
+This is [number one](https://uxtools.co/survey/2022/advanced-prototyping) based on the 2022 Design Tools Survey for advanced prototyping.
 
 ```
 brew install --cask protopie
@@ -286,8 +278,6 @@ brew install --cask framer
 ```
 brew install --cask origami-studio
 ```
-
-
 
 </details>
 

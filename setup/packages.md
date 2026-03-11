@@ -8,11 +8,11 @@ If you are already familiar with the packages listed, here's a shell script that
 
 ## Trash
 
-Not really a big fan of `rm` so heres a better alternative: [https://github.com/sindresorhus/trash](https://github.com/sindresorhus/trash)
+Not really a big fan of `rm`, so here’s a better alternative: [https://github.com/sindresorhus/trash](https://github.com/sindresorhus/trash)
 
 #### Installation
 
-You will need **Node** in order to install this package, to install Node:
+You will need **Node** to install this package. To install Node:
 
 ```
 brew install node
@@ -24,11 +24,9 @@ And to install trash:
 npm install trash
 ```
 
-
-
 ## Z
 
-Z is actually not part of Zsh, but its a really cool way to jump to frecent folders. It makes navigating through the file system a breeze.
+Z is not part of Zsh, but it’s a really cool way to jump to “frecent” folders. It makes navigating the file system a breeze.
 
 #### Installation
 
@@ -36,7 +34,7 @@ Z is actually not part of Zsh, but its a really cool way to jump to frecent fold
 brew install z
 ```
 
-Also, don't forget to add this to your .zshrc file
+Also, don’t forget to add this to your `.zshrc` file:
 
 ```
 # include Z
@@ -49,9 +47,9 @@ Also, don't forget to add this to your .zshrc file
 z <folder or app name>
 ```
 
-## Youtube-dl
+## youtube-dl
 
-`Youtube-dl` is a command-line program used to download YouTube videos or videos from any platform in high resolution. There are also tons of other functionalities you can experiment with and you can check them out at their GitHub repository below.
+`youtube-dl` is a command-line program used to download YouTube videos (and videos from other platforms) in high resolution. There are tons of other features you can experiment with. Check the GitHub repo below.
 
 ```
 brew install youtube-dl
@@ -66,9 +64,7 @@ brew install ffmpeg
 #### Usage
 
 * Download highest-res: `youtube-dl -f bestvideo+bestaudio 'link'`
-* Help:`youtube-dl —- help`
-
-
+* Help: `youtube-dl --help`
 
 ## Speedtest
 
@@ -86,9 +82,7 @@ brew install speedtest-cli
 speedtest-cli
 ```
 
-
-
-## Mac App Store CLI&#x20;
+## Mac App Store CLI
 
 `mas` is a Mac App Store command-line interface that lets you install Mac apps from the App Store directly from the command line.
 
