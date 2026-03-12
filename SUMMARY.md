@@ -4,7 +4,7 @@
 
 ## Preparation
 
-* [Preparing Your Macs](preparation/preparing-your-mac.md)
+* [Preparing Your Mac](preparation/preparing-your-mac.md)
 * [Installing macOS](preparation/backing-up-your-machine.md)
 
 ## Setup
