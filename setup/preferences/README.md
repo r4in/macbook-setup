@@ -1,72 +1,75 @@
-# System Preferences
+# System Settings
 
-The first thing you should do is update your OS. To do that, go to: **Apple menu () -> System Settings… -> Software Update**.
+There are a couple of tweaks you can make in System Settings. The settings below are optional, so consider them suggestions:
 
-Don’t forget to sign in with your Apple ID to sync your iCloud account.
-
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
-
-There are a couple of tweaks you can make in System Settings. The settings below are optional, so consider them suggestions.
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### General
 
 * **Airdrop & Handoff**
-  * **AirDrop** -> Select **Everyone**
-
-### Appearance
-
-* Appearance: **Dark**
+  * **AirDrop** → Select **Everyone**
 
 ### Accessibility
 
 * **Motor**
   * **Pointer Control**
-    * **Check** _Ignore built-in trackpad when mouse or wireless trackpad is present_\
-      I primarily use a mouse, so I find it annoying when I accidentally move the mouse pointer while typing on the keyboard.
+    * Enable **Ignore built-in trackpad when mouse or wireless trackpad is present**&#x20;
 
-### Control Center
+{% hint style="info" %}
+_I primarily use a mouse, so I find it annoying when I accidentally move the mouse pointer while typing on the keyboard._
+{% endhint %}
 
-* **Menu Bar Only**
-  * **Spotlight** -> Set to **Don’t Show in Menu Bar**
+### Appearance
 
-### Siri & Spotlight
+* **Appearance** → Select **Dark**
 
-* Uncheck **Ask Siri**
+### Apple Intelligence & Siri
+
+* Uncheck **Apple Intelligence**
+
+{% hint style="info" %}
+With all the better options out there, you seriously want Siri?
+{% endhint %}
 
 ### Desktop & Dock
 
-Your dock is probably flooded with all of macOS’s default apps. I usually drag them all to the Trash to make it cleaner. I usually hide the Dock (`cmd + option + d`) because launching apps with an app launcher like Raycast is faster.
+Your dock is probably flooded with all of macOS’s default apps. I just drag them all to the **Trash** to make it cleaner. I usually hide the Dock (`cmd + option + d`) because launching apps with an app launcher like Raycast is faster.
 
 * **Dock**
-  * Size : **Small**
-  * Position on screen : **Left**
-  * Uncheck **Automatically hide and show the Dock**
-  * Uncheck **Show suggested and recent apps in Dock**
+  * Size → **Small**
+  * Dock position on screen → **Left**
+  * Untoggle **Show suggested and recent apps in Dock**
 * **Desktop & Stage Manager**
-  * Uncheck **Show Items -> On Desktop**
-  * Set **Click wallpaper to reveal desktop -> Only in Stage Manager**
-  * Uncheck **Stage Manager**
+  * Uncheck **Show Items** → **On Desktop**
+  * Set **Click wallpaper to reveal desktop** → **Only in Stage Manager**
+* **Widgets**
+  * Uncheck **Show Widgets** → **On Desktop**
+  * Uncheck **Show Widgets** → **In Stage Manager**
 * **Hot Corners**
-  * Set all to none
+  * Set all to "**–**"
 
 ### Display
 
 * Disable **True Tone**
 
+{% hint style="info" %}
+The change in screen color while designing at night is really annoying
+{% endhint %}
+
+### Menu Bar
+
+* Uncheck **Spotlight**
+
 ### Wallpaper
 
 * Update your favorite wallpaper.
 
-### Internet Accounts
-
-* Add your Google, Yahoo, or iCloud accounts to sync with the Mail, Calendar, Messages, and other macOS apps.
-
 ### Keyboard
 
-* Set **Press** 🌐︎ **key to** -> **Do Nothing**
-* **Keyboard Shortcuts**
-  * **Spotlight** -> uncheck **Show Spotlight search**
-  * **Spotlight** -> uncheck **Show Finder search window**
+* Set **Press** 🌐︎ **key to** → **Do Nothing**
+* Go to **Keyboard Shortcuts:**
+  * **Spotlight** → Uncheck **Show Spotlight search**
+  * **Spotlight** → Uncheck **Show Finder search window**
 
 {% hint style="info" %}
 **Fun fact:** Spotlight was completely redesigned in OS X 10.10 Yosemite and now resembles Alfred. However, I still prefer using Raycast over Spotlight for various reasons. That being said, we’ll be disabling the Spotlight search keyboard shortcut since we’ll be using Raycast anyway.
@@ -81,5 +84,5 @@ If you're using a Magic Mouse:
 
 ### Trackpad
 
-* **Point & Click**
-  * Enable **Tap to click**
+* Go to **Point & Click**
+  * Toggle **Tap to click**

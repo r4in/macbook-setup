@@ -2,18 +2,28 @@
 
 ## **Xcode**
 
-[**Xcode**](https://developer.apple.com/xcode/) is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, watchOS and tvOS.
+Xcode is Apple’s official integrated development environment (IDE) used to build apps for all Apple platforms.
 
 Download and install it from the **App Store** or from [Apple's website](https://developer.apple.com/xcode/).
 
+To verify your installation, run:
+
+```zsh
+xcode-select -p
+```
+
+And you should see:
+
+```zsh
+/Applications/Xcode.app/Contents/Developer
+```
+
 ## Xcode Command Line Tools
 
-Then proceed to install the Xcode Command Line Tools by running the following command in your terminal:
+Xcode Command Line Tools (CLT) are a lightweight set of developer tools from Apple that let you use programming and build tools without installing the full Xcode app. If you have already installed Xcode, then you don't need to install this anymore.
 
-```
+To install, run:
+
+```zsh
 xcode-select --install
 ```
-
-<figure><img src="../.gitbook/assets/image (35).png" alt="" width="375"><figcaption><p>Click on install to continue</p></figcaption></figure>
-
-This will prompt you to install the command line tools. Follow the instructions and you’ll have both **Xcode** and **Xcode Command Line Tools** installed.

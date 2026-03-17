@@ -22,7 +22,7 @@ Open Warp, then run the command palette by typing `cmd+p` and search for **Open 
 
 Make sure you use the **Menlo** font.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Shell
 
@@ -40,7 +40,7 @@ Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Prompt
 

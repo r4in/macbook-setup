@@ -10,7 +10,7 @@
 ## Setup
 
 * [Xcode](setup/xcode.md)
-* [System Preferences](setup/preferences/README.md)
+* [System Settings](setup/preferences/README.md)
   * [Finder](setup/preferences/finder.md)
 * [Homebrew](setup/homebrew/README.md)
   * [Cask](setup/homebrew/cask.md)
