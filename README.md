@@ -1,12 +1,12 @@
 ---
 description: >-
-  A product designer's guide to setting up a machine for UX design and UI
-  development. *Updated for macOS Tahoe*
+  A product designer's guide to setting up a machine for designers. *Updated for
+  macOS Tahoe*
 ---
 
 # Introduction
 
-This guide started as a way to set up a designer-friendly vibe-coding environment based on my experience at [GoDaddy](http://godaddy.com/). It grew from a UI development setup used by designers at [Symph](https://www.symph.co/) and [Abstract Digital](https://abstract.ph/). Now I’m sharing it to help other design teams—and anyone who loves shipping digital products—move faster. 🚀
+This guide started as a way to set up a designer friendly vibe-coding environment based on my personal experience at [GoDaddy](http://godaddy.com/). It grew from a UI development setup used by designers at [Symph](https://www.symph.co/) and [Abstract Digital](https://abstract.ph/). Now I’m sharing it to help other design teams—and anyone who loves shipping digital products—move faster. 🚀
 
 If you feel that:
 
