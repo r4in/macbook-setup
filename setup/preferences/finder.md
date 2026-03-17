@@ -2,25 +2,35 @@
 
 ### Settings
 
-Open **Finder** > **Settings**
+Open **Finder** → **Settings:**
 
-![](<../../.gitbook/assets/image (23).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **General**
-  * [ ] **Show these items on the desktop** -> Uncheck everything
-  * [ ] **New Finder windows show** -> Select **Desktop**<br>
-* **Tags**
-  * [ ] Uncheck everything
-* **Sidebar**
-  * Uncheck everything except:
-    * [ ] **AirDrop**
-    * [ ] **Applications**
-    * [ ] **Desktop**
-    * [ ] **Downloads**
-    * [ ] **francisalturas** (or whatever is your computer name)
-    * [ ] **Francis's MacBook Pro**
 
-### Modifying the Sidebar
 
-* [ ] Add your code repo directory (e.g., create a **Git** folder in your home directory, then add it here as a shortcut)
-* [ ] Add your team **Google Drive Folder**
+#### **General**&#x20;
+
+* Uncheck everything under: **Show these items on the desktop**
+* **New Finder windows show** → Select **Desktop**
+
+#### **Tags**
+
+* Uncheck everything
+
+#### Sidebar
+
+* Uncheck everything except:
+  * **Applications**
+  * **Desktop**
+  * **Downloads**
+  * **francisalturas** (or whatever is your computer name)
+  * **Francis's MacBook Pro**
+  * **Airdrop**
+
+***
+
+### Finder Sidebar Recommendations
+
+* Add your code directory as a shortcut (e.g., create a **Git** folder in your home directory)
+* Add your team **Google Drive Folder** as a shortcut
+

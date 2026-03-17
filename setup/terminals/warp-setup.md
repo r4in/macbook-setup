@@ -10,7 +10,7 @@ Lately, I’ve been using Warp — a nice terminal with AI built in. It supports
 
 To install, simply run: `brew install --cask warp`
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Theme
 
@@ -40,7 +40,7 @@ Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Prompt
 

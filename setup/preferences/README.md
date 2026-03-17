@@ -2,7 +2,7 @@
 
 There are a couple of tweaks you can make in System Settings. The settings below are optional, so consider them suggestions:
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### General
 
@@ -80,7 +80,7 @@ The change in screen color while designing at night is really annoying
 If you're using a Magic Mouse:
 
 * Adjust tracking speed to preferred speed
-* Set **Secondary click** -> **Click Right Side**
+* Set **Secondary click** → **Click Right Side**
 
 ### Trackpad
 
