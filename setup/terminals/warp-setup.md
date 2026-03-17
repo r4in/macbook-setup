@@ -30,26 +30,24 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 [Pure prompt ](https://github.com/sindresorhus/pure)is a minimal, fast, and smart replacement for your terminal prompt in Zsh.&#x20;
 
-**Install PURE via Homebrew:**
+Install PURE via Homebrew:
 
 ```zsh
 brew install pure
 ```
 
-**Add to your ZSH config**
+Then add this config at the end of your `.zshrc` file
 
-* Open .zshrc by:
-
-```
-open -e ~/.zshrc
-```
-
-And add this to the end of your `~/.zshrc`:
-
-```
-# .zshrc
+```zsh
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
+```
+
+Then restart Warp or apply the changes by typing
+
+```
+source ~/.zshrc
 ```
 
 {% hint style="info" %}
@@ -64,12 +62,6 @@ Your `.zshrc` file is in your home directory. To open it with your default text 
 ```
 open ~/.zshrc
 ```
-
-**Big Sur Issue: After installing Brew, I get a "command not found"**
-
-Simply open your .zshrc file and add this:
-
-`export PATH=/opt/homebrew/bin:$PATH`
 {% endhint %}
 
 ## Zsh Plugins
@@ -94,7 +86,7 @@ plugins=(git zsh-autosuggestions)
 
 ### Zsh Syntax Highlighting
 
-[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a Fish shell-like syntax highlighting for Zsh.
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a plugin that adds real-time color highlighting to commands as you type in the terminal.
 
 #### Installation:
 
