@@ -1,86 +1,142 @@
 # Installing macOS
 
-## Fresh Install Is Best Install
+I usually prefer wiping out my whole hard drive and just doing a fresh install. I've done macOS upgrades in the past but I still feel the bloat after two continuous OS upgrades (And all those annoying temporary/hidden files that take up space). So, let's create a bootable macOS installer!
 
-I usually prefer wiping out my whole hard drive and just doing a fresh install. I've done macOS upgrades in the past but I still feel the bloat after two continuous OS upgrades. So, let's create a bootable macOS installer!
+## Download macOS Tahoe
 
-First, download the latest macOS on the App Store:
+You can no longer download the macOS Tahoe directly from the AppStore as of this writing. But you can&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-07 at 8.23.31 PM (1).png" alt=""><figcaption><p>Search for macOS Sonoma in your App Store</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-07 at 8.26.38 PM.png" alt=""><figcaption><p>macOS Sonoma currently being downloaded</p></figcaption></figure>
 
-## Creating a Bootable Installer
+1. Open Terminal
 
-There are numerous ways to create a bootable macOS installer. As of this writing, [Disk Maker X](https://diskmakerx.com/) no longer supports older macOS starting from Big Sur. Fortunately, you can still easily do this in Terminal. Here's how you create a bootable thumb drive:
-
-* Prepare a 16GB USB thumb drive that's ready to be wiped out
-* Make sure you already downloaded macOS Sonoma. After downloading, it should be sitting in your Applications folder like this:
-
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>You can find it under Applications > Install macOS Sonoma</p></figcaption></figure>
-
-* Insert your thumb drive and run this command below in your Terminal. Make sure you replace "**Untitled**" with the name of your USB thumb drive.
-
-```
-sudo '/Applications/Install macOS Sonoma.app/Contents/Resources/createinstallmedia' --volume '/Volumes/Untitled'
+```zsh
+softwareupdate --list-full-installers
 ```
 
-* Wait for about 10-15 minutes for the process to complete. You should see this once it’s finished:
+&#x20;And you'll see something like this:
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Bootable macOS Sonoma installer completed successfully</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>
+
+2. Run the command below and replace the version with the latest one you see on the list:
+
+```zsh
+softwareupdate --fetch-full-installer --full-installer-version 26.3.2
+```
+
+3. After downloading, you'll find it in your **Applications** folder
+
+<figure><img src="../.gitbook/assets/image (38).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Create a Bootable USB Installer
+
+Once downloaded:
+
+1. Insert a 16GB+ USB drive
+2.  Format it using Disk Utility
+
+    * Format: **Mac OS Extended (Journaled)**
+    * Scheme: **GUID Partition Map**
+
+    <figure><img src="../.gitbook/assets/image (39).png" alt="" width="563"><figcaption></figcaption></figure>
+3. Then run this command:
+
+```zsh
+sudo /Applications/Install\ macOS\ Tahoe.app/Contents/Resources/createinstallmedia --volume /Volumes/MyUSB
+```
 
 ## Backup Checklist
 
-* [ ] Files in your **Desktop** folder
-* [ ] Files in your **Downloads** folder
-* [ ] Files in your **Documents** folder
-* [ ] Files in your **Pictures** folder
-* [ ] Code in your **Git** folder
+#### Home Folder
+
+* [ ] Check everything inside `~/Users/yourusername/`
+  * [ ] **Desktop**&#x20;
+  * [ ] **Documents**
+  * [ ] **Downloads**
+  * [ ] **Movies**
+  * [ ] **Music**
+  * [ ] **Pictures**
+
+#### Development Files
+
+* [ ] Projects in your **Git** folder
 * [ ] Tiny code snippets or links\
-  (Instead of saving them on iCloud notes or on Sublime Text or in note-taking apps - use [Paste](https://pasteapp.me/))
-* [ ] Browser bookmarks, settings, history, etc.\
-  If you're using different browsers, [Raindrop.io](https://raindrop.io/) is a great bookmark manager.
+  &#xNAN;_&#x49;nstead of saving them on iCloud notes or on Sublime Text or in note-taking apps - use_ [_Paste_](https://pasteapp.me/)
+* [ ] Your SSH keys `~/.ssh`
+
+#### Others
+
+* [ ] **Browser bookmarks, settings, history, etc.** _I recommend using Chrome Profiles._
 * [ ] **Passwords**, **server logins**, and **sensitive stuff**.\
-  Don't store them in your notes. Use password managers like [1Password](https://1password.com/) or [LastPass](https://www.lastpass.com/). I recommend using [Bitwarden](https://bitwarden.com/) — the free tier is good enough for my personal needs and is open-source.
-* [ ] Don't forget to back up your public SSH keys too
-* [ ] Your saved **Font Files**
+  &#xNAN;_&#x49; recommend using_ [_Bitwarden_](https://bitwarden.com/) _— the free tier is good enough for my personal needs and is open-source._
+* [ ] Your Font files `~/Library/Fonts`
 
 ## Cloud Storage
 
-I used to back everything up to an external hard drive, but now I sync all my files to the cloud. [Dropbox](https://www.dropbox.com/) is great (and right-clicking to share public links works like a charm). However, I find [Google One](https://one.google.com/about/) to be a more economically viable option. If you’re fully immersed in the Apple ecosystem, [iCloud](https://www.icloud.com/) might make more sense for you.
+This might sound crazy but files are all synced to the cloud. (Well, except for the OS and everything in the **Home** folder) I find [Google One](https://one.google.com/about/) to be a more economically viable option. If you’re fully immersed in the Apple ecosystem, [iCloud](https://www.icloud.com/) might make more sense for you.
 
 {% tabs %}
 {% tab title="Google One" %}
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Apple iCloud" %}
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Dropbox" %}
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Apple iCloud+" %}
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-## Let The Purge Begin
-
-Now it’s time to take a deep breath, shut down your machine, and hope there won’t be an ounce of regret. 🐵
+## Boot From the USB&#x20;
 
 {% hint style="warning" %}
 **Warning:** There's no going back after this point, so be sure to back up your files to the cloud. If you’re not comfortable with that, you can always do a manual backup using your external hard drive.
 {% endhint %}
 
-Insert the bootable USB, and as you press the power key, hold down the **Option key** until a screen appears prompting you to choose which device you want to boot from. Select the thumb drive with the macOS installer.
+Let the purge begin! 🐵
 
-![](<../.gitbook/assets/image (18).png>)
+Shut down your the Mac. Plug in the USB. Press and hold the power button. And wait until you see:
 
-Select **Disk Utility** and click **Continue**.
+> “Loading startup options…”
 
-![](<../.gitbook/assets/image (19).png>)
+A screen will appear asking you which device you want to boot from.&#x20;
 
-What you see here are the drive partitions. Our goal is to wipe the entire hard drive. First, select **View > Show All Devices**. Then, choose the physical storage device you want to erase (e.g., _APPLE SSD AP0512J Media_), and click **Erase**.
+* Select **Options** → **Continue**
+* You’ll enter macOS Recovery (You might be asked to enter your login password)
+* From the menu choose **Disk Utility**
 
-Select **GUID Partition Map** and **Apple File System (APFS)** as the file system format, then enter a name for the drive.
+<figure><img src="../.gitbook/assets/image (44).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Once done, go back and click on **Reinstall OS X**.
+#### Then wipe the disk
+
+* In Disk Utility click **View** → **Show All Devices**
+
+<figure><img src="../.gitbook/assets/IMG_4904.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+* Select the top internal disk (It's the Storage Device, usually something like _Apple SSD_).
+* Click **Erase**
+  *   Then use these settings:
+
+      * Name: Macintosh HD
+      * Format: APFS
+      * Scheme: GUID Partition Map
+
+
+
+      <figure><img src="../.gitbook/assets/IMG_4905.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+You'll be presented with some prompts. Click on **Erase Mac...** →  **Erase Mac and Restart**
+
+<figure><img src="../.gitbook/assets/IMG_4907.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+Your machine will reboot. Once done, you'll see an **Activate Mac** screen. Connect to the internet and click **Next. In the Activation Lock screen, y**ou'll need to enter some details to activate your mac. Once done, tap on **Exit to Recovery**.
+
+<figure><img src="../.gitbook/assets/IMG_4909.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+Since you're booting from **Recovery Mode**, you won't see the macOS Tahoe installer here. Shutdown your computer, and boot again from your USB by long pressing the power button.<br>
+
+Now select **Install macOS Tahoe**
+
+<figure><img src="../.gitbook/assets/IMG_4910.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+
+Then follow the rest of the installation process!
+
+<figure><img src="../.gitbook/assets/IMG_4911.jpeg" alt="" width="563"><figcaption></figcaption></figure>
