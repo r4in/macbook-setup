@@ -4,25 +4,9 @@ description: The modern, AI-assisted terminal.
 
 # Warp Setup
 
-Before we proceed, there are three main things we want to set up in a terminal: **Theme**, **Prompt**, and **Shell**.
 
-Lately, I’ve been using Warp — a nice terminal with AI built in. It supports shared workflows and saved commands, so you can collaborate with your team better. Check it out here: [https://www.warp.dev/](https://www.warp.dev/)
-
-To install, simply run: `brew install --cask warp`
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-## Theme
-
-I love **hyper snazzy**, which is an elegant terminal theme with bright colors. Luckily they made a port for Warp here: [https://github.com/GrimLink/warp-theme-snazzy](https://github.com/GrimLink/warp-theme-snazzy)
-
-Download the `snazzy.yaml` file (and any other accent file) and copy it to `~/.warp/themes`
-
-Open Warp, then run the command palette by typing `cmd+p` and search for **Open Theme Picker**. Scroll down and select **Snazzy.**
-
-Make sure you use the **Menlo** font.
-
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Shell
 
@@ -44,18 +28,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Prompt
 
-**Pure** is a pretty, minimal, and fast Zsh prompt: [https://github.com/sindresorhus/pure](https://github.com/sindresorhus/pure)
+[Pure prompt ](https://github.com/sindresorhus/pure)is a minimal, fast, and smart replacement for your terminal prompt in Zsh.&#x20;
 
-But you’ll need Node installed first:
+**Install PURE via Homebrew:**
+
+```zsh
+brew install pure
+```
+
+**Add to your ZSH config**
+
+* Open .zshrc by:
 
 ```
-brew install node
-```
-
-Then, to install:
-
-```
-npm install --global pure-prompt
+open -e ~/.zshrc
 ```
 
 And add this to the end of your `~/.zshrc`:

@@ -1,19 +1,136 @@
-# Terminal Setups
+# Terminal Setup
 
-Throughout the years, I’ve moved between different terminals. My current favorite is **Warp**. It needs fewer customizations and looks clean out of the box. It’s also quick to get up and running.
+Throughout the years, I’ve moved between different terminals (iTerms, Hyper, ect.). My terminal of choice is **Warp** — mainly because it turns the terminal into a modern, structured, and AI-assisted workspace instead of a plain text command line.
 
-Setting up my usual iTerm theming started to feel like a chore. If you want a minimalist, easy-to-setup terminal, try the **Warp setup**. **Hyper** isn’t bad either. If you have the time, hate web wrappers, and enjoy tinkering, check out the **iTerm Setup**.
+
+
+## Installing Warp
+
+There are three main things we want to set up in a terminal: **Theme**, **Prompt**, and **Shell**.
+
+To install, simply run:
+
+```zsh
+brew install --cask warp
+```
+
+After installation, there are three main things we want to set up in a terminal: **Theme**, **Prompt**, and **Shell**.
+
+<figure><img src="../../.gitbook/assets/image (49).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Theme
+
+**Hyper Snazzy**
+
+I love Hyper Snazzy, which is an elegant terminal theme with bright colors. Luckily they made a port for Warp here: [https://github.com/GrimLink/warp-theme-snazzy](https://github.com/GrimLink/warp-theme-snazzy)
+
+Download the `snazzy.yaml` file (and any other accent file) and copy it to `~/.warp/themes`
+
+Open Warp, then run the command palette by typing `cmd+p` and search for **Open Theme Picker**. Scroll down and select **Snazzy.**
+
+## Shell
+
+#### **Zsh**
+
+Since macOS Catalina and higher, Zsh has been adopted replacing Bash. So no need to manually install zsh anymore. If you're not sure you can run `echo $SHELL` on your terminal and you should get `/bin/zsh` as a response.
+
+#### **Zsh Framework**
+
+**Oh My Zsh** is an open-source, community-driven framework for managing your zsh configuration: [http://ohmyz.sh/](http://ohmyz.sh/)
+
+
+
+**Installation:**
+
+```zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+<figure><img src="../../.gitbook/assets/image (50).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## Prompt
+
+[Pure prompt ](https://github.com/sindresorhus/pure)is a minimal, fast, and clean terminal prompt for Zsh — it replaces the default look of your terminal with something more modern and useful.
+
+But you’ll need Node installed first:
+
+```
+brew install node
+```
+
+Then, to install:
+
+```
+npm install --global pure-prompt
+```
+
+And add this to the end of your `~/.zshrc`:
+
+```
+# .zshrc
+autoload -U promptinit; promptinit
+prompt pure
+```
 
 {% hint style="info" %}
-### Terminologies
+### **FAQ**
 
-**Console:** This is the system as a whole. This is both the command line as well as the output from previous commands.
+**What is a .zshrc file?** Basically, it’s a Z shell resource file that contains your configuration.
 
-**Command Line:** This is the actual line in a console where you type your command.
+#### How do I edit/access the .zshrc file?
 
-**Prompt:** This is the beginning of the command line. It usually provides some contextual information like who you are, where you are, and other useful info. It typically ends in a **$**. After the prompt, you will be typing commands.
+Your `.zshrc` file is in your home directory. To open it with your default text editor:
 
-**Terminal:** This is the actual interface to the console. The program we use to interact with the console is actually a “terminal emulator”, providing us the experience of typing into an old-school terminal from the convenience of our modern graphical operating system.
+```
+open ~/.zshrc
+```
 
-**Text CLI shells:** Basically, a user interface for accessing OS services. Examples include Bourne-Again Shell (Bash), Z shell (zsh), and Korn shell (ksh). macOS ships with [a couple of shells](https://en.wikipedia.org/wiki/Comparison_of_command_shells). You can check them out by running `cat /etc/shells`.
+**Big Sur Issue: After installing Brew, I get a "command not found"**
+
+Simply open your .zshrc file and add this:
+
+`export PATH=/opt/homebrew/bin:$PATH`
 {% endhint %}
+
+## Zsh Plugins
+
+### Zsh autosuggestions
+
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a [Fish](http://fishshell.com/)-like fast/unobtrusive auto-suggestions for zsh. It suggests commands as you type based on command history.
+
+#### **Installation**:
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+Search for the `plugins` line inside `~/.zshrc` and add the plugin to the list of plugins for Oh My Zsh to load
+
+```
+plugins=(git zsh-autosuggestions)
+```
+
+###
+
+### Zsh Syntax Highlighting
+
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a Fish shell-like syntax highlighting for Zsh.
+
+#### Installation:
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+Then again, search for the `plugins` line inside `~/.zshrc` and add the plugin to the list of plugins for Oh My Zsh to load
+
+```
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
+\
+You need to `source` your config
+
+```
+source ~/.zshrc
+```
