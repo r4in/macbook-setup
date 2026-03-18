@@ -14,17 +14,6 @@ Good video converter.
 brew install --cask handbrake
 ```
 
-**Paste - Clipboard Manager** 🏆\
-The best clipboard manager on macOS.
-
-{% embed url="https://apps.apple.com/us/app/paste-clipboard-manager/id1020667032" %}
-
-If you’ve installed this before:
-
-```
-mas install 1447797058
-```
-
 **Rocket** 🏆\
 Gives you a Slack-like emoji picker.
 
@@ -106,34 +95,6 @@ Music while working
 brew install --cask spotify
 ```
 
-**Karabiner Elements**\
-A powerful and stable keyboard customizer for macOS
-
-```
-brew install --cask karabiner-elements
-```
-
-**Proton VPN** 🏆\
-A good VPN to use
-
-```
-brew install --cask protonvpn
-```
-
-**Geekbench**\
-If you're into benchmarking and comparing performance across different machines
-
-```
-brew install --cask geekbench
-```
-
-**Hazel**\
-Automation and housekeeping on your Mac
-
-```
-brew install --cask hazel
-```
-
 **Screen Studio**\
 The most elegant way to record your screen. [https://www.screen.studio](https://www.screen.studio)
 
@@ -183,13 +144,6 @@ A free macOS system monitor in your menu bar
 brew install --cask stats
 ```
 
-**iStat Menus**\
-A paid macOS system monitor in your menu bar
-
-```
-brew install --cask istat-menus
-```
-
 
 
 **Fantastical 2** 🏆\
@@ -205,34 +159,12 @@ It's really smart when adding events. It autodetects the time and location!
 {% endtab %}
 {% endtabs %}
 
-**Notion Calendar** 🏆\
+**Notion Calendar** \
 Cron's successor
 
 ```
 brew install --cask notion-calendar
 ```
-
-<details>
-
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
-
-**Calendar 366 II**\
-A good free alternative with Fantastical-like functionalities
-
-```
-brew install --cask calendar-366
-```
-
-**Itsycal**\
-Another good free alternative with Fantastical-like functionalities
-
-```
-brew install --cask itsycal
-```
-
-</details>
-
-
 
 **NordVPN**\
 Pricey but worth it. Speeds are fast.
@@ -281,8 +213,6 @@ brew install --cask paragon-ntfs
 
 </details>
 
-### Communication
-
 **Slack** [🏆](https://emojipedia.org/trophy/)\
 Team communication
 
@@ -321,7 +251,7 @@ brew install --cask bitwarden
 ```
 
 **1Password**\
-A good password manager
+A paid password manager
 
 ```
 brew install --cask 1password
