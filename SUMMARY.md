@@ -19,6 +19,7 @@
   * [Zsh](dev-environment/terminal-and-cli/zsh.md)
   * [Pure](dev-environment/terminal-and-cli/pure.md)
 * [Terminal Packages](setup/packages.md)
+* [Node](dev-environment/node.md)
 * [Git](setup/git/README.md)
   * [Git Ignore](setup/git/git-ignore.md)
 * [Code Editor Setups](setup/code-editors/README.md)
