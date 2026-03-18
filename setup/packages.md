@@ -1,10 +1,6 @@
 # Terminal Packages
 
-Below are some recommended packages that is helpful to have.
-
-{% hint style="info" %}
-If you are already familiar with the packages listed, here's a shell script that installs everything below. [https://github.com/r4in/shellscripts/blob/master/packages.sh](https://github.com/r4in/shellscripts/blob/master/packages.sh)
-{% endhint %}
+Below are some interesting packages I have stumbled on. Installing these is purely optional.
 
 ## zoxide
 
