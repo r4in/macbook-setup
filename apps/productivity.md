@@ -1,22 +1,11 @@
 # Productivity Tools
 
-### AI
-
 **ChatGPT** 🏆\
 Why not?
 
 ```
 brew install --cask chatgpt
 ```
-
-**Cursor** 🏆\
-Why not?
-
-```
-brew install --cask cursor
-```
-
-### Essentials
 
 **HandBrake** 🏆\
 Good video converter.
@@ -152,53 +141,6 @@ The most elegant way to record your screen. [https://www.screen.studio](https://
 brew install --cask screen-studio
 ```
 
-<details>
-
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mention</summary>
-
-**Jumpshare**\
-A quick and instant way to share files using a public link
-
-```
-brew install --cask jumpshare
-```
-
-**Krisp.ai**\
-Removes the background noise during your calls
-
-```
-brew install --cask krisp
-```
-
-**ToothFairy**\
-Connect AirPods (or other Bluetooth headphones) to your Mac with a single click or keypress.
-
-If you’ve installed this before:
-
-```
-mas install 1191449274
-```
-
-_However, with the recent updates to the Bluetooth widget in Big Sur, I don't really need this much anymore._
-
-**f.lux** 🏆\
-Changes your screen color at night (before Apple implemented their very own Night Shift)
-
-```
-brew install --cask flux
-```
-
-</details>
-
-### **Documents, Spreadsheets & Presentations**
-
-**Microsoft Office**\
-They recently switched to a subscription-based model like Adobe
-
-{% embed url="https://apps.apple.com/us/app-bundle/microsoft-365/id1450038993?mt=12" %}
-
-### Keystroke Launchers
-
 **Raycast** 🏆\
 The best keystroke launcher out there.
 
@@ -206,33 +148,11 @@ The best keystroke launcher out there.
 brew install --cask raycast
 ```
 
-<details>
 
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
 
-**Ueli**\
-Keystroke launcher for Windows and macOS
+**CleanshotX** 🏆
 
-```
-brew install --cask ueli
-```
 
-I got used to using option + cmd to open keystroke launchers (Alfred) before it was implemented natively in macOS. Alfred is a paid service, but Ueli is free. Customization is really nice with this app. After installing, add this under Settings > Application Search/System/Applications. Disable everything except:\
-\- Application Search\
-\- Calculator\
-\- Operating system commands\
-\- Operating system settings
-
-**Alfred**\
-The original Spotlight Search! (Before Apple sort of copied it, hehe)
-
-```
-brew install --cask alfred
-```
-
-</details>
-
-### **Screen Recorders**
 
 **Kap** 🏆\
 A minimalist way to record videos / gifs on your screen.
@@ -254,7 +174,7 @@ Loom is great and seamless, especially for sending screen recordings + video of 
 {% endtab %}
 {% endtabs %}
 
-### System Monitors
+
 
 **Stats** 🏆\
 A free macOS system monitor in your menu bar
@@ -270,7 +190,7 @@ A paid macOS system monitor in your menu bar
 brew install --cask istat-menus
 ```
 
-### **Calendars**
+
 
 **Fantastical 2** 🏆\
 Best calendar ever. Syncs to everything, including Google calendars and FB events!
@@ -312,7 +232,7 @@ brew install --cask itsycal
 
 </details>
 
-### VPN
+
 
 **NordVPN**\
 Pricey but worth it. Speeds are fast.
@@ -407,14 +327,12 @@ A good password manager
 brew install --cask 1password
 ```
 
-### Email Apps
 
-**Airmail 5** 🏆\
-A better email app than the default one
 
-{% embed url="https://apps.apple.com/us/app/airmail-4/id918858936?mt=12" %}
+**Apple Mail** [🏆](https://emojipedia.org/trophy/)\
+The default email app actually works now
 
-### Menu Bar Organizer
+
 
 **Vanilla** [🏆](https://emojipedia.org/trophy/)\
 A simple, fast, and freemium menu bar organizer.
@@ -423,18 +341,7 @@ A simple, fast, and freemium menu bar organizer.
 brew install --cask vanilla
 ```
 
-**Bartender**\
-Customize your menu bar & hide unwanted icons.
 
-```
-brew install --cask bartender
-```
-
-{% hint style="info" %}
-I used to be on team Bartender. But the ease-of-use and simplicity of Vanilla is too hard to pass. Best of all, it's freemium.
-{% endhint %}
-
-### **Cloud Storage**
 
 **Google Drive** [🏆](https://emojipedia.org/trophy/)\
 I used this to back up my whole machine.
@@ -443,7 +350,7 @@ I used this to back up my whole machine.
 brew install --cask google-drive
 ```
 
-### Notebooks
+
 
 **Notion** [🏆](https://emojipedia.org/trophy/)\
 The best notebook I've ever had. It's more affordable than Evernote. It's only missing offline mode.
@@ -475,7 +382,7 @@ brew install --cask craft
 
 </details>
 
-### Window Management
+
 
 **Rectangle** 🏆\
 My favorite window manager
@@ -512,33 +419,6 @@ Some shortcuts that I don't normally use conflict with the other apps that I fre
 * Set **Gaps between windows -> 8px**
 {% endtab %}
 {% endtabs %}
-
-<details>
-
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1faa6">🪦</span> Honorable Mentions</summary>
-
-**Magnet**\
-Window manager
-
-```
-brew install --cask magnet
-```
-
-**Moom**\
-Window manager too
-
-```
-brew install --cask moom
-```
-
-**Amethyst** 🏆\
-A tiling window manager. It supports global shortcuts for moving, focusing and changing size of the windows, as well as cycling through the layouts
-
-```
-brew install --cask amethyst
-```
-
-</details>
 
 ### **Gaming**
 
