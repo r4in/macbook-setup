@@ -22,12 +22,7 @@
 * [Node](dev-environment/node.md)
 * [Git](setup/git/README.md)
   * [Git Ignore](setup/git/git-ignore.md)
-* [Code Editor Setups](setup/code-editors/README.md)
-  * [Visual Studio Code](setup/code-editors/vs-code/README.md)
-    * [Extensions](setup/code-editors/vs-code/extensions.md)
-    * [Preferences](setup/code-editors/vs-code/preferences.md)
-* [Tech Stack](setup/techstack/README.md)
-  * [Package Managers](setup/techstack/package-managers.md)
+* [Cursor](dev-environment/cursor.md)
 
 ## Apps + Tools <a href="#apps" id="apps"></a>
 
