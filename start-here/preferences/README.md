@@ -33,7 +33,7 @@ With all the better options out there, you seriously want Siri?
 
 ### Desktop & Dock
 
-Your dock is probably flooded with all of macOS’s default apps. I just drag them all to the **Trash** to make it cleaner. I usually hide the Dock (`cmd + option + d`) because launching apps with an app launcher like Raycast is faster.
+Your dock is probably filled with all of macOS’s default apps. I typically drag them all to **Trash** to keep the it tidy. Then I hide the dock (`cmd + option + d`) because launching apps with an app launcher like Raycast is much faster.
 
 * **Dock**
   * Size → **Small**

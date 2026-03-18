@@ -1,6 +1,6 @@
-# Preparing Your Mac
+# Prepare Your Mac
 
-## Backup Your Files
+## Backup Files
 
 #### Home Folder
 

@@ -1,8 +1,26 @@
 # Cask
 
-[Homebrew Cask](https://caskroom.github.io/) is centered around installing GUI applications through the CLI. With this, you can install the latest versions of applications by typing a single command (e.g., Google Chrome, Dropbox, VS Code, and Slack).
+[Homebrew Cask](https://caskroom.github.io/) is an extension of [Homebrew](chatgpt://generic-entity?number=0) that lets you install macOS apps (GUI apps) from the terminal — not just command-line tools.
 
 ### Usage
+
+Instead of:
+
+* going to a website
+* downloading a .dmg
+* dragging to Applications
+
+You just run:
+
+```zsh
+brew install --cask google-chrome
+```
+
+And it:
+
+* downloads the app
+* installs it in /Applications
+* keeps it manageable via Brew
 
 To see if an app is available on Cask, search the [official Cask website](https://caskroom.github.io/search). You can also search using the following command:
 
