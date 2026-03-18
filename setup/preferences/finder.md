@@ -1,4 +1,4 @@
-# Finder
+# Finder Settings
 
 ### Settings
 

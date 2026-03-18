@@ -4,29 +4,29 @@
 
 ## Start Here
 
-* [Prepare Your Mac](start-here/prepare-your-mac.md)
-* [Installing macOS](start-here/backing-up-your-machine.md)
-* [System Settings](start-here/preferences/README.md)
-  * [Finder Settings](start-here/preferences/finder.md)
+* [Prepare Your Mac](preparation/preparing-your-mac.md)
+* [Installing macOS](preparation/backing-up-your-machine.md)
+* [System Settings](setup/preferences/README.md)
+  * [Finder Settings](setup/preferences/finder.md)
 
 ## Dev Environment
 
-* [Xcode](dev-environment/xcode.md)
-* [Homebrew](dev-environment/homebrew/README.md)
-  * [Cask](dev-environment/homebrew/cask.md)
+* [Xcode](setup/xcode.md)
+* [Homebrew](setup/homebrew/README.md)
+  * [Cask](setup/homebrew/cask.md)
 * [Terminal & CLI](dev-environment/terminal-and-cli/README.md)
-  * [Warp](dev-environment/terminal-and-cli/terminals.md)
+  * [Warp](setup/terminals/README.md)
   * [Zsh](dev-environment/terminal-and-cli/zsh.md)
   * [Pure](dev-environment/terminal-and-cli/pure.md)
-* [Terminal Packages](dev-environment/packages.md)
-* [Git](dev-environment/git/README.md)
-  * [Git Ignore](dev-environment/git/git-ignore.md)
-* [Code Editor Setups](dev-environment/code-editors/README.md)
-  * [Visual Studio Code](dev-environment/code-editors/vs-code/README.md)
-    * [Extensions](dev-environment/code-editors/vs-code/extensions.md)
-    * [Preferences](dev-environment/code-editors/vs-code/preferences.md)
-* [Tech Stack](dev-environment/techstack/README.md)
-  * [Package Managers](dev-environment/techstack/package-managers.md)
+* [Terminal Packages](setup/packages.md)
+* [Git](setup/git/README.md)
+  * [Git Ignore](setup/git/git-ignore.md)
+* [Code Editor Setups](setup/code-editors/README.md)
+  * [Visual Studio Code](setup/code-editors/vs-code/README.md)
+    * [Extensions](setup/code-editors/vs-code/extensions.md)
+    * [Preferences](setup/code-editors/vs-code/preferences.md)
+* [Tech Stack](setup/techstack/README.md)
+  * [Package Managers](setup/techstack/package-managers.md)
 
 ## Apps + Tools <a href="#apps" id="apps"></a>
 
