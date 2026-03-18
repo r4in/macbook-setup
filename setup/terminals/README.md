@@ -1,7 +1,5 @@
 # Warp
 
-#### **Installation**
-
 My terminal of choice is **Warp** — mainly because it turns the terminal into a modern, structured, and AI-assisted workspace instead of a plain text command line.
 
 To install, simply run:
@@ -18,9 +16,7 @@ After installation, there are three main things we want to set up in a terminal:
 
 ***
 
-## **Theme**
-
-#### **Snazzy**
+## **Hyper Snazzy**
 
 Hyper Snazzy is a nice dark terminal theme originally made for the [Hyper](chatgpt://generic-entity?number=0) terminal. Luckily, they made a Warp version for it [here](https://github.com/GrimLink/warp-theme-snazzy).
 
