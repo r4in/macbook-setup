@@ -39,5 +39,12 @@ Then install the LTS (Long-Term Support) version. This means a stable, well-test
 nvm install --lts
 ```
 
-And that should install both `node` and `npm`&#x20;
+#### npm
 
+npm (Node Package Manager) is a tool that lets you install and manage libraries (packages) for your JavaScript projects. This comes bundled with Node.js which we have previously installed.
+
+You can verify that npm was installed by typing:
+
+```zsh
+npm --version
+```
