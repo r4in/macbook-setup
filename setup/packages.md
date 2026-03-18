@@ -1,135 +1,91 @@
 # Terminal Packages
 
-Below are some recommended packages that are helpful to have in your selected terminal.
+Below are some recommended packages that is helpful to have.
 
 {% hint style="info" %}
 If you are already familiar with the packages listed, here's a shell script that installs everything below. [https://github.com/r4in/shellscripts/blob/master/packages.sh](https://github.com/r4in/shellscripts/blob/master/packages.sh)
 {% endhint %}
 
-## Trash
+## zoxide
 
-Not really a big fan of `rm`, so here’s a better alternative: [https://github.com/sindresorhus/trash](https://github.com/sindresorhus/trash)
+[zoxide](https://zoxide.org/) is a modern tool that lets you jump to folders instantly based on your history (a smarter cd). It remembers where you go and lets you jump there with a short keyword.
 
-#### Installation
+#### How is it helpful?
 
-You will need **Node** to install this package. To install Node:
+Instead of typing this:
 
-```
-brew install node
-```
-
-And to install trash:
-
-```
-npm install trash
+```zsh
+cd ~/projects/arcanestudios/commerce-mobile/app
 ```
 
-## Z
+You just type:
 
-Z is not part of Zsh, but it’s a really cool way to jump to “frecent” folders. It makes navigating the file system a breeze.
-
-#### Installation
-
-```
-brew install z
+```zsh
+z commerce
 ```
 
-Also, don’t forget to add this to your `.zshrc` file:
+👉 and you’re there instantly
 
-```
-# include Z
-. /usr/local/etc/profile.d/z.sh
-```
+To install:
 
-#### Usage
-
-```
-z <folder or app name>
+```zsh
+brew install zoxide
 ```
 
-## youtube-dl
+Then add this to your `.zshrc` file:
 
-`youtube-dl` is a command-line program used to download YouTube videos (and videos from other platforms) in high resolution. There are tons of other features you can experiment with. Check the GitHub repo below.
-
-```
-brew install youtube-dl
+```zsh
+eval "$(zoxide init zsh)"
 ```
 
-#### Installation
+## yt-dlp
 
-```
-brew install ffmpeg
-```
+[yt-dlp](chatgpt://generic-entity?number=0) is a command-line tool that lets you download videos and audio from YouTube and many other websites. Aa better, faster version of the original `youtube-dl`
 
-#### Usage
+To install:
 
-* Download highest-res: `youtube-dl -f bestvideo+bestaudio 'link'`
-* Help: `youtube-dl --help`
-
-## Speedtest
-
-`Speedtest-cli` is a command-line interface for testing internet bandwidth. It allows you to test against specific servers and even provides you with a URL so you can brag about your internet speed to your friends.
-
-#### Installation
-
-```
-brew install speedtest-cli
+```zsh
+brew install yt-dlp
 ```
 
-#### Usage
+To download a video:
 
-```
-speedtest-cli
-```
-
-## Mac App Store CLI
-
-`mas` is a Mac App Store command-line interface that lets you install Mac apps from the App Store directly from the command line.
-
-You can search for apps, install all existing updates, print the version number of an app in the store, and more. There’s even a fun option called lucky that will install the very first search result. Try it if you dare.
-
-#### Installation
-
-```
-brew install mas
+```zsh
+yt-dlp [youtube video link here]
 ```
 
-#### Usage
+## btop
 
-* List all apps: `mas list`
-* Search for apps: `mas search Xcode`
-* Install apps: `mas install 497799835` (the version number of the app)
-* Pending update apps: `mas outdated`
-* Update apps: `mas upgrade`
+btop is a beautiful, real-time system monitor for your terminal that shows what your computer is doing.
 
-## tree
+<figure><img src="../.gitbook/assets/image (53).png" alt="" width="563"><figcaption></figcaption></figure>
 
-`tree` is a tool that lists out the content of directories in a folder in a tree-like format. This useful trick is a life-saver for those who want a quick visual representation of a project’s file structure.
+To install:
 
-#### Installation
-
-```
-brew install tree
+```zsh
+brew install btop
 ```
 
-#### Usage
+then run:
 
-```
-tree
-```
-
-## archey
-
-`archey` displays your system information inside the terminal along with a text-based retro-style Apple icon.
-
-#### Installation
-
-```
-brew install archey
+```zsh
+btop
 ```
 
-#### Usage
+## fastfetch
 
-* Run: `archey`
-* Color: `archey -c`
-* Black and white: `archey -b`
+fastfetch is a modern terminal tool that shows your system info (CPU, RAM, OS, etc.) in a clean, stylish layout — very fast.
+
+<figure><img src="../.gitbook/assets/image (52).png" alt="" width="563"><figcaption></figcaption></figure>
+
+To install:
+
+```
+brew install fastfetch
+```
+
+Optionally, you can add this to your `.zshrc` file so it auto-runs on terminal open:
+
+```
+fastfetch
+```
