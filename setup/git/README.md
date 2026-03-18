@@ -1,52 +1,51 @@
 # Git
 
-What's a developer without [Git](http://git-scm.com/)? To install, simply run:
+Git is a version control system — it tracks changes in your code and lets you collaborate safely.
 
-```
+To install:
+
+```zsh
 brew install git
 ```
 
-When you’re done, run this to confirm it installed correctly:
+Then verify if it installed correctly:
 
-```
+```zsh
 git --version
 ```
 
-And `which git` should output `/usr/local/bin/git`. If not, try restarting Terminal.
+#### Set Identity
 
-Next, we'll define your Git user (should be the same name and email you use for [GitHub](https://github.com/)):
-
-```
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@youremail.com"
-```
-
-They will get added to your `.gitconfig` file.
-
-To push code to your GitHub repositories, we're going to use the recommended HTTPS method (versus SSH). So you don't have to type your username and password every time, let's enable Git password caching as described [here](https://help.github.com/articles/set-up-git):
+Set your name and email so Git knows who is making changes. Use the same name and email as your GitHub account so your commits are properly linked.
 
 ```
-git config --global credential.helper osxkeychain
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
 ```
+
+These will get added to your `.gitconfig` file.
 
 ## SSH Keys <a href="#ssh-config-for-github" id="ssh-config-for-github"></a>
 
 You can generate SSH keys for your machine by running:
 
-```
+```zsh
 ssh-keygen
 ```
 
 Then press **Enter** three times.
 
-You can check out your public key by navigating to:
+Navigate to:
 
-```
+```zsh
 cd ~/.ssh
 ```
 
-Type `ls -a` and you should see **id\_rsa** (your private key) and **id\_rsa.pub** (your public key).
+Type `ls -a` and you should your private key and public key
 
-![](<../../.gitbook/assets/image (22).png>)
+<figure><img src="../../.gitbook/assets/image (54).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Then type `cat id_rsa.pub` to print your public key, so you can copy-paste it to GitHub/Bitbucket.
+Then type `cat id_ed25519.pub` to print your public key, so you can copy-paste it to GitHub/Bitbucket.
+
+
+
