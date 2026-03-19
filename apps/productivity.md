@@ -1,4 +1,4 @@
-# Productivity Tools
+# Productivity
 
 ### 🧠 Core Tools
 
@@ -9,12 +9,23 @@ AI for writing, structuring, and execution
 brew install --cask chatgpt
 ```
 
+{% hint style="info" %}
+**Pro Tip:** I already use the `option + spacebar` key for Raycast, so I updated the shortcut for ChatGPT to `command + spacebar`
+{% endhint %}
+
 **Claude**\
 AI for deep thinking, long documents, and nuanced reasoning
 
 ```
 brew install --cask claude
 ```
+
+[**Wispr Flow**](https://wisprflow.ai/)\
+AI voice dictation that converts speech into clean, formatted text across apps
+
+{% hint style="info" %}
+**Pro Tip:** if you're not using a Magic Keyboard like me, which has the emoji key, I've set up my shortcut to a different one.
+{% endhint %}
 
 **Raycast**\
 App launcher and command center for your entire system
@@ -41,6 +52,13 @@ Window manager with simple, fast keyboard shortcuts
 
 ```
 brew install --cask rectangle
+```
+
+**SideNotes**\
+A quick-access notes app that slides out from the edge of your screen for fast capture
+
+```
+brew install --cask sidenotes
 ```
 
 **Paste**\
