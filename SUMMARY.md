@@ -28,3 +28,4 @@
 
 * [Productivity](apps/productivity.md)
 * [Design](apps/designer.md)
+* [Dev](apps/dev.md)
