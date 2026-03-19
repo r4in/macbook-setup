@@ -24,8 +24,7 @@
   * [Git Ignore](setup/git/git-ignore.md)
 * [Cursor](dev-environment/cursor.md)
 
-## Apps + Tools <a href="#apps" id="apps"></a>
+## Apps
 
-* [Dev Tools](apps/developer.md)
-* [Productivity Tools](apps/productivity.md)
-* [Design Tools](apps/designer.md)
+* [Productivity](apps/productivity.md)
+* [Design](apps/designer.md)
