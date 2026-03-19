@@ -1,6 +1,6 @@
 # Cursor
 
-Cursor is a code editor (like VS Code) with built-in AI that helps you write, edit, and understand code faster. &#x20;
+Cursor is an AI-powered code editor that can read, write, and edit your codebase with you.
 
 Download it [here](https://cursor.com/) or via homebrew:
 

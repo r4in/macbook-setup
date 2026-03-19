@@ -1,17 +1,30 @@
 # Productivity Tools
 
-**ChatGPT** 🏆\
-Why not?
+**ChatGPT**\
+ChatGPT is an AI assistant that helps you think, write, and get work done — across almost anything.
 
 ```
 brew install --cask chatgpt
 ```
 
-**HandBrake** 🏆\
+**Claude**
+
+```
+brew install --cask claude
+```
+
+**HandBrake**\
 Good video converter.
 
 ```
 brew install --cask handbrake
+```
+
+**Raycast**\
+The best keystroke launcher out there.
+
+```
+brew install --cask raycast
 ```
 
 **Rocket** 🏆\
@@ -100,13 +113,6 @@ The most elegant way to record your screen. [https://www.screen.studio](https://
 
 ```
 brew install --cask screen-studio
-```
-
-**Raycast** 🏆\
-The best keystroke launcher out there.
-
-```
-brew install --cask raycast
 ```
 
 
