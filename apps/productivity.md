@@ -133,15 +133,15 @@ brew install --cask vlc
 
 ### 🔐 Security & System
 
-**Tuxera Disk Manager** 🏆\
-A paid way to write to NTFS drives without much configuration needed
+**Tuxera Disk Manager**\
+Enables writing to NTFS drives on macOS
 
 ```
 brew install --cask tuxera-ntfs
 ```
 
 **NordVPN**\
-Pricey but worth it. Speeds are fast.
+Fast and reliable VPN with strong performance
 
 ```
 brew install --cask nordvpn
