@@ -11,9 +11,8 @@ There are a couple of tweaks you can make in System Settings. The settings below
 
 ### Accessibility
 
-* **Motor**
-  * **Pointer Control**
-    * Enable **Ignore built-in trackpad when mouse or wireless trackpad is present**&#x20;
+* **Pointer Control**
+  * Enable **Ignore built-in trackpad when mouse or wireless trackpad is present**&#x20;
 
 {% hint style="info" %}
 _I primarily use a mouse, so I find it annoying when I accidentally move the mouse pointer while typing on the keyboard._
@@ -50,7 +49,7 @@ Your dock is probably filled with all of macOS’s default apps. I typically dra
 
 ### Display
 
-* Disable **True Tone**
+* Untoggle **True Tone**
 
 {% hint style="info" %}
 The change in screen color while designing at night is really annoying
