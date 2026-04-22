@@ -69,6 +69,9 @@ The change in screen color while designing at night is really annoying
 * Go to **Keyboard Shortcuts:**
   * **Spotlight** → Uncheck **Show Spotlight search**
   * **Spotlight** → Uncheck **Show Finder search window**
+* **Text Input** → Input Sources → Edit:
+  * Untoggle **Correct spellling automatically**&#x20;
+  * Untoggle **Capitalize words automatically**
 
 {% hint style="info" %}
 **Fun fact:** Spotlight was completely redesigned in OS X 10.10 Yosemite and now resembles Alfred. However, I still prefer using Raycast over Spotlight for various reasons. That being said, we’ll be disabling the Spotlight search keyboard shortcut since we’ll be using Raycast anyway.
